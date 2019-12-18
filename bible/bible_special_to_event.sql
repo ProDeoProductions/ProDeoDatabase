@@ -37,7 +37,6 @@ CREATE TABLE `special_to_event` (
 
 LOCK TABLES `special_to_event` WRITE;
 /*!40000 ALTER TABLE `special_to_event` DISABLE KEYS */;
-INSERT INTO `special_to_event` VALUES (-1,2,'oervloed');
 /*!40000 ALTER TABLE `special_to_event` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-08-03 10:00:33
+-- Dump completed on 2019-12-18 20:33:49

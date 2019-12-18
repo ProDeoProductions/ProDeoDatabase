@@ -37,7 +37,6 @@ CREATE TABLE `people_to_event` (
 
 LOCK TABLES `people_to_event` WRITE;
 /*!40000 ALTER TABLE `people_to_event` DISABLE KEYS */;
-INSERT INTO `people_to_event` VALUES (-1,1,'God');
 /*!40000 ALTER TABLE `people_to_event` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-08-03 10:00:35
+-- Dump completed on 2019-12-18 20:33:52
