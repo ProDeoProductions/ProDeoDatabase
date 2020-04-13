@@ -18,26 +18,25 @@ USE `bible`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `event_to_event`
+-- Table structure for table `ext_event_to_event`
 --
 
-DROP TABLE IF EXISTS `event_to_event`;
+DROP TABLE IF EXISTS `ext_event_to_event`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
-CREATE TABLE `event_to_event` (
-  `curr_event_id` int(11) DEFAULT NULL,
-  `next_event_id` int(11) DEFAULT NULL
+CREATE TABLE `ext_event_to_event` (
+  `ext_event_id` int(11) DEFAULT NULL,
+  `event_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `event_to_event`
+-- Dumping data for table `ext_event_to_event`
 --
 
-LOCK TABLES `event_to_event` WRITE;
-/*!40000 ALTER TABLE `event_to_event` DISABLE KEYS */;
-INSERT INTO `event_to_event` VALUES (1,2),(2,3),(3,30016),(30016,30007),(30007,5),(5,30008),(30008,6),(6,30009),(30009,7),(7,30017),(30017,8),(8,30010),(30010,10),(10,12),(12,30011),(30011,13),(13,14),(14,30012),(30012,16),(16,30013),(30013,30019),(30019,17),(17,30020),(30020,18),(18,19),(19,20),(20,30081),(20,30079),(30081,21),(30079,21),(21,22),(22,30015),(30015,24),(24,26),(26,30021),(30021,27),(27,29),(29,30),(30,30022),(30022,32),(32,33),(33,30023),(30023,34),(34,35),(35,36),(36,30024),(30024,38),(38,39),(39,30025),(30025,30026),(30026,40),(40,41),(41,42),(42,30027),(30027,30028);
-/*!40000 ALTER TABLE `event_to_event` ENABLE KEYS */;
+LOCK TABLES `ext_event_to_event` WRITE;
+/*!40000 ALTER TABLE `ext_event_to_event` DISABLE KEYS */;
+/*!40000 ALTER TABLE `ext_event_to_event` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -49,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-12-18 20:33:51
+-- Dump completed on 2020-04-13 12:39:23

@@ -18,37 +18,29 @@ USE `bible`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `events`
+-- Table structure for table `blog`
 --
 
-DROP TABLE IF EXISTS `events`;
+DROP TABLE IF EXISTS `blog`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
-CREATE TABLE `events` (
-  `order_id` int(11) DEFAULT NULL,
-  `event_id` int(11) NOT NULL,
-  `name` text,
-  `descr` text,
-  `length` text,
-  `date` text,
-  `book_start_id` int(11) DEFAULT NULL,
-  `book_start_chap` int(11) DEFAULT NULL,
-  `book_start_vers` int(11) DEFAULT NULL,
-  `book_end_id` int(11) DEFAULT NULL,
-  `book_end_chap` int(11) DEFAULT NULL,
-  `book_end_vers` int(11) DEFAULT NULL,
-  PRIMARY KEY (`event_id`)
+CREATE TABLE `blog` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) DEFAULT NULL,
+  `text` text,
+  `user` varchar(255) DEFAULT NULL,
+  `date` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `events`
+-- Dumping data for table `blog`
 --
 
-LOCK TABLES `events` WRITE;
-/*!40000 ALTER TABLE `events` DISABLE KEYS */;
-INSERT INTO `events` VALUES (0,0,'De Schepping van hemel en aarde','','','',0,1,1,0,2,25);
-/*!40000 ALTER TABLE `events` ENABLE KEYS */;
+LOCK TABLES `blog` WRITE;
+/*!40000 ALTER TABLE `blog` DISABLE KEYS */;
+/*!40000 ALTER TABLE `blog` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -60,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-04-13 12:39:31
+-- Dump completed on 2020-04-13 12:39:26
