@@ -18,25 +18,26 @@ USE `bible`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `ext_event_to_event`
+-- Table structure for table `special_to_activity`
 --
 
-DROP TABLE IF EXISTS `ext_event_to_event`;
+DROP TABLE IF EXISTS `special_to_activity`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
-CREATE TABLE `ext_event_to_event` (
-  `ext_event_id` int(11) DEFAULT NULL,
-  `event_id` int(11) DEFAULT NULL
+CREATE TABLE `special_to_activity` (
+  `special_id` int(11) DEFAULT NULL,
+  `activity_id` int(11) DEFAULT NULL,
+  `special_name` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `ext_event_to_event`
+-- Dumping data for table `special_to_activity`
 --
 
-LOCK TABLES `ext_event_to_event` WRITE;
-/*!40000 ALTER TABLE `ext_event_to_event` DISABLE KEYS */;
-/*!40000 ALTER TABLE `ext_event_to_event` ENABLE KEYS */;
+LOCK TABLES `special_to_activity` WRITE;
+/*!40000 ALTER TABLE `special_to_activity` DISABLE KEYS */;
+/*!40000 ALTER TABLE `special_to_activity` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -48,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-04-13 12:39:23
+-- Dump completed on 2020-05-19 14:30:24

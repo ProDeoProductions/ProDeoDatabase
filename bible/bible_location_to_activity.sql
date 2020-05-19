@@ -18,27 +18,27 @@ USE `bible`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `location_to_event`
+-- Table structure for table `location_to_activity`
 --
 
-DROP TABLE IF EXISTS `location_to_event`;
+DROP TABLE IF EXISTS `location_to_activity`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
-CREATE TABLE `location_to_event` (
+CREATE TABLE `location_to_activity` (
   `location_id` int(11) DEFAULT NULL,
-  `event_id` int(11) DEFAULT NULL,
+  `activity_id` int(11) DEFAULT NULL,
   `location_name` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `location_to_event`
+-- Dumping data for table `location_to_activity`
 --
 
-LOCK TABLES `location_to_event` WRITE;
-/*!40000 ALTER TABLE `location_to_event` DISABLE KEYS */;
-INSERT INTO `location_to_event` VALUES (-1,1,'Universem'),(-1,2,'Aarde'),(-1,3,'Aarde'),(-1,10,' '),(-1,12,'Gewelf'),(-1,13,'Gewelf'),(-1,13,'Hemel'),(-1,17,'Aarde'),(-1,20,'Aarde'),(-1,26,'Zon'),(-1,26,'Maan'),(-1,27,'Hemelgewelf'),(-1,47,' '),(-1,49,'Hemel'),(-1,52,'Hemel'),(-1,52,'Aarde'),(-1,55,'Aarde'),(-1,56,'Aarde'),(-1,60,'Het Oosten'),(-1,60,'Eden'),(-1,60,'De Tuin van Eden'),(-1,62,'De Tuin van Eden'),(-1,63,'Eden'),(-1,65,'Pison'),(-1,66,'Chawila'),(-1,67,'Gichon'),(-1,68,'Tigris'),(-1,69,'Eufraat'),(-1,70,'Eden'),(-1,70,'De tuin van Eden'),(-1,30011,'Het gewelf'),(-1,30013,'Hemel'),(-1,30016,'De oervloed'),(-1,30020,'Zee'),(-1,30050,'Pison'),(-1,30050,'Chawila'),(-1,30051,'Chawila'),(-1,30052,'Chawila'),(-1,30053,'Gichon'),(-1,30053,'NubiÃ«'),(-1,30054,'Tigris'),(-1,30054,'AssyriÃ«'),(-1,30055,'De tuin van Eden'),(-1,30055,'Eden'),(-1,30082,'De Aarde'),(-1,30087,'De Aarde'),(-1,30099,'Aarde');
-/*!40000 ALTER TABLE `location_to_event` ENABLE KEYS */;
+LOCK TABLES `location_to_activity` WRITE;
+/*!40000 ALTER TABLE `location_to_activity` DISABLE KEYS */;
+INSERT INTO `location_to_activity` VALUES (NULL,1,'Universem'),(NULL,2,'Aarde'),(NULL,3,'Aarde'),(NULL,4,'De oervloed'),(NULL,14,' '),(NULL,15,'Gewelf'),(NULL,16,'Het gewelf'),(NULL,17,'Hemel'),(NULL,17,'Gewelf'),(NULL,21,'Hemel'),(NULL,23,'Aarde'),(NULL,24,'Zee'),(NULL,27,'Aarde'),(NULL,34,'Zon'),(NULL,34,'Maan'),(NULL,36,'Hemelgewelf'),(NULL,37,'De Aarde'),(NULL,64,'De Aarde'),(NULL,71,' '),(NULL,73,'Hemel'),(NULL,74,'Aarde'),(NULL,79,'Hemel'),(NULL,79,'Aarde'),(NULL,82,'Aarde'),(NULL,86,'Aarde'),(NULL,93,'Het Oosten'),(NULL,93,'Eden'),(NULL,93,'De Tuin van Eden'),(NULL,96,'De Tuin van Eden'),(NULL,97,'Eden'),(NULL,100,'Pison'),(NULL,101,'Chawila'),(NULL,101,'Pison'),(NULL,102,'Chawila'),(NULL,103,'Chawila'),(NULL,104,'Chawila'),(NULL,105,'Gichon'),(NULL,106,'Gichon'),(NULL,106,'NubiÃ«'),(NULL,107,'Tigris'),(NULL,108,'Tigris'),(NULL,108,'AssyriÃ«'),(NULL,109,'Eufraat'),(NULL,110,'Eden'),(NULL,110,'De tuin van Eden'),(NULL,111,'De tuin van Eden'),(NULL,111,'Eden');
+/*!40000 ALTER TABLE `location_to_activity` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-04-13 12:39:27
+-- Dump completed on 2020-05-19 14:30:26

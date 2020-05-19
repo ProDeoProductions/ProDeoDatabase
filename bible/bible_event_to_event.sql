@@ -18,26 +18,25 @@ USE `bible`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `special_to_event`
+-- Table structure for table `event_to_event`
 --
 
-DROP TABLE IF EXISTS `special_to_event`;
+DROP TABLE IF EXISTS `event_to_event`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
-CREATE TABLE `special_to_event` (
-  `special_id` int(11) DEFAULT NULL,
-  `event_id` int(11) DEFAULT NULL,
-  `special_name` text
+CREATE TABLE `event_to_event` (
+  `event1_id` int(11) DEFAULT NULL,
+  `event2_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `special_to_event`
+-- Dumping data for table `event_to_event`
 --
 
-LOCK TABLES `special_to_event` WRITE;
-/*!40000 ALTER TABLE `special_to_event` DISABLE KEYS */;
-/*!40000 ALTER TABLE `special_to_event` ENABLE KEYS */;
+LOCK TABLES `event_to_event` WRITE;
+/*!40000 ALTER TABLE `event_to_event` DISABLE KEYS */;
+/*!40000 ALTER TABLE `event_to_event` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -49,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-04-13 12:39:24
+-- Dump completed on 2020-05-19 14:30:24
