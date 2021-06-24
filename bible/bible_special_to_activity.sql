@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `bible` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE  IF NOT EXISTS `bible` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `bible`;
 -- MySQL dump 10.13  Distrib 8.0.16, for Win64 (x86_64)
 --
@@ -27,8 +27,8 @@ DROP TABLE IF EXISTS `special_to_activity`;
 CREATE TABLE `special_to_activity` (
   `special_id` int(11) DEFAULT NULL,
   `activity_id` int(11) DEFAULT NULL,
-  `special_name` text
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `special_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-12-02 15:02:39
+-- Dump completed on 2021-06-24 21:28:41

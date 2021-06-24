@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `bible` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE  IF NOT EXISTS `bible` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `bible`;
 -- MySQL dump 10.13  Distrib 8.0.16, for Win64 (x86_64)
 --
@@ -26,12 +26,12 @@ DROP TABLE IF EXISTS `blog`;
  SET character_set_client = utf8mb4 ;
 CREATE TABLE `blog` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `title` varchar(255) DEFAULT NULL,
-  `text` text,
-  `user` varchar(255) DEFAULT NULL,
-  `date` varchar(255) DEFAULT NULL,
+  `title` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `text` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `user` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `date` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,7 +40,7 @@ CREATE TABLE `blog` (
 
 LOCK TABLES `blog` WRITE;
 /*!40000 ALTER TABLE `blog` DISABLE KEYS */;
-INSERT INTO `blog` VALUES (1,'Testity Test','Gewoon even een test om de blog weer te zien','Zowiezo101','2020-05-21 12:01:06 pm'),(2,'Lange blog','Veeel tekst hier<br/><br/><br/>TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi  TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi<br/><br/><br/><br/><br/>TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi  TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi','Zowiezo101','2020-05-22 09:23:32 am'),(3,'Tester','WERGIERGEREeergergergergergergergergergerghduigheriohg ergerg e ger gergergerg ergereergeeergerwebfbwjbeveiiwewergregregetrh ergergrergreg','undefined','2020-08-06 14:35:30 pm'),(5,'uihfiuerhgurehg','eugheuighuerihguierhguierhguierhguirehgergegergerwergergerge er erergewge ergergergerger ergerggrgergeer<br/><br/>fwfwefwefwefwefwfewefwef<br/>fwewefwef','undefined','2020-08-16 20:30:42 pm');
+INSERT INTO `blog` VALUES (1,'Testity Test','Gewoon even een test om de blog weer te zien','Zowiezo101','2020-05-21 12:01:06 pm'),(2,'Lange blog','Veeel tekst hier<br/><br/><br/>TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi  TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi<br/><br/><br/><br/><br/>TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi  TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi','Zowiezo101','2020-05-22 09:23:32 am'),(3,'Tester','WERGIERGEREeergergergergergergergergergerghduigheriohg ergerg e ger gergergerg ergereergeeergerwebfbwjbeveiiwewergregregetrh ergergrergreg','undefined','2020-08-06 14:35:30 pm'),(5,'uihfiuerhgurehg','eugheuighuerihguierhguierhguierhguirehgergegergerwergergerge er erergewge ergergergerger ergerggrgergeer<br/><br/>fwfwefwefwefwefwfewefwef<br/>fwewefwef','undefined','2020-08-16 20:30:42 pm'),(6,NULL,NULL,NULL,NULL),(7,NULL,NULL,NULL,NULL),(8,'Hello!','Dit is de text van deze blog!!!!','Zowiezo101','1619367553'),(9,'?','?','?','?'),(10,'Hello!','Dit is de text van deze blog!!!!','Zowiezo101','1619368020'),(11,'Hello!','Dit is de text2 van deze blog!!!!','Zowiezo101','1619368252'),(12,'Hello!','Dit is de text2 van deze blog!!!!','Zowiezo101','2021-04-25 16:45:53 pm');
 /*!40000 ALTER TABLE `blog` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-12-02 15:02:38
+-- Dump completed on 2021-06-24 21:28:39

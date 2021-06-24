@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `bible` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE  IF NOT EXISTS `bible` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `bible`;
 -- MySQL dump 10.13  Distrib 8.0.16, for Win64 (x86_64)
 --
@@ -26,19 +26,19 @@ DROP TABLE IF EXISTS `events`;
  SET character_set_client = utf8mb4 ;
 CREATE TABLE `events` (
   `order_id` int(11) DEFAULT NULL,
-  `event_id` int(11) NOT NULL,
-  `name` text,
-  `descr` text,
-  `length` text,
-  `date` text,
+  `id` int(11) NOT NULL,
+  `name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `descr` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `length` int(11) DEFAULT NULL,
+  `date` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
   `book_start_id` int(11) DEFAULT NULL,
   `book_start_chap` int(11) DEFAULT NULL,
   `book_start_vers` int(11) DEFAULT NULL,
   `book_end_id` int(11) DEFAULT NULL,
   `book_end_chap` int(11) DEFAULT NULL,
   `book_end_vers` int(11) DEFAULT NULL,
-  PRIMARY KEY (`event_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -47,7 +47,7 @@ CREATE TABLE `events` (
 
 LOCK TABLES `events` WRITE;
 /*!40000 ALTER TABLE `events` DISABLE KEYS */;
-INSERT INTO `events` VALUES (0,1,'De Schepping van hemel en aarde','','','',1,1,1,1,2,25),(1,2,'De Zondeval','','','',1,3,1,1,3,24);
+INSERT INTO `events` VALUES (0,1,'De Schepping van hemel en aarde','',-1,'',1,1,1,1,2,25),(1,2,'De Zondeval','',-1,'',1,3,1,1,3,24);
 /*!40000 ALTER TABLE `events` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -60,4 +60,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-12-02 15:02:45
+-- Dump completed on 2021-06-24 21:28:45
