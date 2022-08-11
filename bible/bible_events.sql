@@ -1,15 +1,15 @@
-CREATE DATABASE  IF NOT EXISTS `bible` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE  IF NOT EXISTS `bible` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `bible`;
--- MySQL dump 10.13  Distrib 8.0.16, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.28, for Win64 (x86_64)
 --
 -- Host: localhost    Database: bible
 -- ------------------------------------------------------
--- Server version	8.0.18
+-- Server version	8.0.28
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
- SET NAMES utf8 ;
+/*!50503 SET NAMES utf8 */;
 /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
 /*!40103 SET TIME_ZONE='+00:00' */;
 /*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
@@ -23,20 +23,20 @@ USE `bible`;
 
 DROP TABLE IF EXISTS `events`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
- SET character_set_client = utf8mb4 ;
+/*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `events` (
-  `order_id` int(11) DEFAULT NULL,
-  `id` int(11) NOT NULL,
+  `order_id` int DEFAULT NULL,
+  `id` int NOT NULL,
   `name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
   `descr` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `length` int(11) DEFAULT NULL,
+  `length` int DEFAULT NULL,
   `date` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `book_start_id` int(11) DEFAULT NULL,
-  `book_start_chap` int(11) DEFAULT NULL,
-  `book_start_vers` int(11) DEFAULT NULL,
-  `book_end_id` int(11) DEFAULT NULL,
-  `book_end_chap` int(11) DEFAULT NULL,
-  `book_end_vers` int(11) DEFAULT NULL,
+  `book_start_id` int DEFAULT NULL,
+  `book_start_chap` int DEFAULT NULL,
+  `book_start_vers` int DEFAULT NULL,
+  `book_end_id` int DEFAULT NULL,
+  `book_end_chap` int DEFAULT NULL,
+  `book_end_vers` int DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -60,4 +60,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-04-08 18:35:23
+-- Dump completed on 2022-08-11 15:03:04
