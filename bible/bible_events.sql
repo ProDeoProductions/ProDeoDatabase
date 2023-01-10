@@ -27,10 +27,10 @@ DROP TABLE IF EXISTS `events`;
 CREATE TABLE `events` (
   `order_id` int DEFAULT NULL,
   `id` int NOT NULL,
-  `name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `descr` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
-  `length` int DEFAULT NULL,
-  `date` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+  `name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `descr` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `length` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `date` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `book_start_id` int DEFAULT NULL,
   `book_start_chap` int DEFAULT NULL,
   `book_start_vers` int DEFAULT NULL,
@@ -47,7 +47,7 @@ CREATE TABLE `events` (
 
 LOCK TABLES `events` WRITE;
 /*!40000 ALTER TABLE `events` DISABLE KEYS */;
-INSERT INTO `events` VALUES (0,1,'De Schepping van hemel en aarde','',-1,'',1,1,1,1,2,25),(1,2,'De Zondeval','',-1,'',1,3,1,1,3,24);
+INSERT INTO `events` VALUES (0,1,'De Schepping van hemel en aarde','Het scheppingsverhaal','2','Het begin der tijden',1,1,1,1,2,25);
 /*!40000 ALTER TABLE `events` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -60,4 +60,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-08-11 15:03:04
+-- Dump completed on 2023-01-10 17:36:19

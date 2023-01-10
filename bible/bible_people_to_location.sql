@@ -37,7 +37,6 @@ CREATE TABLE `people_to_location` (
 
 LOCK TABLES `people_to_location` WRITE;
 /*!40000 ALTER TABLE `people_to_location` DISABLE KEYS */;
-INSERT INTO `people_to_location` VALUES (1,1,3);
 /*!40000 ALTER TABLE `people_to_location` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-08-11 15:03:06
+-- Dump completed on 2023-01-10 17:36:22

@@ -26,8 +26,7 @@ DROP TABLE IF EXISTS `people_to_activity`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `people_to_activity` (
   `people_id` int DEFAULT NULL,
-  `activity_id` int DEFAULT NULL,
-  `people_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci
+  `activity_id` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -37,7 +36,7 @@ CREATE TABLE `people_to_activity` (
 
 LOCK TABLES `people_to_activity` WRITE;
 /*!40000 ALTER TABLE `people_to_activity` DISABLE KEYS */;
-INSERT INTO `people_to_activity` VALUES (0,1,'God'),(0,2,'God'),(0,5,'God'),(NULL,6,'God'),(0,8,'God'),(NULL,9,'God'),(NULL,11,'God'),(NULL,14,'God'),(NULL,15,'God'),(NULL,16,'God'),(NULL,17,'God'),(NULL,20,'God'),(NULL,23,'God'),(NULL,24,'God'),(NULL,25,'God'),(NULL,26,'God'),(NULL,30,'God'),(NULL,33,'God'),(NULL,34,'God'),(NULL,35,'God'),(NULL,36,'God'),(NULL,40,'God'),(NULL,43,'God'),(NULL,44,'God'),(NULL,45,'God'),(NULL,46,'God'),(NULL,47,'God'),(NULL,48,'God'),(NULL,49,'God'),(NULL,52,'God'),(NULL,53,'God'),(NULL,54,'God'),(NULL,55,'God'),(NULL,56,'God'),(NULL,57,'God'),(NULL,58,'God'),(NULL,58,'De mens'),(NULL,59,'God'),(NULL,59,'De mens'),(NULL,60,'Mensen'),(NULL,60,'God'),(NULL,61,'God'),(NULL,61,'Mensen'),(NULL,62,'God'),(NULL,62,'Mensen'),(NULL,63,'God'),(NULL,63,'Mensen'),(NULL,64,'Mensen'),(NULL,64,'God'),(NULL,65,'Mensen'),(NULL,66,'God'),(NULL,67,'God'),(NULL,68,'God'),(NULL,69,'God'),(NULL,70,'God'),(NULL,75,'God'),(NULL,76,'God'),(NULL,77,'God'),(NULL,78,'God'),(NULL,85,'Mensen'),(NULL,88,'God'),(NULL,88,'De mens'),(NULL,89,'God'),(NULL,89,'De mens'),(NULL,90,'God'),(NULL,90,'De mens'),(NULL,91,'God'),(NULL,91,'De mens'),(NULL,92,'De mens'),(NULL,93,'God'),(NULL,110,'God'),(NULL,110,'De mens'),(NULL,111,'De mens'),(NULL,112,'De mens'),(NULL,113,'God'),(NULL,113,'De Mens'),(NULL,114,'God'),(NULL,114,'De mens'),(NULL,115,'God'),(NULL,116,'De mens'),(NULL,116,'God'),(NULL,117,'God'),(NULL,117,'De mens'),(NULL,118,'God'),(NULL,118,'De mens'),(NULL,119,'De mens'),(NULL,120,'De mens'),(NULL,121,'De mens'),(NULL,122,'De mens'),(NULL,123,'De mens'),(NULL,124,'God'),(NULL,124,'De mens'),(NULL,125,'De m'),(NULL,126,'God'),(NULL,126,'De mens'),(NULL,127,'God'),(NULL,128,'God'),(NULL,128,'De mens'),(NULL,129,'De vrouw'),(NULL,130,'De mens'),(NULL,130,'God'),(NULL,130,'De vrouw'),(NULL,131,'De mens'),(NULL,132,'De vrouw'),(NULL,132,'De mens'),(NULL,136,'De mens'),(NULL,136,'De Vrouw'),(NULL,137,'De mens'),(NULL,137,'De vrouw');
+INSERT INTO `people_to_activity` VALUES (1,1),(1,5),(1,6),(1,8),(1,9),(1,10),(1,11),(1,15),(1,16),(1,17),(1,18),(1,22),(1,25),(1,26),(1,27),(1,28),(1,32),(1,36),(1,37),(1,38),(1,39),(1,43),(1,47),(1,48),(1,49),(1,50),(1,51),(1,52),(1,53),(1,57),(1,58),(1,59),(1,60),(1,61),(1,62),(1,63),(2,63),(1,64),(2,64),(2,65),(3,65),(1,65),(1,66),(2,66),(3,66),(1,67),(2,67),(3,67),(1,68),(2,68),(3,68),(1,69),(2,69),(3,69),(2,70),(3,70),(1,71),(1,72),(1,73),(1,74),(1,75),(1,81),(1,82),(1,83),(1,84),(1,94),(2,94),(1,95),(2,95),(1,96),(2,96),(1,97),(2,97),(2,98),(1,99),(1,116),(2,116),(2,117),(2,118),(1,119),(2,119),(1,120),(2,120),(1,121),(1,122),(2,122),(1,123),(2,123),(1,124),(2,124),(2,125),(2,126),(2,127),(2,128),(2,129),(1,130),(2,130),(2,131),(1,132),(2,132),(1,133),(1,134),(2,134),(3,135),(1,136),(2,136),(3,136),(2,137),(2,138),(3,138),(2,142),(3,142),(2,143),(3,143);
 /*!40000 ALTER TABLE `people_to_activity` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-08-11 15:03:07
+-- Dump completed on 2023-01-10 17:36:19

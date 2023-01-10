@@ -18,27 +18,30 @@ USE `bible`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `people_to_aka`
+-- Table structure for table `activity_to_aka`
 --
 
-DROP TABLE IF EXISTS `people_to_aka`;
+DROP TABLE IF EXISTS `activity_to_aka`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `people_to_aka` (
-  `people_id` int DEFAULT NULL,
-  `people_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  `meaning_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE `activity_to_aka` (
+  `id` int DEFAULT NULL,
+  `book_start_id` int DEFAULT NULL,
+  `book_start_chap` int DEFAULT NULL,
+  `book_start_vers` int DEFAULT NULL,
+  `book_end_id` int DEFAULT NULL,
+  `book_end_chap` int DEFAULT NULL,
+  `book_end_vers` int DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Als een activity op meerdere plaatsen in de bijbel beschreven staat';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `people_to_aka`
+-- Dumping data for table `activity_to_aka`
 --
 
-LOCK TABLES `people_to_aka` WRITE;
-/*!40000 ALTER TABLE `people_to_aka` DISABLE KEYS */;
-INSERT INTO `people_to_aka` VALUES (3339,'Immanuël','');
-/*!40000 ALTER TABLE `people_to_aka` ENABLE KEYS */;
+LOCK TABLES `activity_to_aka` WRITE;
+/*!40000 ALTER TABLE `activity_to_aka` DISABLE KEYS */;
+/*!40000 ALTER TABLE `activity_to_aka` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-10 17:36:20
+-- Dump completed on 2023-01-10 17:36:21

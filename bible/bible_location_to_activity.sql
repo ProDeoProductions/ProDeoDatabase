@@ -26,8 +26,7 @@ DROP TABLE IF EXISTS `location_to_activity`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `location_to_activity` (
   `location_id` int DEFAULT NULL,
-  `activity_id` int DEFAULT NULL,
-  `location_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci
+  `activity_id` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -37,7 +36,7 @@ CREATE TABLE `location_to_activity` (
 
 LOCK TABLES `location_to_activity` WRITE;
 /*!40000 ALTER TABLE `location_to_activity` DISABLE KEYS */;
-INSERT INTO `location_to_activity` VALUES (NULL,1,'Universem'),(NULL,2,'Aarde'),(NULL,3,'Aarde'),(NULL,4,'De oervloed'),(NULL,14,' '),(NULL,15,'Gewelf'),(NULL,16,'Het gewelf'),(NULL,17,'Hemel'),(NULL,17,'Gewelf'),(NULL,21,'Hemel'),(NULL,23,'Aarde'),(NULL,24,'Zee'),(NULL,27,'Aarde'),(NULL,34,'Zon'),(NULL,34,'Maan'),(NULL,36,'Hemelgewelf'),(NULL,37,'De Aarde'),(NULL,64,'De Aarde'),(NULL,71,' '),(NULL,73,'Hemel'),(NULL,74,'Aarde'),(NULL,79,'Hemel'),(NULL,79,'Aarde'),(NULL,82,'Aarde'),(NULL,86,'Aarde'),(NULL,93,'Het Oosten'),(NULL,93,'Eden'),(NULL,93,'De Tuin van Eden'),(NULL,96,'De Tuin van Eden'),(NULL,97,'Eden'),(NULL,100,'Pison'),(NULL,101,'Chawila'),(NULL,101,'Pison'),(NULL,102,'Chawila'),(NULL,103,'Chawila'),(NULL,104,'Chawila'),(NULL,105,'Gichon'),(NULL,106,'Gichon'),(NULL,106,'Nubië'),(NULL,107,'Tigris'),(NULL,108,'Tigris'),(NULL,108,'Assyrië'),(NULL,109,'Eufraat'),(NULL,110,'Eden'),(NULL,110,'De tuin van Eden'),(NULL,111,'De tuin van Eden'),(NULL,111,'Eden');
+INSERT INTO `location_to_activity` VALUES (2,1),(2,3),(1,16),(1,17),(1,18),(1,23),(1,39),(2,40),(2,60),(2,69),(1,79),(2,80),(1,85),(2,85),(2,88),(2,92),(3,99),(3,103),(7,106),(4,107),(7,107),(4,108),(4,109),(4,110),(8,111),(8,112),(5,112),(9,113),(9,114),(6,114),(10,115),(3,116),(3,117);
 /*!40000 ALTER TABLE `location_to_activity` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-08-11 15:03:06
+-- Dump completed on 2023-01-10 17:36:19
