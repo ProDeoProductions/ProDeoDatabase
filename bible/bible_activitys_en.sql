@@ -27,7 +27,6 @@ DROP TABLE IF EXISTS `activitys_en`;
 CREATE TABLE `activitys_en` (
   `id` int NOT NULL,
   `name` text COLLATE utf8mb4_general_ci,
-  `descr` text COLLATE utf8mb4_general_ci,
   `length` text COLLATE utf8mb4_general_ci,
   `date` text COLLATE utf8mb4_general_ci,
   PRIMARY KEY (`id`)
@@ -52,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-10 17:36:19
+-- Dump completed on 2023-04-10 20:42:46

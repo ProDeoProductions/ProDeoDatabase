@@ -25,10 +25,8 @@ DROP TABLE IF EXISTS `sources`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `sources` (
-  `id` int NOT NULL AUTO_INCREMENT,
-  `table` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `id` int NOT NULL,
   `source` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `info` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -40,6 +38,7 @@ CREATE TABLE `sources` (
 
 LOCK TABLES `sources` WRITE;
 /*!40000 ALTER TABLE `sources` DISABLE KEYS */;
+INSERT INTO `sources` VALUES (0,'https://npokennis.nl/longread/7669/hoe-is-het-heelal-ontstaan'),(1,'https://web.archive.org/web/20201215152148/http://www.natuurinformatie.nl/nnm.dossiers/natuurdatabase.nl/i002641.html'),(2,'https://nl.wikipedia.org/wiki/Geschiedenis_van_de_Aarde'),(3,'https://web.archive.org/web/20210717082126/https://www.dekennisvannu.nl/site/artikel/Waar-het-water-vandaan-komt/6624'),(4,'https://web.archive.org/web/20221006094124/http://www.fuzzyfun.nl/experiment-genesis-wat-wordt-in-bedoeld-met-water-boven-het-gewelf/'),(5,'https://www.nemokennislink.nl/kernwoorden/oersoep/');
 /*!40000 ALTER TABLE `sources` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-10 17:36:20
+-- Dump completed on 2023-04-10 20:42:46
