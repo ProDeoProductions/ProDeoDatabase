@@ -37,7 +37,7 @@ CREATE TABLE `people_to_aka` (
 
 LOCK TABLES `people_to_aka` WRITE;
 /*!40000 ALTER TABLE `people_to_aka` DISABLE KEYS */;
-INSERT INTO `people_to_aka` VALUES (3339,'Immanuël','');
+INSERT INTO `people_to_aka` VALUES (3339,'Immanuël','God met ons');
 /*!40000 ALTER TABLE `people_to_aka` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-10 17:36:20
+-- Dump completed on 2023-04-15 19:04:17

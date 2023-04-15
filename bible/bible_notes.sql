@@ -38,7 +38,7 @@ CREATE TABLE `notes` (
 
 LOCK TABLES `notes` WRITE;
 /*!40000 ALTER TABLE `notes` DISABLE KEYS */;
-INSERT INTO `notes` VALUES (0,'God schiep het universum',NULL),(1,'Duisternis lag over de oervloed (Ook bekend als oersoep)',NULL),(2,'Er was licht (Fotonen ontstonden, heelal werd zichtbaar) (De bliksem waardoor de aminozuren kwamen?)',NULL),(3,'God maakte het gewelf',NULL);
+INSERT INTO `notes` VALUES (0,'God schiep het universum',NULL),(1,'Duisternis lag over de oervloed (Ook bekend als oersoep)',NULL),(2,'Er was licht (Fotonen ontstonden, heelal werd zichtbaar) (De bliksem waardoor de aminozuren kwamen?)',NULL),(3,'God maakte het gewelf',NULL),(4,'Tehom, in het nederlands bekend als de oervloed',NULL);
 /*!40000 ALTER TABLE `notes` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-10 20:40:30
+-- Dump completed on 2023-04-15 19:04:14

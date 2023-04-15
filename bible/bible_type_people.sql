@@ -37,6 +37,7 @@ CREATE TABLE `type_people` (
 
 LOCK TABLES `type_people` WRITE;
 /*!40000 ALTER TABLE `type_people` DISABLE KEYS */;
+INSERT INTO `type_people` VALUES (0,'type.birth'),(1,'type.living'),(2,'type.death'),(3,'type.fouder'),(4,'type.destroyer');
 /*!40000 ALTER TABLE `type_people` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-10 20:40:32
+-- Dump completed on 2023-04-15 19:04:14

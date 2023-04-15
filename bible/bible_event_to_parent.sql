@@ -36,6 +36,7 @@ CREATE TABLE `event_to_parent` (
 
 LOCK TABLES `event_to_parent` WRITE;
 /*!40000 ALTER TABLE `event_to_parent` DISABLE KEYS */;
+INSERT INTO `event_to_parent` VALUES (1,2);
 /*!40000 ALTER TABLE `event_to_parent` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -48,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-10 17:36:21
+-- Dump completed on 2023-04-15 19:04:14

@@ -47,7 +47,7 @@ CREATE TABLE `events` (
 
 LOCK TABLES `events` WRITE;
 /*!40000 ALTER TABLE `events` DISABLE KEYS */;
-INSERT INTO `events` VALUES (0,1,'De Schepping van hemel en aarde','Het scheppingsverhaal','Theoretisch een week, de vraag is wanneer God de tijd geschapen heeft, wat God op dat moment als een dag zag (Voor Hem is 1 dag 1000 jaar en 1000 jaar 1 dag) en of het eigenlijk veel uit maakt hoe lang Hij er daadwerkelijk over deed','Het begin der tijden',1,1,1,1,2,25);
+INSERT INTO `events` VALUES (0,1,'De Schepping van hemel en aarde','Het scheppingsverhaal','Theoretisch een week. De vraag is wanneer God de tijd geschapen heeft, wat God op dat moment als een dag zag (Voor Hem is 1 dag 1000 jaar en 1000 jaar 1 dag) en of het eigenlijk veel uit maakt hoe lang Hij er daadwerkelijk over deed','Het begin der tijden',1,1,1,1,2,25),(1,2,'Test',NULL,NULL,NULL,2,2,2,2,2,3);
 /*!40000 ALTER TABLE `events` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -60,4 +60,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-10 20:42:44
+-- Dump completed on 2023-04-15 19:04:16
