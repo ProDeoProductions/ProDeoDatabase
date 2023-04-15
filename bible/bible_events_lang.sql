@@ -18,29 +18,32 @@ USE `bible`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `events_en`
+-- Table structure for table `events_lang`
 --
 
-DROP TABLE IF EXISTS `events_en`;
+DROP TABLE IF EXISTS `events_lang`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `events_en` (
-  `id` int NOT NULL,
+CREATE TABLE `events_lang` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `event_id` int NOT NULL,
   `name` text COLLATE utf8mb4_general_ci,
   `descr` text COLLATE utf8mb4_general_ci,
   `length` text COLLATE utf8mb4_general_ci,
   `date` text COLLATE utf8mb4_general_ci,
+  `lang` varchar(45) COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `events_en`
+-- Dumping data for table `events_lang`
 --
 
-LOCK TABLES `events_en` WRITE;
-/*!40000 ALTER TABLE `events_en` DISABLE KEYS */;
-/*!40000 ALTER TABLE `events_en` ENABLE KEYS */;
+LOCK TABLES `events_lang` WRITE;
+/*!40000 ALTER TABLE `events_lang` DISABLE KEYS */;
+INSERT INTO `events_lang` VALUES (1,1,'Creation of heaven and earth','Creation story','In theory a week. The question is when God created time, what God saw as a day at that time (for Him 1 day is a 1000 years and a 1000 years 1 day) and if it really matters how long it really took Him','Beginning of time','en');
+/*!40000 ALTER TABLE `events_lang` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -52,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-10 17:36:22
+-- Dump completed on 2023-04-15 19:04:17

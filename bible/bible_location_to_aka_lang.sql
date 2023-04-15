@@ -18,26 +18,27 @@ USE `bible`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `location_to_aka_en`
+-- Table structure for table `location_to_aka_lang`
 --
 
-DROP TABLE IF EXISTS `location_to_aka_en`;
+DROP TABLE IF EXISTS `location_to_aka_lang`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `location_to_aka_en` (
-  `location_id` int DEFAULT NULL,
+CREATE TABLE `location_to_aka_lang` (
+  `location_id` int NOT NULL,
   `location_name` text COLLATE utf8mb4_general_ci,
-  `meaning_name` text COLLATE utf8mb4_general_ci
+  `meaning_name` text COLLATE utf8mb4_general_ci,
+  `lang` varchar(45) COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `location_to_aka_en`
+-- Dumping data for table `location_to_aka_lang`
 --
 
-LOCK TABLES `location_to_aka_en` WRITE;
-/*!40000 ALTER TABLE `location_to_aka_en` DISABLE KEYS */;
-/*!40000 ALTER TABLE `location_to_aka_en` ENABLE KEYS */;
+LOCK TABLES `location_to_aka_lang` WRITE;
+/*!40000 ALTER TABLE `location_to_aka_lang` DISABLE KEYS */;
+/*!40000 ALTER TABLE `location_to_aka_lang` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -49,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-10 17:36:21
+-- Dump completed on 2023-04-15 19:04:17

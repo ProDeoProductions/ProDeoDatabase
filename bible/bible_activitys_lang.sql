@@ -18,30 +18,30 @@ USE `bible`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `peoples_en`
+-- Table structure for table `activitys_lang`
 --
 
-DROP TABLE IF EXISTS `peoples_en`;
+DROP TABLE IF EXISTS `activitys_lang`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `peoples_en` (
-  `id` int NOT NULL,
+CREATE TABLE `activitys_lang` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `activity_id` int NOT NULL,
   `name` text COLLATE utf8mb4_general_ci,
-  `descr` text COLLATE utf8mb4_general_ci,
-  `meaning_name` text COLLATE utf8mb4_general_ci,
-  `profession` text COLLATE utf8mb4_general_ci,
-  `nationality` text COLLATE utf8mb4_general_ci,
+  `length` text COLLATE utf8mb4_general_ci,
+  `date` text COLLATE utf8mb4_general_ci,
+  `lang` varchar(45) COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `peoples_en`
+-- Dumping data for table `activitys_lang`
 --
 
-LOCK TABLES `peoples_en` WRITE;
-/*!40000 ALTER TABLE `peoples_en` DISABLE KEYS */;
-/*!40000 ALTER TABLE `peoples_en` ENABLE KEYS */;
+LOCK TABLES `activitys_lang` WRITE;
+/*!40000 ALTER TABLE `activitys_lang` DISABLE KEYS */;
+/*!40000 ALTER TABLE `activitys_lang` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-10 17:36:21
+-- Dump completed on 2023-04-15 19:04:13
