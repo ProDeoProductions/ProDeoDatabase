@@ -25,8 +25,9 @@ DROP TABLE IF EXISTS `location_to_activity`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `location_to_activity` (
-  `location_id` int DEFAULT NULL,
-  `activity_id` int DEFAULT NULL
+  `location_id` int NOT NULL,
+  `activity_id` int NOT NULL,
+  PRIMARY KEY (`location_id`,`activity_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -36,7 +37,7 @@ CREATE TABLE `location_to_activity` (
 
 LOCK TABLES `location_to_activity` WRITE;
 /*!40000 ALTER TABLE `location_to_activity` DISABLE KEYS */;
-INSERT INTO `location_to_activity` VALUES (2,1),(2,3),(1,16),(1,17),(1,18),(1,23),(1,39),(2,40),(2,60),(2,69),(1,79),(2,80),(1,85),(2,85),(2,88),(2,92),(3,99),(3,103),(7,106),(4,107),(7,107),(4,108),(4,109),(4,110),(8,111),(8,112),(5,112),(9,113),(9,114),(6,114),(10,115),(3,116),(3,117);
+INSERT INTO `location_to_activity` VALUES (1,16),(1,17),(1,18),(1,23),(1,39),(1,79),(1,85),(2,1),(2,3),(2,40),(2,60),(2,69),(2,80),(2,85),(2,88),(2,92),(3,99),(3,103),(3,116),(3,117),(4,107),(4,108),(4,109),(4,110),(5,112),(6,114),(7,106),(7,107),(8,111),(8,112),(9,113),(9,114),(10,115);
 /*!40000 ALTER TABLE `location_to_activity` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-15 19:04:16
+-- Dump completed on 2023-04-27 15:46:45

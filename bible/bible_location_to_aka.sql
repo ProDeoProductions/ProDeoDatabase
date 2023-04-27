@@ -25,9 +25,11 @@ DROP TABLE IF EXISTS `location_to_aka`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `location_to_aka` (
+  `id` int NOT NULL,
   `location_id` int DEFAULT NULL,
   `location_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  `meaning_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `meaning_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -37,7 +39,7 @@ CREATE TABLE `location_to_aka` (
 
 LOCK TABLES `location_to_aka` WRITE;
 /*!40000 ALTER TABLE `location_to_aka` DISABLE KEYS */;
-INSERT INTO `location_to_aka` VALUES (1,'1',NULL),(1,'Hemel',NULL);
+INSERT INTO `location_to_aka` VALUES (0,1,'1',''),(1,1,'Hemel','');
 /*!40000 ALTER TABLE `location_to_aka` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-15 19:04:15
+-- Dump completed on 2023-04-27 15:46:45

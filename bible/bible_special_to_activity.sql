@@ -25,8 +25,9 @@ DROP TABLE IF EXISTS `special_to_activity`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `special_to_activity` (
-  `special_id` int DEFAULT NULL,
-  `activity_id` int DEFAULT NULL
+  `special_id` int NOT NULL,
+  `activity_id` int NOT NULL,
+  PRIMARY KEY (`special_id`,`activity_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -36,7 +37,7 @@ CREATE TABLE `special_to_activity` (
 
 LOCK TABLES `special_to_activity` WRITE;
 /*!40000 ALTER TABLE `special_to_activity` DISABLE KEYS */;
-INSERT INTO `special_to_activity` VALUES (63,4),(64,37),(64,38),(65,48),(66,99),(66,102),(67,102),(68,102),(66,116),(66,117),(68,120);
+INSERT INTO `special_to_activity` VALUES (63,4),(64,37),(64,38),(65,48),(66,99),(66,102),(66,116),(66,117),(67,102),(68,102),(68,120);
 /*!40000 ALTER TABLE `special_to_activity` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-15 19:04:14
+-- Dump completed on 2023-04-27 15:46:45

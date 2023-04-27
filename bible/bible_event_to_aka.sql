@@ -25,7 +25,7 @@ DROP TABLE IF EXISTS `event_to_aka`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `event_to_aka` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL,
   `event_id` int NOT NULL,
   `book_start_id` int DEFAULT NULL,
   `book_start_chap` int DEFAULT NULL,
@@ -34,7 +34,7 @@ CREATE TABLE `event_to_aka` (
   `book_end_chap` int DEFAULT NULL,
   `book_end_vers` int DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Als een event op meerdere plaatsen in de bijbel beschreven staat';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Als een event op meerdere plaatsen in de bijbel beschreven staat';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,7 +43,7 @@ CREATE TABLE `event_to_aka` (
 
 LOCK TABLES `event_to_aka` WRITE;
 /*!40000 ALTER TABLE `event_to_aka` DISABLE KEYS */;
-INSERT INTO `event_to_aka` VALUES (1,1,2,2,4,2,2,6),(2,2,1,1,5,1,4,6);
+INSERT INTO `event_to_aka` VALUES (0,1,2,2,4,2,2,6),(1,2,1,1,5,1,4,6);
 /*!40000 ALTER TABLE `event_to_aka` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -56,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-15 19:04:15
+-- Dump completed on 2023-04-27 15:46:47
