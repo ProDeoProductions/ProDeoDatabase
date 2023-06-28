@@ -38,7 +38,7 @@ CREATE TABLE `sources` (
 
 LOCK TABLES `sources` WRITE;
 /*!40000 ALTER TABLE `sources` DISABLE KEYS */;
-INSERT INTO `sources` VALUES (0,'https://npokennis.nl/longread/7669/hoe-is-het-heelal-ontstaan'),(1,'https://web.archive.org/web/20201215152148/http://www.natuurinformatie.nl/nnm.dossiers/natuurdatabase.nl/i002641.html'),(2,'https://nl.wikipedia.org/wiki/Geschiedenis_van_de_Aarde'),(3,'https://web.archive.org/web/20210717082126/https://www.dekennisvannu.nl/site/artikel/Waar-het-water-vandaan-komt/6624'),(4,'https://web.archive.org/web/20221006094124/http://www.fuzzyfun.nl/experiment-genesis-wat-wordt-in-bedoeld-met-water-boven-het-gewelf/'),(5,'https://www.nemokennislink.nl/kernwoorden/oersoep/'),(6,'https://nl.wikipedia.org/wiki/Tehom');
+INSERT INTO `sources` VALUES (0,'https://npokennis.nl/longread/7669/hoe-is-het-heelal-ontstaan'),(1,'https://web.archive.org/web/20201215152148/http://www.natuurinformatie.nl/nnm.dossiers/natuurdatabase.nl/i002641.html'),(2,'https://nl.wikipedia.org/wiki/Geschiedenis_van_de_Aarde'),(3,'https://web.archive.org/web/20210717082126/https://www.dekennisvannu.nl/site/artikel/Waar-het-water-vandaan-komt/6624'),(4,'https://web.archive.org/web/20221006094124/http://www.fuzzyfun.nl/experiment-genesis-wat-wordt-in-bedoeld-met-water-boven-het-gewelf/'),(5,'https://www.nemokennislink.nl/kernwoorden/oersoep/'),(6,'https://nl.wikipedia.org/wiki/Tehom'),(7,'https://nl.wikipedia.org/wiki/Nebukadnezar_II'),(8,'https://nl.wikipedia.org/wiki/Darius_de_Medi%C3%ABr'),(9,'https://nl.wikipedia.org/wiki/Evangelie_volgens_Matte%C3%BCs');
 /*!40000 ALTER TABLE `sources` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-27 15:46:43
+-- Dump completed on 2023-06-28 11:54:57

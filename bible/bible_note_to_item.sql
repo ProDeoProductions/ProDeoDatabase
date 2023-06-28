@@ -25,12 +25,12 @@ DROP TABLE IF EXISTS `note_to_item`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `note_to_item` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL,
   `note_id` int NOT NULL,
   `item_id` int NOT NULL,
   `item_type` int NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,7 +39,7 @@ CREATE TABLE `note_to_item` (
 
 LOCK TABLES `note_to_item` WRITE;
 /*!40000 ALTER TABLE `note_to_item` DISABLE KEYS */;
-INSERT INTO `note_to_item` VALUES (1,0,1,2),(2,1,4,2),(3,2,7,2),(4,3,16,2),(10,0,1,3),(12,0,1,1),(13,0,10,4),(14,0,1,0),(15,0,1,5),(16,4,63,5),(17,4,4,2),(18,1,63,5);
+INSERT INTO `note_to_item` VALUES (1,-1,-1,-1),(2,0,1,0),(3,0,1,1),(4,0,1,2),(5,0,1,3),(6,0,10,4),(7,0,7,5),(8,1,4,2),(9,1,1,5),(10,2,7,2),(11,3,16,2),(12,4,4,2),(13,4,1,5),(14,5,27,0),(15,6,27,0),(16,7,40,0);
 /*!40000 ALTER TABLE `note_to_item` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-27 15:46:46
+-- Dump completed on 2023-06-28 11:54:53

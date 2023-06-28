@@ -38,7 +38,7 @@ CREATE TABLE `notes` (
 
 LOCK TABLES `notes` WRITE;
 /*!40000 ALTER TABLE `notes` DISABLE KEYS */;
-INSERT INTO `notes` VALUES (0,'God schiep het universum',0),(1,'Duisternis lag over de oervloed (Ook bekend als oersoep)',0),(2,'Er was licht (Fotonen ontstonden, heelal werd zichtbaar) (De bliksem waardoor de aminozuren kwamen?)',0),(3,'God maakte het gewelf',0),(4,'Tehom, in het nederlands bekend als de oervloed',0);
+INSERT INTO `notes` VALUES (0,'God schiep het universum',0),(1,'Duisternis lag over de oervloed (Ook bekend als oersoep)',0),(2,'Er was licht (Fotonen ontstonden, heelal werd zichtbaar) (De bliksem waardoor de aminozuren kwamen?)',0),(3,'God maakte het gewelf',0),(4,'Tehom, in het nederlands bekend als de oervloed',0),(5,'Een belangrijk punt bij dit boek is dat het veel later is geschreven dan wanneer de gebeurtenissen hebben plaats gevonden (200 v Chr. 400 jaar na de gebeurtenissen!). De beschrijving van Nebukadnessar in dit boek, is waarwaarschijnlijk een mengeling van Nebukadnessar en Nebonidus (Beiden koningen van Babylon geweest).',0),(6,'Er is geen bewijs voor het bestaan van Darius de Mediër. Hoogstwaarschijnlijk verward de schrijver hier Darius met Cyrus II.',0),(7,'De schijver van het boek Matteüs lijkt goed bekend te zijn met de griekse taal. De apostel genaamd Matteüs is een joodse overheidsambtenaar en hiervan wordt niet verwacht dat hij ook goed bekend is met de griekse taal. Daarom is de apostel hoogstwaarschijnlijk niet de schrijver.',0);
 /*!40000 ALTER TABLE `notes` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-27 15:46:45
+-- Dump completed on 2023-06-28 11:54:54

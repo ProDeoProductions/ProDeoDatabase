@@ -26,12 +26,12 @@ DROP TABLE IF EXISTS `blog`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `blog` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `title` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `text` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  `user` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `date` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `title` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `text` text COLLATE utf8mb4_general_ci,
+  `user` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `date` varchar(255) COLLATE utf8mb4_general_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,7 +40,7 @@ CREATE TABLE `blog` (
 
 LOCK TABLES `blog` WRITE;
 /*!40000 ALTER TABLE `blog` DISABLE KEYS */;
-INSERT INTO `blog` VALUES (1,'Testity Test','Gewoon even een test om de blog weer te zien','1','2020-05-21 12:01:06 pm'),(2,'Lange blog','Veeel tekst hier<br/><br/><br/>TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi  TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi<br/><br/><br/><br/><br/>TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi  TEstestdgesrgdsgdfgdsfgdsfgdsghdfiTEstestdgesrgdsgdfgdsfgdsfgdsghdfi TEstestdgesrgdsgdfgdsfgdsfgdsghdfi','1','2020-05-22 09:23:32 am'),(3,'Tester','WERGIERGEREeergergergergergergergergergerghduigheriohg ergerg e ger gergergerg ergereergeeergerwebfbwjbeveiiwewergregregetrh ergergrergreg','1','2020-08-06 14:35:30 pm'),(8,'Hello!','Dit is de text van deze blog!!!!','1','1619367553'),(10,'Hello!','Dit is de text van deze blog!!!!','1','1619368020'),(11,'Hello!','Dit is de text2 van deze blog!!!!','1','1619368252'),(12,'Hello!','Dit is de text2 van deze blog!!!!','1','2021-04-25 16:45:53 pm'),(13,'Test',' test <br><br>Test 2','1','2022-04-03 12:41:16'),(14,'Test2','&lt<DEL>b&gt<DEL> test &lt<DEL>/b&gt<DEL><br><br>Test 2','1','2022-04-03 12:49:18'),(16,'Testing Quill','<p>Testing <i><b>Summernote </b></i>this time</p><p><span style=\"font-size: 10px<DEL>\">Making a nice long text and such</span></p><h2>Smaller and bigger text<span style=\"font-size: 10px<DEL>\"><br></span></h2><h5>I don\'t like the <u><i>big </i></u>distance <b>between </b>paragraphs</h5>Removing the fontsize thingy','1','2022-04-10T18:38:49.436Z'),(17,'Testing Quill','<p>add_blog_text</p><p>Line height soo olonnnn<br></p>','1','2022-04-10T18:41:35.218Z'),(18,'Testing summernote','<p>Line</p><h1><b>Line22</b></h1><p>Line</p><p>Line</p><p>Line<br></p>','1','2022-04-10T18:43:34.643Z'),(19,'Testing summernote','<p>Test 2</p><p><br></p><p>testtest<br></p>','1','2022-04-11T12:48:02.867Z'),(20,'TEstt45','<p>Test</p><p>TEst<br></p>','1','2022-04-11T12:56:29.614Z'),(21,'Test',' test <br><br>Test 2','1','2022-04-11T12:58:10.314Z'),(23,'TEst2','<p>Date test<br></p>','1','2022-05-24T18:13:53.952Z'),(24,'efwef','<p>wefwef<br></p>','1','2022-08-24T17:54:43.715Z'),(25,'ee','<p><br></p>','1','2022-08-24T17:54:54.641Z');
+INSERT INTO `blog` VALUES (1,'Almost done!','<p>I\'ve been working behind the scenes last few days to update the site a newer look. I\'m not fully done yet, and some more changes will come to make it such that feels finished.</p><p><br></p><p>The most important things are there now, the database can be viewed, timeline and familytrees are created and the worldmap is visible and working.</p><p><br></p><p>I just have a list of details that I want to work on, tiny things that had a lower priority. Also, feel free to send me any feedback, tips or advice! It\'s not perfect, but it\'s also not done yet as well..</p><p><br></p><p>As soon as I\'m done with the website itself, I will continue to work on the database and try to fill in as many blanks as possible and make a clear overview of bible related things.<br></p>','1','2022-07-03T11:55:25.381Z'),(2,'Finally there..','<p>After months of hard work, some breaks in between and a lot of persistence, I think I\'m finally content with the website.</p><p><br></p><p>It\'s still not done though! I still have to fill up the database with information and check if everything truly works as intended. But as far as I can see and have tested the website, it should be good. </p><p><br></p><p>Please let me know if you find anything that does not seem right! Error messages, typo\'s, misinformation etc! Your help is very much appreciated as I work on the database and try to help people get a better understanding of the Bible.</p><p><br></p><p>Thank you for sticking with me<br></p><p><br></p>','1','2022-08-25T13:01:12.934Z');
 /*!40000 ALTER TABLE `blog` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-27 15:46:46
+-- Dump completed on 2023-06-28 11:54:53

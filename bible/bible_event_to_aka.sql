@@ -43,7 +43,7 @@ CREATE TABLE `event_to_aka` (
 
 LOCK TABLES `event_to_aka` WRITE;
 /*!40000 ALTER TABLE `event_to_aka` DISABLE KEYS */;
-INSERT INTO `event_to_aka` VALUES (0,1,2,2,4,2,2,6),(1,2,1,1,5,1,4,6);
+INSERT INTO `event_to_aka` VALUES (1,1,2,2,4,2,2,6),(2,2,1,1,5,1,4,6);
 /*!40000 ALTER TABLE `event_to_aka` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -56,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-27 15:46:47
+-- Dump completed on 2023-06-28 11:54:55

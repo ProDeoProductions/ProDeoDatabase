@@ -25,9 +25,10 @@ DROP TABLE IF EXISTS `activitys_lang`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `activitys_lang` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL,
   `activity_id` int NOT NULL,
   `name` text COLLATE utf8mb4_general_ci,
+  `descr` text COLLATE utf8mb4_general_ci,
   `length` text COLLATE utf8mb4_general_ci,
   `date` text COLLATE utf8mb4_general_ci,
   `lang` varchar(45) COLLATE utf8mb4_general_ci NOT NULL,
@@ -41,6 +42,7 @@ CREATE TABLE `activitys_lang` (
 
 LOCK TABLES `activitys_lang` WRITE;
 /*!40000 ALTER TABLE `activitys_lang` DISABLE KEYS */;
+INSERT INTO `activitys_lang` VALUES (192,1,'God created the earthans',NULL,'','','es'),(193,1,'God created the earth','','','','en');
 /*!40000 ALTER TABLE `activitys_lang` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-27 15:46:43
+-- Dump completed on 2023-06-28 11:54:52

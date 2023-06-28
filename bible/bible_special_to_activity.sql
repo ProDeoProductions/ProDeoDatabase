@@ -37,7 +37,7 @@ CREATE TABLE `special_to_activity` (
 
 LOCK TABLES `special_to_activity` WRITE;
 /*!40000 ALTER TABLE `special_to_activity` DISABLE KEYS */;
-INSERT INTO `special_to_activity` VALUES (63,4),(64,37),(64,38),(65,48),(66,99),(66,102),(66,116),(66,117),(67,102),(68,102),(68,120);
+INSERT INTO `special_to_activity` VALUES (1,4),(2,37),(2,38),(3,48),(4,99),(4,102),(4,116),(4,117),(5,102),(6,102),(6,120);
 /*!40000 ALTER TABLE `special_to_activity` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-27 15:46:45
+-- Dump completed on 2023-06-28 11:54:53

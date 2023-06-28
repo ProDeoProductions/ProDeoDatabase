@@ -37,7 +37,7 @@ CREATE TABLE `note_to_source` (
 
 LOCK TABLES `note_to_source` WRITE;
 /*!40000 ALTER TABLE `note_to_source` DISABLE KEYS */;
-INSERT INTO `note_to_source` VALUES (0,0),(0,1),(0,2),(1,3),(1,5),(3,4),(4,6);
+INSERT INTO `note_to_source` VALUES (0,0),(0,1),(0,2),(1,3),(1,5),(3,4),(4,6),(5,7),(6,8),(7,9);
 /*!40000 ALTER TABLE `note_to_source` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-27 15:46:43
+-- Dump completed on 2023-06-28 11:54:57
