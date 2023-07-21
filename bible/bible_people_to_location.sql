@@ -27,9 +27,9 @@ DROP TABLE IF EXISTS `people_to_location`;
 CREATE TABLE `people_to_location` (
   `people_id` int NOT NULL,
   `location_id` int NOT NULL,
-  `type` int NOT NULL,
+  `type` int NOT NULL COMMENT 'The type corresponds to the values in the type_people table.',
   PRIMARY KEY (`people_id`,`location_id`,`type`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='All people and locations that have a relationship. This is a many-to-many linking table, meaning that a single person can link to multiple locations and a single location can link to multiple people.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:55
+-- Dump completed on 2023-07-21 15:57:56

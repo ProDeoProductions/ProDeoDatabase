@@ -30,7 +30,7 @@ CREATE TABLE `location_to_aka` (
   `location_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `meaning_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='All the names a location is known as. If a location is known under different names, they will be available here. The first or most used appearance of a name is not available here, but used in the locations table.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:57
+-- Dump completed on 2023-07-21 15:57:59

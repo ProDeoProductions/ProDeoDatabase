@@ -28,7 +28,7 @@ CREATE TABLE `note_to_source` (
   `note_id` int NOT NULL,
   `source_id` int NOT NULL,
   PRIMARY KEY (`note_id`,`source_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='All notes and sources that have a relationship. This is a many-to-many linking table, meaning that a single note can link to multiple sources and a single source can link to multiple notes.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:57
+-- Dump completed on 2023-07-21 15:57:57

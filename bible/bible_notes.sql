@@ -27,9 +27,9 @@ DROP TABLE IF EXISTS `notes`;
 CREATE TABLE `notes` (
   `id` int NOT NULL,
   `note` text COLLATE utf8mb4_general_ci NOT NULL,
-  `type` int DEFAULT NULL,
+  `type` int DEFAULT NULL COMMENT 'The type corresponds to the values in the type_note table.',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Notes are used to convey extra information about a person, location, event or anything else. It can be theories, facts, ideas or anything else.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:54
+-- Dump completed on 2023-07-21 15:57:57

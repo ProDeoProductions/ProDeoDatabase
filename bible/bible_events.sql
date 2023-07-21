@@ -25,20 +25,20 @@ DROP TABLE IF EXISTS `events`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `events` (
-  `order_id` int NOT NULL,
+  `order_id` int NOT NULL COMMENT 'The order we want the events to be viewed in. This is used in the textfiles for the DatabaseHelper and on the website',
   `id` int NOT NULL,
   `name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `descr` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `length` text COLLATE utf8mb4_general_ci,
-  `date` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  `book_start_id` int DEFAULT NULL,
-  `book_start_chap` int DEFAULT NULL,
-  `book_start_vers` int DEFAULT NULL,
-  `book_end_id` int DEFAULT NULL,
-  `book_end_chap` int DEFAULT NULL,
-  `book_end_vers` int DEFAULT NULL,
+  `date` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci COMMENT 'Doesn''t have to be an exact date, can also be a reference to another major event.',
+  `book_start_id` int DEFAULT NULL COMMENT 'Bible book of the first appearance',
+  `book_start_chap` int DEFAULT NULL COMMENT 'Bible chapter of the first appearance',
+  `book_start_vers` int DEFAULT NULL COMMENT 'Bible vers of the first appearance',
+  `book_end_id` int DEFAULT NULL COMMENT 'Bible book of the last appearance',
+  `book_end_chap` int DEFAULT NULL COMMENT 'Bible chapter of the last appearance',
+  `book_end_vers` int DEFAULT NULL COMMENT 'Bible vers of the last appearance',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Events are parts of the timeline, like chapters in a book. They give a summary of stories that are described in the bible. Those events are described in detail using activities and can be viewed as a timeline on its own.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -60,4 +60,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:55
+-- Dump completed on 2023-07-21 15:58:00

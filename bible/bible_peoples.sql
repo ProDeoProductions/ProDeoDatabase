@@ -25,26 +25,26 @@ DROP TABLE IF EXISTS `peoples`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `peoples` (
-  `order_id` int DEFAULT NULL,
+  `order_id` int NOT NULL COMMENT 'The order we want the peoples to be viewed in. This is used in the textfiles for the DatabaseHelper and on the website',
   `id` int NOT NULL,
   `name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `descr` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `meaning_name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  `father_age` int DEFAULT NULL,
-  `mother_age` int DEFAULT NULL,
-  `age` int DEFAULT NULL,
-  `gender` int DEFAULT NULL,
-  `tribe` int DEFAULT NULL,
+  `father_age` int DEFAULT NULL COMMENT 'This is the age of the father when the child was born.',
+  `mother_age` int DEFAULT NULL COMMENT 'This is the age of the mother when the child was born.',
+  `age` int DEFAULT NULL COMMENT 'This is the reached age of the person before they died.',
+  `gender` int DEFAULT NULL COMMENT 'The gender corresponds to the values in the type_gender table.',
+  `tribe` int DEFAULT NULL COMMENT 'The tribe corresponds to the values in the type_tribe table.',
   `profession` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `nationality` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  `book_start_id` int DEFAULT NULL,
-  `book_start_chap` int DEFAULT NULL,
-  `book_start_vers` int DEFAULT NULL,
-  `book_end_id` int DEFAULT NULL,
-  `book_end_chap` int DEFAULT NULL,
-  `book_end_vers` int DEFAULT NULL,
+  `book_start_id` int DEFAULT NULL COMMENT 'Bible book of the first appearance',
+  `book_start_chap` int DEFAULT NULL COMMENT 'Bible chapter of the first appearance',
+  `book_start_vers` int DEFAULT NULL COMMENT 'Bible vers of the first appearance',
+  `book_end_id` int DEFAULT NULL COMMENT 'Bible book of the last appearance',
+  `book_end_chap` int DEFAULT NULL COMMENT 'Bible chapter of the last appearance',
+  `book_end_vers` int DEFAULT NULL COMMENT 'Bible vers of the last appearance',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='All the people described in the Bible or from other sources, but still related to the events of the Bible.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -66,4 +66,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:58
+-- Dump completed on 2023-07-21 15:57:55

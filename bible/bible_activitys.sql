@@ -25,21 +25,21 @@ DROP TABLE IF EXISTS `activitys`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `activitys` (
-  `order_id` int DEFAULT NULL,
+  `order_id` int NOT NULL COMMENT 'The order we want the activities to be viewed in. This is used in the textfiles for the DatabaseHelper and on the website',
   `id` int NOT NULL,
   `name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `descr` text COLLATE utf8mb4_general_ci,
   `length` text COLLATE utf8mb4_general_ci,
-  `date` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
-  `level` int DEFAULT '1',
-  `book_start_id` int DEFAULT NULL,
-  `book_start_chap` int DEFAULT NULL,
-  `book_start_vers` int DEFAULT NULL,
-  `book_end_id` int DEFAULT NULL,
-  `book_end_chap` int DEFAULT NULL,
-  `book_end_vers` int DEFAULT NULL,
+  `date` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci COMMENT 'Doesn''t have to be an exact date, can also be a reference to another major event.',
+  `level` int DEFAULT '1' COMMENT 'Level is related to timelines and only used there. A level 1 activity is part of the timeline of an event. A level 2 activity is part of the timeline of another activity (sub timeline)',
+  `book_start_id` int DEFAULT NULL COMMENT 'Bible book of the first appearance',
+  `book_start_chap` int DEFAULT NULL COMMENT 'Bible chapter of the first appearance',
+  `book_start_vers` int DEFAULT NULL COMMENT 'Bible vers of the first appearance',
+  `book_end_id` int DEFAULT NULL COMMENT 'Bible book of the end appearance',
+  `book_end_chap` int DEFAULT NULL COMMENT 'Bible chapter of the last appearance',
+  `book_end_vers` int DEFAULT NULL COMMENT 'Bible vers of the last appearance',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Activities are all the acts/events happening in a single event itself. Basically breaking an event down even further into smaller parts with more detail. Where events form the timeline, activities form the event.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -61,4 +61,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:56
+-- Dump completed on 2023-07-21 15:58:00

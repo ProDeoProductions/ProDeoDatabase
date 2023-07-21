@@ -25,13 +25,13 @@ DROP TABLE IF EXISTS `books`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `books` (
-  `order_id` int NOT NULL,
+  `order_id` int NOT NULL COMMENT 'The order we want the books to be viewed in. This is used in the textfiles for the DatabaseHelper and on the website',
   `id` int NOT NULL,
   `name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   `num_chapters` int DEFAULT NULL,
   `summary` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='The books present in the Bible. The Deuterocanonical books will most likely not be present in this list, but might become present in the future.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:58
+-- Dump completed on 2023-07-21 15:57:56

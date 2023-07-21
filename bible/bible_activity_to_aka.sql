@@ -27,14 +27,14 @@ DROP TABLE IF EXISTS `activity_to_aka`;
 CREATE TABLE `activity_to_aka` (
   `id` int NOT NULL,
   `activity_id` int NOT NULL,
-  `book_start_id` int DEFAULT NULL,
-  `book_start_chap` int DEFAULT NULL,
-  `book_start_vers` int DEFAULT NULL,
-  `book_end_id` int DEFAULT NULL,
-  `book_end_chap` int DEFAULT NULL,
-  `book_end_vers` int DEFAULT NULL,
+  `book_start_id` int DEFAULT NULL COMMENT 'Bible book of the first appearance',
+  `book_start_chap` int DEFAULT NULL COMMENT 'Bible chapter of the first appearance',
+  `book_start_vers` int DEFAULT NULL COMMENT 'Bible vers of the first appearance',
+  `book_end_id` int DEFAULT NULL COMMENT 'Bible book of the last appearance',
+  `book_end_chap` int DEFAULT NULL COMMENT 'Bible chapter of the last appearance',
+  `book_end_vers` int DEFAULT NULL COMMENT 'Bible vers of the last appearance',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Als een activity op meerdere plaatsen in de bijbel beschreven staat';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='If an activity is described in multiple places in the bible (even with slight changes), it will be displayed here. The first appearance of an activity will be in the activities table and not in this table.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -55,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:54
+-- Dump completed on 2023-07-21 15:57:58

@@ -26,11 +26,11 @@ DROP TABLE IF EXISTS `users`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `users` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `name` text COLLATE utf8mb4_general_ci NOT NULL,
-  `hash` text COLLATE utf8mb4_general_ci NOT NULL,
+  `name` text COLLATE utf8mb4_general_ci NOT NULL COMMENT 'Username',
+  `hash` text COLLATE utf8mb4_general_ci NOT NULL COMMENT 'This is a hash of the password, using php''s password_hash with the default encryption (PASSWORD_BCRYPT).\n\nThe password itself is never stored, only the hash created from the password.',
   PRIMARY KEY (`id`),
   UNIQUE KEY `user_id_UNIQUE` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Only used on the website to get permission to create, edit and delete blogs.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:53
+-- Dump completed on 2023-07-21 15:57:59

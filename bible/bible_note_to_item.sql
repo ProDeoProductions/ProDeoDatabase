@@ -28,9 +28,9 @@ CREATE TABLE `note_to_item` (
   `id` int NOT NULL,
   `note_id` int NOT NULL,
   `item_id` int NOT NULL,
-  `item_type` int NOT NULL,
+  `item_type` int NOT NULL COMMENT 'The type corresponds to the values in the type_item table.',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='All notes and items that have a relationship. This is a many-to-many linking table, meaning that a single note can link to multiple items and a single item can link to multiple notes.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:53
+-- Dump completed on 2023-07-21 15:58:00

@@ -25,10 +25,10 @@ DROP TABLE IF EXISTS `type_tribe`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `type_tribe` (
-  `type_id` int NOT NULL,
-  `type_name` varchar(45) COLLATE utf8mb4_general_ci NOT NULL,
+  `type_id` int NOT NULL COMMENT 'ID to be used in place of a type name in other tables.',
+  `type_name` varchar(45) COLLATE utf8mb4_general_ci NOT NULL COMMENT 'A place holder name that will be used in user interfaces. This place holder will be replaced with a translated version of the name in the corresponding language.',
   PRIMARY KEY (`type_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='All the tribe types (sons of Jacob). This is only applicable for the decendants of Jacob.';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-06-28 11:54:56
+-- Dump completed on 2023-07-21 15:57:59
