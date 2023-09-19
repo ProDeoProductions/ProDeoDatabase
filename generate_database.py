@@ -57,26 +57,22 @@ from src.commands import CommandHandler
 
 CH = CommandHandler("EN")
 CH.execute_commands([
-    # CH.read_all
-    CH.read_books
+    CH.read_all
 ])
 
 CH = CommandHandler("NL")
 CH.execute_commands([
-    # CH.read_all
-    CH.read_books
+    CH.read_all
 ])
 
 CH = CommandHandler("EN")
 CH.execute_commands([
-    # CH.write_all
-    CH.write_books
+    CH.write_all
 ])
 
 CH = CommandHandler("NL")
 CH.execute_commands([
-    # CH.write_all
-    CH.write_books
+    CH.write_all
 ])
 
 # files.files_check.check_activity_to_parent(event_id)
