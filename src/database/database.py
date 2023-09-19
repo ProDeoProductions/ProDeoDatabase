@@ -60,7 +60,6 @@ class Database(DatabaseInsert, DatabaseEmpty, DatabaseGet, DatabaseCopy, Databas
         
         # We have a backup in the SQL folder
         file = open("files/sql/bible.sql")
-        #file = open("database.py")
         sql = file.read()
         
         for result in cursor.execute(sql, multi=True):
