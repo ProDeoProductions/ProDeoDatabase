@@ -1,0 +1,24 @@
+Note: N_ID
+	{NOTE}
+	{N_NOTE}
+Note: 0
+	{God created the universe}
+	{God schiep het universum}
+Note: 1
+	{}
+	{Duisternis lag over de oervloed (Ook bekend als oersoep)}
+Note: 2
+	{}
+	{Er was licht (Fotonen ontstonden, heelal werd zichtbaar) (De bliksem waardoor de aminozuren kwamen?)}
+Note: 3
+	{}
+	{God maakte het gewelf}
+Note: 4
+	{}
+	{Tehom, in het nederlands bekend als de oervloed}
+Note: 5
+	{}
+	{Een belangrijk punt bij dit boek is dat het veel later is geschreven dan wanneer de gebeurtenissen hebben plaats gevonden (200 v Chr. 400 jaar na de gebeurtenissen!). De beschrijving van Nebukadnessar in dit boek, is waarwaarschijnlijk een mengeling van Nebukadnessar en Nebonidus (Beiden koningen van Babylon geweest).}
+Note: 6
+	{}
+	{Er is geen bewijs voor het bestaan van Darius de Mediër. Hoogstwaarschijnlijk verward de schrijver hier Darius met Cyrus II.}

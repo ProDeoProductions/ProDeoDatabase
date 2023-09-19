@@ -1,0 +1,3 @@
+NAME (EVENT_ID) -> [BOOK_START_ID BOOK_START_CHAP:BOOK_START_VERS - BOOK_END_ID BOOK_END_CHAP:BOOK_END_VERS]
+De Schepping van hemel en aarde (1) -> [Exodus 2:4 - Exodus 2:6]
+Test (2) -> [Genesis 1:5 - Genesis 4:6]

@@ -1,0 +1,2354 @@
+NAME (ID) [BOOK_START_ID BOOK_START_CHAP:BOOK_START_VERS - BOOK_END_ID BOOK_END_CHAP:BOOK_END_VERS]
+	{DESCR; MEANING_NAME; TYPE; COORDINATES}
+Hemel (1) [Genesis 1:1 - Genesis 1:1]
+	{; ; ; }
+Aarde (2) [Genesis 1:1 - Genesis 1:1]
+	{; ; ; }
+Eden (3) [Genesis 2:8 - Genesis 2:8]
+	{; ; ; }
+Chawila (4) [Genesis 2:11 - Genesis 2:11]
+	{; ; type.river; }
+Nubië (5) [Genesis 2:13 - Genesis 2:13]
+	{; ; ; }
+Assyrië (6) [Genesis 2:14 - Genesis 2:14]
+	{; ; ; }
+Pison (7) [Genesis 2:11 - Genesis 2:11]
+	{; ; ; }
+Gichon (8) [Genesis 2:13 - Genesis 2:13]
+	{; ; ; }
+Tigris (9) [Genesis 2:14 - Genesis 2:14]
+	{; ; ; }
+Eufraat (10) [Genesis 2:14 - Genesis 2:14]
+	{; ; ; 34.47218869193965, 41.9729402546893}
+Nod (11) [Genesis 4:16 - Genesis 4:16]
+	{; ; ; }
+Henoch (12) [Genesis 4:17 - Genesis 4:17]
+	{; ; ; }
+Ararat gebergte (13) [Genesis 8:4 - Genesis 8:4]
+	{; ; ; }
+Babel (14) [Genesis 10:10 - Genesis 10:10]
+	{; ; ; }
+Uruk (15) [Genesis 10:10 - Genesis 10:10]
+	{; ; ; }
+Akkad (16) [Genesis 10:10 - Genesis 10:10]
+	{; ; ; }
+Kalne (17) [Genesis 10:10 - Genesis 10:10]
+	{; ; ; }
+Sinear (18) [Genesis 10:10 - Genesis 10:10]
+	{; ; ; }
+Nineve (19) [Genesis 10:11 - Genesis 10:11]
+	{; ; ; }
+Rechobot-Ir (20) [Genesis 10:11 - Genesis 10:11]
+	{; ; ; }
+Kalach (21) [Genesis 10:11 - Genesis 10:11]
+	{; ; ; }
+Resen (22) [Genesis 10:12 - Genesis 10:12]
+	{; ; ; }
+Sidon (23) [Genesis 10:19 - Genesis 10:19]
+	{; ; ; 33.565571012309604, 35.35889036598994}
+Gerar (24) [Genesis 10:19 - Genesis 10:19]
+	{; ; ; }
+Gaza (25) [Genesis 10:19 - Genesis 10:19]
+	{; ; ; 31.50098711675068, 34.46838458341874}
+Sodom (26) [Genesis 10:19 - Genesis 10:19]
+	{; ; ; }
+Gomorra (27) [Genesis 10:19 - Genesis 10:19]
+	{; ; ; }
+Adma (28) [Genesis 10:19 - Genesis 10:19]
+	{; ; ; 34.021902600694595, 35.64441799299458}
+Seboë (29) [Genesis 10:19 - Genesis 10:19]
+	{; ; ; }
+Lesa (30) [Genesis 10:19 - Genesis 10:19]
+	{; ; ; }
+Mesa (31) [Genesis 10:30 - Genesis 10:30]
+	{; ; ; }
+Sefar (32) [Genesis 10:30 - Genesis 10:30]
+	{; ; ; }
+Ur (33) [Genesis 11:28 - Genesis 11:28]
+	{; ; ; }
+Kanaë (34) [Genesis 11:31 - Genesis 11:31]
+	{; ; ; }
+Charan (35) [Genesis 11:31 - Genesis 11:31]
+	{; ; ; }
+Eik van More (36) [Genesis 12:6 - Genesis 12:6]
+	{; ; ; }
+Sichem (37) [Genesis 12:6 - Genesis 12:6]
+	{; ; ; }
+Betel (38) [Genesis 12:8 - Genesis 12:8]
+	{; ; ; }
+Ai (39) [Genesis 12:8 - Genesis 12:8]
+	{; ; ; }
+Negev (40) [Genesis 12:9 - Genesis 12:9]
+	{; ; ; }
+Egypte (41) [Genesis 12:10 - Genesis 12:10]
+	{; ; ; 26.640306493110398, 29.65686203147994}
+Jordaanvallei (42) [Genesis 13:10 - Genesis 13:10]
+	{; ; ; 32.33058894378152, 35.5299828544916}
+Soar (43) [Genesis 13:10 - Genesis 13:10]
+	{; Kleinigheid; ; }
+Eiken van Mamre (44) [Genesis 13:18 - Genesis 13:18]
+	{; ; ; }
+Hebron (45) [Genesis 13:18 - Genesis 13:18]
+	{; ; ; 31.534423775024642, 35.100061413727516}
+Ellasar (46) [Genesis 14:1 - Genesis 14:1]
+	{; ; ; }
+Elam (47) [Genesis 14:1 - Genesis 14:1]
+	{; ; ; }
+Goïm (48) [Genesis 14:1 - Genesis 14:1]
+	{; ; ; }
+Bela (49) [Genesis 14:2 - Genesis 14:2]
+	{; ; ; }
+Siddimvallei (50) [Genesis 14:3 - Genesis 14:3]
+	{; ; ; }
+Asterot-Karnaë (51) [Genesis 14:5 - Genesis 14:5]
+	{; ; ; }
+Ham (52) [Genesis 14:5 - Genesis 14:5]
+	{; ; ; }
+Sawe-Kirjataë (53) [Genesis 14:5 - Genesis 14:5]
+	{; ; ; }
+Seë (54) [Genesis 14:6 - Genesis 14:6]
+	{; ebergte; ; }
+El-Paran (55) [Genesis 14:6 - Genesis 14:6]
+	{; ; ; }
+En-Mispat (56) [Genesis 14:7 - Genesis 14:7]
+	{; ; ; }
+Chaseron-Tamar (57) [Genesis 14:7 - Genesis 14:7]
+	{; ; ; }
+Mamre (58) [Genesis 13:18 - Genesis 13:18]
+	{; ; ; 31.543360427319207, 35.12452771539343}
+Dan (59) [Genesis 14:14 - Genesis 14:14]
+	{; ; ; }
+Choba (60) [Genesis 14:15 - Genesis 14:15]
+	{; ; ; }
+Damascus (61) [Genesis 14:15 - Genesis 14:15]
+	{; ; ; }
+Sawevallei (62) [Genesis 14:17 - Genesis 14:17]
+	{; ; ; }
+Salem (63) [Genesis 14:18 - Genesis 14:18]
+	{; ; ; }
+Sur (64) [Genesis 16:7 - Genesis 16:7]
+	{; ; ; }
+*Lachai-Ro**ron van de levende/Bron van die mij ziet* (65) [Genesis 16:14 - Genesis 16:14]
+	{; ; ; }
+Kades (66) [Genesis 16:14 - Genesis 16:14]
+	{; ; ; }
+Bered (67) [Genesis 16:14 - Genesis 16:14]
+	{; ; ; }
+Woestijn van Berseba (68) [Genesis 21:14 - Genesis 21:14]
+	{; ; ; }
+Woestijn van Paran (69) [Genesis 21:21 - Genesis 21:21]
+	{; ; ; }
+Berseba (70) [Genesis 21:31 - Genesis 21:31]
+	{; Put van 7/Put van eed; ; 31.252791965493245, 34.791066574150825}
+Moria (71) [Genesis 22:2 - Genesis 22:2]
+	{; ; ; }
+Kirjat-Arba (72) [Genesis 23:2 - Genesis 23:2]
+	{Info=Vernoemd naar Arba: grootste reus onder de Enakieten; Stad van Arba; ; 31.52915371487806, 35.11533390962987}
+Machpala (73) [Genesis 23:9 - Genesis 23:9]
+	{; ; ; 31.524897096252563, 35.11170606284705}
+Aram-Naharaë (74) [Genesis 24:10 - Genesis 24:10]
+	{; ; ; }
+Kedem (75) [Genesis 25:6 - Genesis 25:6]
+	{; ; ; }
+Assur (76) [Genesis 25:18 - Genesis 25:18]
+	{; ; ; }
+Paddan-Aram (77) [Genesis 25:20 - Genesis 25:20]
+	{; ; ; }
+Esek (78) [Genesis 26:20 - Genesis 26:20]
+	{; ; ; }
+Sifna (79) [Genesis 26:21 - Genesis 26:21]
+	{; ; ; }
+Rechobot (80) [Genesis 26:22 - Genesis 26:22]
+	{; ; ; }
+Seba (81) [Genesis 26:33 - Genesis 26:33]
+	{; ; ; }
+Gilead (82) [Genesis 31:21 - Genesis 31:21]
+	{; ; ; }
+Gal-Ed (83) [Genesis 31:47 - Genesis 31:47]
+	{; ; ; }
+Mispa (84) [Genesis 31:49 - Genesis 31:49]
+	{; ; ; }
+Machanaïm (85) [Genesis 32:3 - Genesis 32:3]
+	{Hier kwam Jakob een leger engelen tegen; Twee legers; ; 31.796021350651916, 35.218731134353256}
+Seë (86) [Genesis 32:4 - Genesis 32:4]
+	{; ; ; }
+Penië (87) [Genesis 32:31 - Genesis 32:31]
+	{; ; ; }
+Sukkot (88) [Genesis 33:17 - Genesis 33:17]
+	{; ; ; }
+Luz (89) [Genesis 35:6 - Genesis 35:6]
+	{; ; ; }
+Eik van geween (90) [Genesis 35:8 - Genesis 35:8]
+	{; ; ; }
+Efrat (91) [Genesis 35:16 - Genesis 35:16]
+	{; ; ; }
+Migdal-Eder (92) [Genesis 35:21 - Genesis 35:21]
+	{; ; ; 32.83869177564089, 35.49860763754337}
+Dinhaba (93) [Genesis 36:32 - Genesis 36:32]
+	{; ; ; }
+Bosra (94) [Genesis 36:33 - Genesis 36:33]
+	{; ; ; }
+Awit (95) [Genesis 36:35 - Genesis 36:35]
+	{; ; ; }
+Masreka (96) [Genesis 36:36 - Genesis 36:36]
+	{; ; ; }
+Paü (97) [Genesis 36:39 - Genesis 36:39]
+	{; ; ; }
+Hebron-vallei (98) [Genesis 37:14 - Genesis 37:14]
+	{; ; ; }
+Dotan (99) [Genesis 37:17 - Genesis 37:17]
+	{; ; ; }
+Adullam (100) [Genesis 38:1 - Genesis 38:1]
+	{; ; ; }
+Kezib (101) [Genesis 38:5 - Genesis 38:5]
+	{; ; ; }
+Timna (102) [Genesis 38:12 - Genesis 38:12]
+	{; ; ; }
+Enaë (103) [Genesis 38:14 - Genesis 38:14]
+	{; ; ; }
+Heliopolis (104) [Genesis 41:45 - Genesis 41:45]
+	{; ; ; }
+Gosen (105) [Genesis 45:10 - Genesis 45:10]
+	{; ; ; }
+Rameses (106) [Genesis 47:11 - Genesis 47:11]
+	{; ; ; }
+Paddan (107) [Genesis 48:7 - Genesis 48:7]
+	{; ; ; }
+Goren-Haë (108) [Genesis 50:10 - Genesis 50:10]
+	{; d; ; }
+Abel-Misraë (109) [Genesis 50:11 - Genesis 50:11]
+	{; ; ; }
+Pitom (110) [Exodus 1:11 - Exodus 1:11]
+	{; ; ; }
+Raë (111) [Exodus 1:11 - Exodus 1:11]
+	{; es; ; }
+Midjan (112) [Exodus 2:15 - Exodus 2:15]
+	{; ; ; }
+Nijl (113) [Genesis 36:4 - Genesis 36:4]
+	{; ; ; }
+Rietzee (114) [Exodus 13:18 - Exodus 13:18]
+	{; ; ; }
+Etam (115) [Exodus 13:20 - Exodus 13:20]
+	{; ; ; }
+Pi-Hachirot (116) [Exodus 14:2 - Exodus 14:2]
+	{; ; ; }
+Migdol (117) [Exodus 14:2 - Exodus 14:2]
+	{; ; ; }
+Baë (118) [Exodus 14:2 - Exodus 14:2]
+	{; Sefon; ; }
+Moab (119) [Exodus 15:15 - Exodus 15:15]
+	{; ; ; }
+Edom (120) [Exodus 15:15 - Exodus 15:15]
+	{; ; ; }
+Mara (121) [Exodus 15:23 - Exodus 15:23]
+	{; Bitter; ; }
+Elim (122) [Exodus 16:1 - Exodus 16:1]
+	{; ; ; }
+Sin (123) [Exodus 16:1 - Exodus 16:1]
+	{; ; ; }
+Sinai (124) [Exodus 16:1 - Exodus 16:1]
+	{; ; ; }
+Refidim (125) [Exodus 17:1 - Exodus 17:1]
+	{; ; ; }
+Horeb (126) [Exodus 17:6 - Exodus 17:6]
+	{; ; ; }
+Massa (127) [Exodus 17:7 - Exodus 17:7]
+	{; ; ; }
+Meriba (128) [Exodus 17:7 - Exodus 17:7]
+	{; ; ; }
+Amalek (129) [Exodus 17:9 - Exodus 17:9]
+	{Info=Amalekieten; ; ; }
+Tabera (130) [Numeri 11:3 - Numeri 11:3]
+	{; ; ; }
+Kibrot-Hattaë (131) [Numeri 11:34 - Numeri 11:34]
+	{; ; ; }
+Chaserot (132) [Numeri 12:16 - Numeri 12:16]
+	{; ; ; }
+Rechob (133) [Numeri 13:21 - Numeri 13:21]
+	{; ; ; }
+Lebo-Hamat (134) [Numeri 13:21 - Numeri 13:21]
+	{; ; ; }
+Soan (135) [Numeri 13:22 - Numeri 13:22]
+	{; ; ; }
+Eskoldal (136) [Numeri 13:23 - Numeri 13:23]
+	{; ; ; }
+Chorma (137) [Numeri 14:45 - Numeri 14:45]
+	{; Vernietiging; ; }
+Hor (138) [Numeri 20:22 - Numeri 20:22]
+	{; ; ; }
+Arad (139) [Numeri 21:1 - Numeri 21:1]
+	{; ; ; }
+Atarim (140) [Numeri 21:1 - Numeri 21:1]
+	{; ; ; }
+Rode zee (141) [Numeri 21:4 - Numeri 21:4]
+	{; ; ; }
+Obot (142) [Numeri 21:10 - Numeri 21:10]
+	{; ; ; }
+Ijje-Haë (143) [Numeri 21:11 - Numeri 21:11]
+	{; rim; ; }
+Zered (144) [Numeri 21:12 - Numeri 21:12]
+	{; ; ; }
+Arnon (145) [Numeri 21:13 - Numeri 21:13]
+	{; ; ; }
+Waheb (146) [Numeri 21:14 - Numeri 21:14]
+	{; ; ; }
+Sufa (147) [Numeri 21:14 - Numeri 21:14]
+	{; ; ; }
+Ar (148) [Numeri 21:15 - Numeri 21:15]
+	{; ; ; }
+Beë (149) [Numeri 21:16 - Numeri 21:16]
+	{; ; ; }
+Mattana (150) [Numeri 21:18 - Numeri 21:18]
+	{; ; ; }
+Nachalië (151) [Numeri 21:19 - Numeri 21:19]
+	{; ; ; }
+Bamot (152) [Numeri 21:19 - Numeri 21:19]
+	{; ; ; }
+Pisga (153) [Numeri 21:20 - Numeri 21:20]
+	{; ; ; }
+Jesimon (154) [Numeri 21:20 - Numeri 21:20]
+	{; ; ; }
+Jahas (155) [Numeri 21:23 - Numeri 21:23]
+	{; ; ; }
+Jabbok (156) [Numeri 21:24 - Numeri 21:24]
+	{; ; ; }
+Chesbon (157) [Numeri 21:25 - Numeri 21:25]
+	{; ; ; }
+Ar-Moab (158) [Numeri 21:28 - Numeri 21:28]
+	{; ; ; }
+Dibon (159) [Numeri 21:30 - Numeri 21:30]
+	{; ; ; }
+Nofach (160) [Numeri 21:30 - Numeri 21:30]
+	{; ; ; }
+Medeba (161) [Numeri 21:30 - Numeri 21:30]
+	{; ; ; }
+Jazer (162) [Numeri 21:32 - Numeri 21:32]
+	{; ; ; }
+Basan (163) [Numeri 21:33 - Numeri 21:33]
+	{; ; ; }
+Jordaan (164) [Numeri 22:1 - Numeri 22:1]
+	{; ; ; }
+Jericho (165) [Numeri 22:1 - Numeri 22:1]
+	{; ; ; }
+Petor (166) [Numeri 22:5 - Numeri 22:5]
+	{; ; ; }
+Kirjat-Chusot (167) [Numeri 22:39 - Numeri 22:39]
+	{; ; ; }
+Bamot-Baë (168) [Numeri 22:41 - Numeri 22:41]
+	{; ; ; }
+Aram (169) [Numeri 23:7 - Numeri 23:7]
+	{; ; ; }
+Sofim vlakte (170) [Numeri 23:14 - Numeri 23:14]
+	{; ; ; }
+Peor (171) [Numeri 23:28 - Numeri 23:28]
+	{; ; ; }
+Eber (172) [Numeri 24:24 - Numeri 24:24]
+	{; ; ; }
+Sittim (173) [Numeri 25:1 - Numeri 25:1]
+	{; ; ; }
+Abarimgebergte (174) [Numeri 27:12 - Numeri 27:12]
+	{; ; ; }
+Meribat-Kades (175) [Numeri 27:14 - Numeri 27:14]
+	{; ; ; }
+Atarot (176) [Numeri 32:3 - Numeri 32:3]
+	{; ; ; }
+Nimra (177) [Numeri 32:3 - Numeri 32:3]
+	{; ; ; }
+Elale (178) [Numeri 32:3 - Numeri 32:3]
+	{; ; ; }
+Sebam (179) [Numeri 32:3 - Numeri 32:3]
+	{; ; ; }
+Nebo (180) [Numeri 32:3 - Numeri 32:3]
+	{; ; ; }
+Beon (181) [Numeri 32:3 - Numeri 32:3]
+	{; ; ; }
+Kades-Barnea (182) [Numeri 32:8 - Numeri 32:8]
+	{; ; ; }
+Aroë (183) [Numeri 32:34 - Numeri 32:34]
+	{; ; ; }
+Atrot-Sofan (184) [Numeri 32:34 - Numeri 32:34]
+	{; ; ; }
+Jogboha (185) [Numeri 32:34 - Numeri 32:34]
+	{; ; ; }
+Bet-Nimra (186) [Numeri 32:34 - Numeri 32:34]
+	{; ; ; }
+Bet-Haran (187) [Numeri 32:34 - Numeri 32:34]
+	{; ; ; }
+Kirjataë (188) [Numeri 32:37 - Numeri 32:37]
+	{; ; ; }
+Baë (189) [Numeri 32:38 - Numeri 32:38]
+	{; Meon; ; }
+Sibma (190) [Numeri 32:38 - Numeri 32:38]
+	{; ; ; }
+Jaë (191) [Numeri 32:41 - Numeri 32:41]
+	{; ; ; }
+Kenat (192) [Numeri 32:42 - Numeri 32:42]
+	{; ; ; }
+Dofka (193) [Numeri 33:12 - Numeri 33:12]
+	{; ; ; }
+Alus (194) [Numeri 33:13 - Numeri 33:13]
+	{; ; ; }
+Sinaiwoestijn (195) [Numeri 33:15 - Numeri 33:15]
+	{; ; ; }
+Ritma (196) [Numeri 33:18 - Numeri 33:18]
+	{; ; ; }
+Rimmon-Peres (197) [Numeri 33:19 - Numeri 33:19]
+	{; ; ; }
+Libna (198) [Numeri 33:20 - Numeri 33:20]
+	{; ; ; }
+Rissa (199) [Numeri 33:21 - Numeri 33:21]
+	{; ; ; }
+Kehelata (200) [Numeri 33:22 - Numeri 33:22]
+	{; ; ; }
+Seferberg (201) [Numeri 33:23 - Numeri 33:23]
+	{; ; ; }
+Charada (202) [Numeri 33:24 - Numeri 33:24]
+	{; ; ; }
+Makhelot (203) [Numeri 33:25 - Numeri 33:25]
+	{; ; ; }
+Tachat (204) [Numeri 33:26 - Numeri 33:26]
+	{; ; ; }
+Terach (205) [Numeri 33:27 - Numeri 33:27]
+	{; ; ; }
+Mitka (206) [Numeri 33:28 - Numeri 33:28]
+	{; ; ; }
+Chasmona (207) [Numeri 33:29 - Numeri 33:29]
+	{; ; ; }
+Moserot (208) [Numeri 33:30 - Numeri 33:30]
+	{; ; ; }
+Bene-Jaë (209) [Numeri 33:31 - Numeri 33:31]
+	{; n; ; }
+Chor-Haggidgad (210) [Numeri 33:32 - Numeri 33:32]
+	{; ; ; }
+Jotbata (211) [Numeri 33:33 - Numeri 33:33]
+	{; ; ; }
+Abrona (212) [Numeri 33:34 - Numeri 33:34]
+	{; ; ; }
+Esjon-Geber (213) [Numeri 33:35 - Numeri 33:35]
+	{; ; ; }
+Salmona (214) [Numeri 33:41 - Numeri 33:41]
+	{; ; ; }
+Punon (215) [Numeri 33:42 - Numeri 33:42]
+	{; ; ; }
+Dibon-Gad (216) [Numeri 33:45 - Numeri 33:45]
+	{; ; ; }
+Almon-Diblataë (217) [Numeri 33:46 - Numeri 33:46]
+	{; ; ; }
+Bet-Hajjesimot (218) [Numeri 33:49 - Numeri 33:49]
+	{; ; ; }
+Abel-Hassittim (219) [Numeri 33:49 - Numeri 33:49]
+	{; ; ; }
+Schorpioenenpas (220) [Numeri 34:4 - Numeri 34:4]
+	{; ; ; }
+Chasar-Adar (221) [Numeri 34:4 - Numeri 34:4]
+	{; ; ; }
+Asmon (222) [Numeri 34:4 - Numeri 34:4]
+	{; ; ; }
+Grote zee (223) [Numeri 34:5 - Numeri 34:5]
+	{; ; ; }
+Sedad (224) [Numeri 34:8 - Numeri 34:8]
+	{; ; ; }
+Zifron (225) [Numeri 34:9 - Numeri 34:9]
+	{; ; ; }
+Chasar-Enan (226) [Numeri 34:9 - Numeri 34:9]
+	{; ; ; }
+Sefam (227) [Numeri 34:10 - Numeri 34:10]
+	{; ; ; }
+Hariba (228) [Numeri 34:11 - Numeri 34:11]
+	{; ; ; }
+Aë (229) [Numeri 34:11 - Numeri 34:11]
+	{; ; ; }
+Meer v Kinneret (230) [Numeri 34:11 - Numeri 34:11]
+	{; ; ; }
+Suf (231) [Deuteronomium 1:1 - Deuteronomium 1:1]
+	{; ; ; }
+Tofel (232) [Deuteronomium 1:1 - Deuteronomium 1:1]
+	{; ; ; }
+Laban (233) [Deuteronomium 1:1 - Deuteronomium 1:1]
+	{; ; ; }
+Di-Zahab (234) [Deuteronomium 1:1 - Deuteronomium 1:1]
+	{; ; ; }
+Astarot (235) [Deuteronomium 1:4 - Deuteronomium 1:4]
+	{; ; ; }
+Edreë (236) [Deuteronomium 1:4 - Deuteronomium 1:4]
+	{; ; ; }
+Libanon (237) [Deuteronomium 1:7 - Deuteronomium 1:7]
+	{; ; ; }
+Elat (238) [Deuteronomium 2:8 - Deuteronomium 2:8]
+	{; ; ; }
+Kreta (239) [Deuteronomium 2:23 - Deuteronomium 2:23]
+	{; ; ; }
+Kedemot (240) [Deuteronomium 2:26 - Deuteronomium 2:26]
+	{; ; ; }
+Argob (241) [Deuteronomium 3:4 - Deuteronomium 3:4]
+	{; ; ; }
+Hermongebergte (242) [Deuteronomium 3:8 - Deuteronomium 3:8]
+	{; ; ; }
+Salka (243) [Deuteronomium 3:10 - Deuteronomium 3:10]
+	{; ; ; }
+Rabba (244) [Deuteronomium 3:11 - Deuteronomium 3:11]
+	{; ; ; }
+Gesur (245) [Deuteronomium 3:14 - Deuteronomium 3:14]
+	{; ; ; }
+Maë (246) [Deuteronomium 3:14 - Deuteronomium 3:14]
+	{; a; ; }
+Bet-Peor (247) [Deuteronomium 3:29 - Deuteronomium 3:29]
+	{; ; ; }
+Baë (248) [Deuteronomium 4:3 - Deuteronomium 4:3]
+	{; Peor; ; }
+Beser (249) [Deuteronomium 4:43 - Deuteronomium 4:43]
+	{; ; ; }
+Ramot (250) [Deuteronomium 4:43 - Deuteronomium 4:43]
+	{; ; ; }
+Golan (251) [Deuteronomium 4:43 - Deuteronomium 4:43]
+	{; ; ; }
+Sionberg (252) [Deuteronomium 4:48 - Deuteronomium 4:48]
+	{; ; ; }
+Dode zee (253) [Deuteronomium 4:49 - Deuteronomium 4:49]
+	{; ; ; }
+Gudgod (254) [Deuteronomium 10:7 - Deuteronomium 10:7]
+	{; ; ; }
+Gerizim (255) [Deuteronomium 11:29 - Deuteronomium 11:29]
+	{; ; ; }
+Ebal (256) [Deuteronomium 27:4 - Deuteronomium 27:4]
+	{; ; ; }
+Paran (257) [Deuteronomium 33:2 - Deuteronomium 33:2]
+	{; ; ; }
+Adam (258) [Jozua 3:16 - Jozua 3:16]
+	{; ; ; }
+Saretan (259) [Jozua 3:16 - Jozua 3:16]
+	{; ; ; }
+Gilgal (260) [Jozua 4:19 - Jozua 4:19]
+	{; Steenkring; ; }
+Voorhuidenheuvel (261) [Jozua 5:3 - Jozua 5:3]
+	{; ; ; }
+Bet-Awen (262) [Jozua 7:2 - Jozua 7:2]
+	{; ; ; }
+Achordal (263) [Jozua 7:24 - Jozua 7:24]
+	{; ; ; }
+Gibeon (264) [Jozua 9:3 - Jozua 9:3]
+	{; ; ; }
+Kefira (265) [Jozua 9:17 - Jozua 9:17]
+	{Info=Chiwwietten: Houthakkers en waterputters voor Gods heiligheid; ; ; }
+Beë (266) [Jozua 9:17 - Jozua 9:17]
+	{; t; ; }
+Kirjat-Jearim (267) [Jozua 9:17 - Jozua 9:17]
+	{; ; ; }
+Jarmut (268) [Jozua 10:3 - Jozua 10:3]
+	{; ; ; }
+Lachis (269) [Jozua 10:3 - Jozua 10:3]
+	{; ; ; }
+Eglon (270) [Jozua 10:3 - Jozua 10:3]
+	{; ; ; }
+Bet-Choron (271) [Jozua 10:10 - Jozua 10:10]
+	{; ; ; }
+Azeka (272) [Jozua 10:10 - Jozua 10:10]
+	{; ; ; }
+Makkeda (273) [Jozua 10:10 - Jozua 10:10]
+	{; ; ; }
+Ajjalon (274) [Jozua 10:12 - Jozua 10:12]
+	{; ; ; }
+Gezer (275) [Jozua 10:33 - Jozua 10:33]
+	{; ; ; }
+Debir (276) [Jozua 10:38 - Jozua 10:38]
+	{; ; ; }
+Het bergland (277) [Jozua 10:40 - Jozua 10:40]
+	{; ; ; }
+Het heuvelland (278) [Jozua 10:40 - Jozua 10:40]
+	{; ; ; }
+De streek v de rotskloven (279) [Jozua 10:40 - Jozua 10:40]
+	{; ; ; }
+Hasor (280) [Jozua 11:1 - Jozua 11:1]
+	{; ; ; }
+Madon (281) [Jozua 11:1 - Jozua 11:1]
+	{; ; ; }
+Simron (282) [Jozua 11:1 - Jozua 11:1]
+	{; ; ; }
+Achsaf (283) [Jozua 11:1 - Jozua 11:1]
+	{; ; ; }
+Het meer v Kinneret (284) [Jozua 11:2 - Jozua 11:2]
+	{; ; ; }
+Dor (285) [Jozua 11:2 - Jozua 11:2]
+	{; ; ; }
+Hermon (286) [Jozua 11:3 - Jozua 11:3]
+	{; ; ; }
+Merom (287) [Jozua 11:5 - Jozua 11:5]
+	{; ; ; }
+Groot-Sidon (288) [Jozua 11:8 - Jozua 11:8]
+	{; ; ; }
+Misrefot-Maë (289) [Jozua 11:8 - Jozua 11:8]
+	{; ; ; }
+Mispevallei (290) [Jozua 11:8 - Jozua 11:8]
+	{; ; ; }
+Baë (291) [Jozua 11:17 - Jozua 11:17]
+	{; Gad; ; }
+Anab (292) [Jozua 11:21 - Jozua 11:21]
+	{; ; ; }
+Gat (293) [Jozua 11:22 - Jozua 11:22]
+	{; ; ; }
+Asdod (294) [Jozua 11:22 - Jozua 11:22]
+	{; ; ; }
+Kale bergen (295) [Jozua 12:7 - Jozua 12:7]
+	{; ; ; }
+Jeruzalem (296) [Jozua 12:10 - Jozua 12:10]
+	{; ; ; }
+Geder (297) [Jozua 12:13 - Jozua 12:13]
+	{; ; ; }
+Tappuach (298) [Jozua 12:17 - Jozua 12:17]
+	{; ; ; }
+Chefer (299) [Jozua 12:17 - Jozua 12:17]
+	{; ; ; }
+Afek (300) [Jozua 12:18 - Jozua 12:18]
+	{; ; ; }
+Saronvlakte (301) [Jozua 12:18 - Jozua 12:18]
+	{; ; ; }
+Simron-Meron (302) [Jozua 12:20 - Jozua 12:20]
+	{; ; ; }
+Taë (303) [Jozua 12:21 - Jozua 12:21]
+	{; ch; ; }
+Megiddo (304) [Jozua 12:21 - Jozua 12:21]
+	{; ; ; }
+Kedes (305) [Jozua 12:22 - Jozua 12:22]
+	{; ; ; }
+Jokneam (306) [Jozua 12:22 - Jozua 12:22]
+	{; ; ; }
+De karmel (307) [Jozua 12:22 - Jozua 12:22]
+	{; ; ; }
+Tirsa (308) [Jozua 12:23 - Jozua 12:23]
+	{; ; ; }
+Ekron (309) [Jozua 13:3 - Jozua 13:3]
+	{; ; ; }
+Askelon (310) [Jozua 13:3 - Jozua 13:3]
+	{; ; ; }
+Ara (311) [Jozua 13:4 - Jozua 13:4]
+	{; ; ; }
+Bet-Baë (312) [Jozua 13:17 - Jozua 13:17]
+	{; Meon; ; }
+Mefaë (313) [Jozua 13:18 - Jozua 13:18]
+	{; ; ; }
+Seret-Hassachar (314) [Jozua 13:19 - Jozua 13:19]
+	{; ; ; }
+Ramat-Hammispe (315) [Jozua 13:25 - Jozua 13:25]
+	{; ; ; }
+Betonim (316) [Jozua 13:25 - Jozua 13:25]
+	{; ; ; }
+Lo-Debar (317) [Jozua 13:26 - Jozua 13:26]
+	{; ; ; }
+Bet-Haram (318) [Jozua 13:27 - Jozua 13:27]
+	{; ; ; }
+Safon (319) [Jozua 13:27 - Jozua 13:27]
+	{; ; ; }
+Addar (320) [Jozua 15:3 - Jozua 15:3]
+	{; ; ; }
+Karka (321) [Jozua 15:3 - Jozua 15:3]
+	{; ; ; }
+Bet-Chogla (322) [Jozua 15:6 - Jozua 15:6]
+	{; ; ; }
+Bet-Araba (323) [Jozua 15:6 - Jozua 15:6]
+	{; ; ; }
+Rots v Bohan (324) [Jozua 15:6 - Jozua 15:6]
+	{; ; ; }
+Adummimpas (325) [Jozua 15:7 - Jozua 15:7]
+	{; ; ; }
+Semesbron (326) [Jozua 15:7 - Jozua 15:7]
+	{; ; ; }
+Rogelbron (327) [Jozua 15:7 - Jozua 15:7]
+	{; ; ; }
+Ben-Hinnomdal (328) [Jozua 15:8 - Jozua 15:8]
+	{; ; ; }
+Jebus (329) [Jozua 15:8 - Jozua 15:8]
+	{; ; ; }
+Hinnomdal (330) [Jozua 15:8 - Jozua 15:8]
+	{; ; ; }
+Refaë (331) [Jozua 15:8 - Jozua 15:8]
+	{; ; ; }
+Me-Neftoach (332) [Jozua 15:9 - Jozua 15:9]
+	{; ; ; }
+Ijjim (333) [Jozua 15:9 - Jozua 15:9]
+	{; ; ; }
+Efron (334) [Jozua 15:9 - Jozua 15:9]
+	{; ; ; }
+Baë (335) [Jozua 15:9 - Jozua 15:9]
+	{; ; ; }
+Kesalon (336) [Jozua 15:10 - Jozua 15:10]
+	{; ; ; }
+Bet-Semes (337) [Jozua 15:10 - Jozua 15:10]
+	{; ; ; }
+Sikkaron (338) [Jozua 15:11 - Jozua 15:11]
+	{; ; ; }
+Jabneë (339) [Jozua 15:11 - Jozua 15:11]
+	{; ; ; }
+Kirjat-Sefer (340) [Jozua 15:15 - Jozua 15:15]
+	{; ; ; }
+Kabseë (341) [Jozua 15:21 - Jozua 15:21]
+	{; ; ; }
+Eder (342) [Jozua 15:21 - Jozua 15:21]
+	{; ; ; }
+Jagur (343) [Jozua 15:21 - Jozua 15:21]
+	{; ; ; }
+Kina (344) [Jozua 15:22 - Jozua 15:22]
+	{; ; ; }
+Dimona (345) [Jozua 15:22 - Jozua 15:22]
+	{; ; ; }
+Adada (346) [Jozua 15:22 - Jozua 15:22]
+	{; ; ; }
+Chasor (347) [Jozua 15:23 - Jozua 15:23]
+	{; ; ; }
+Jitnam (348) [Jozua 15:23 - Jozua 15:23]
+	{; ; ; }
+Zif (349) [Jozua 15:24 - Jozua 15:24]
+	{; ; ; }
+Telem (350) [Jozua 15:24 - Jozua 15:24]
+	{; ; ; }
+Bealot (351) [Jozua 15:24 - Jozua 15:24]
+	{; ; ; }
+Chasor-Chadatta (352) [Jozua 15:25 - Jozua 15:25]
+	{; ; ; }
+Keriot-Cherson (353) [Jozua 15:25 - Jozua 15:25]
+	{; ; ; }
+Amam (354) [Jozua 15:26 - Jozua 15:26]
+	{; ; ; }
+Sema (355) [Jozua 15:26 - Jozua 15:26]
+	{; ; ; }
+Molada (356) [Jozua 15:26 - Jozua 15:26]
+	{; ; ; }
+Chasar-Gadda (357) [Jozua 15:27 - Jozua 15:27]
+	{; ; ; }
+Chesmon (358) [Jozua 15:27 - Jozua 15:27]
+	{; ; ; }
+Bet-Pelet (359) [Jozua 15:27 - Jozua 15:27]
+	{; ; ; }
+Chasar-Sual (360) [Jozua 15:28 - Jozua 15:28]
+	{; ; ; }
+Esem (361) [Jozua 15:29 - Jozua 15:29]
+	{; ; ; }
+Eltolad (362) [Jozua 15:30 - Jozua 15:30]
+	{; ; ; }
+Kesil (363) [Jozua 15:30 - Jozua 15:30]
+	{; ; ; }
+Siklag (364) [Jozua 15:31 - Jozua 15:31]
+	{; ; ; }
+Madmanna (365) [Jozua 15:31 - Jozua 15:31]
+	{; ; ; }
+Sansanna (366) [Jozua 15:31 - Jozua 15:31]
+	{; ; ; }
+Lebaot (367) [Jozua 15:32 - Jozua 15:32]
+	{; ; ; }
+Silchim (368) [Jozua 15:32 - Jozua 15:32]
+	{; ; ; }
+Rimmon (369) [Jozua 15:32 - Jozua 15:32]
+	{; ; ; }
+Estaol (370) [Jozua 15:33 - Jozua 15:33]
+	{; ; ; }
+Sora (371) [Jozua 15:33 - Jozua 15:33]
+	{; ; ; }
+Asna (372) [Jozua 15:33 - Jozua 15:33]
+	{; ; ; }
+Zanoach (373) [Jozua 15:34 - Jozua 15:34]
+	{; ; ; }
+En-Gannim (374) [Jozua 15:34 - Jozua 15:34]
+	{; ; ; }
+Enam (375) [Jozua 15:34 - Jozua 15:34]
+	{; ; ; }
+Socho (376) [Jozua 15:35 - Jozua 15:35]
+	{; ; ; }
+Saë (377) [Jozua 15:36 - Jozua 15:36]
+	{; m; ; }
+Aditaë (378) [Jozua 15:36 - Jozua 15:36]
+	{; ; ; }
+Gedera (379) [Jozua 15:36 - Jozua 15:36]
+	{; ; ; }
+Gederotaë (380) [Jozua 15:36 - Jozua 15:36]
+	{; ; ; }
+Senan (381) [Jozua 15:37 - Jozua 15:37]
+	{; ; ; }
+Chadasa (382) [Jozua 15:37 - Jozua 15:37]
+	{; ; ; }
+Migdal-Gad (383) [Jozua 15:37 - Jozua 15:37]
+	{; ; ; }
+Dilan (384) [Jozua 15:38 - Jozua 15:38]
+	{; ; ; }
+Mispe (385) [Jozua 15:38 - Jozua 15:38]
+	{; ; ; }
+Jokteë (386) [Jozua 15:38 - Jozua 15:38]
+	{; ; ; }
+Boskat (387) [Jozua 15:39 - Jozua 15:39]
+	{; ; ; }
+Kabbon (388) [Jozua 15:40 - Jozua 15:40]
+	{; ; ; }
+Lachmas (389) [Jozua 15:40 - Jozua 15:40]
+	{; ; ; }
+Kitlis (390) [Jozua 15:40 - Jozua 15:40]
+	{; ; ; }
+Gederot (391) [Jozua 15:41 - Jozua 15:41]
+	{; ; ; }
+Bet-Dagon (392) [Jozua 15:41 - Jozua 15:41]
+	{; ; ; }
+Naë (393) [Jozua 15:41 - Jozua 15:41]
+	{; ; ; }
+Eter (394) [Jozua 15:42 - Jozua 15:42]
+	{; ; ; }
+Asan (395) [Jozua 15:42 - Jozua 15:42]
+	{; ; ; }
+Jiftach (396) [Jozua 15:43 - Jozua 15:43]
+	{; ; ; }
+Nesib (397) [Jozua 15:43 - Jozua 15:43]
+	{; ; ; }
+Keë (398) [Jozua 15:44 - Jozua 15:44]
+	{; ; ; }
+Achzib (399) [Jozua 15:44 - Jozua 15:44]
+	{; ; ; }
+Maresa (400) [Jozua 15:44 - Jozua 15:44]
+	{; ; ; }
+Samir (401) [Jozua 15:48 - Jozua 15:48]
+	{; ; ; }
+Jattir (402) [Jozua 15:48 - Jozua 15:48]
+	{; ; ; }
+Danna (403) [Jozua 15:49 - Jozua 15:49]
+	{; ; ; }
+Estemoa (404) [Jozua 15:50 - Jozua 15:50]
+	{; ; ; }
+Anim (405) [Jozua 15:50 - Jozua 15:50]
+	{; ; ; }
+Cholon (406) [Jozua 15:51 - Jozua 15:51]
+	{; ; ; }
+Gilo (407) [Jozua 15:51 - Jozua 15:51]
+	{; ; ; }
+Arab (408) [Jozua 15:52 - Jozua 15:52]
+	{; ; ; }
+Ruma (409) [Jozua 15:52 - Jozua 15:52]
+	{; ; ; }
+Esan (410) [Jozua 15:52 - Jozua 15:52]
+	{; ; ; }
+Janum (411) [Jozua 15:53 - Jozua 15:53]
+	{; ; ; }
+Bet-Tappuach (412) [Jozua 15:53 - Jozua 15:53]
+	{; ; ; }
+Afeka (413) [Jozua 15:53 - Jozua 15:53]
+	{; ; ; }
+Chumta (414) [Jozua 15:54 - Jozua 15:54]
+	{; ; ; }
+Maon (415) [Jozua 15:55 - Jozua 15:55]
+	{; ; ; }
+Karmel (416) [Jozua 15:55 - Jozua 15:55]
+	{; ; ; }
+Jutta (417) [Jozua 15:55 - Jozua 15:55]
+	{; ; ; }
+Jizreë (418) [Jozua 15:56 - Jozua 15:56]
+	{; ; ; }
+Jokdeam (419) [Jozua 15:56 - Jozua 15:56]
+	{; ; ; }
+Kaë (420) [Jozua 15:57 - Jozua 15:57]
+	{; ; ; }
+Gibea (421) [Jozua 15:57 - Jozua 15:57]
+	{; ; ; }
+Chalchul (422) [Jozua 15:58 - Jozua 15:58]
+	{; ; ; }
+Bet-Sur (423) [Jozua 15:58 - Jozua 15:58]
+	{; ; ; }
+Gedor (424) [Jozua 15:58 - Jozua 15:58]
+	{; ; ; }
+Maë (425) [Jozua 15:59 - Jozua 15:59]
+	{; t; ; }
+Bet-Anon (426) [Jozua 15:59 - Jozua 15:59]
+	{; ; ; }
+Eltekon (427) [Jozua 15:59 - Jozua 15:59]
+	{; ; ; }
+Kirjat-Baë (428) [Jozua 15:60 - Jozua 15:60]
+	{; ; ; }
+Middin (429) [Jozua 15:61 - Jozua 15:61]
+	{; ; ; }
+Sechacha (430) [Jozua 15:61 - Jozua 15:61]
+	{; ; ; }
+Nibsan (431) [Jozua 15:62 - Jozua 15:62]
+	{; ; ; }
+Ir-Hammelach (432) [Jozua 15:62 - Jozua 15:62]
+	{; ; ; }
+Engedi (433) [Jozua 15:62 - Jozua 15:62]
+	{; ; ; }
+Laag-Bet-Choron (434) [Jozua 16:3 - Jozua 16:3]
+	{; ; ; }
+Atrot-Adar (435) [Jozua 16:5 - Jozua 16:5]
+	{; ; ; }
+Hoog-Bet-Choron (436) [Jozua 16:5 - Jozua 16:5]
+	{; ; ; }
+Michmetat (437) [Jozua 16:6 - Jozua 16:6]
+	{; ; ; }
+Taë (438) [Jozua 16:6 - Jozua 16:6]
+	{; t-Silo; ; }
+Janoach (439) [Jozua 16:6 - Jozua 16:6]
+	{; ; ; }
+Naë (440) [Jozua 16:7 - Jozua 16:7]
+	{; ; ; }
+Kana (441) [Jozua 16:8 - Jozua 16:8]
+	{; ; ; }
+Jasib (442) [Jozua 17:7 - Jozua 17:7]
+	{; ; ; }
+En-Tappuach (443) [Jozua 17:7 - Jozua 17:7]
+	{; ; ; }
+Bet-San (444) [Jozua 17:11 - Jozua 17:11]
+	{; ; ; }
+Jibleam (445) [Jozua 17:11 - Jozua 17:11]
+	{; ; ; }
+Endor (446) [Jozua 17:11 - Jozua 17:11]
+	{; ; ; }
+Silo (447) [Jozua 18:1 - Jozua 18:1]
+	{; ; ; }
+Atrot-Addar (448) [Jozua 18:13 - Jozua 18:13]
+	{; ; ; }
+Vallei van Refaë (449) [Jozua 18:16 - Jozua 18:16]
+	{; ; ; }
+Gelilot (450) [Jozua 18:17 - Jozua 18:17]
+	{; ; ; }
+Adummipas (451) [Jozua 18:17 - Jozua 18:17]
+	{; ; ; }
+Rots van Bohan (452) [Jozua 18:17 - Jozua 18:17]
+	{; ; ; }
+Zoutzee (453) [Jozua 18:19 - Jozua 18:19]
+	{; ; ; }
+Emek-Kesis (454) [Jozua 18:21 - Jozua 18:21]
+	{; ; ; }
+Semaraë (455) [Jozua 18:22 - Jozua 18:22]
+	{; ; ; }
+Awwim (456) [Jozua 18:23 - Jozua 18:23]
+	{; ; ; }
+Para (457) [Jozua 18:23 - Jozua 18:23]
+	{; ; ; }
+Ofra (458) [Jozua 18:23 - Jozua 18:23]
+	{; ; ; }
+Kefar-Haë (459) [Jozua 18:24 - Jozua 18:24]
+	{; oni; ; }
+Ofni (460) [Jozua 18:24 - Jozua 18:24]
+	{; ; ; }
+Geba (461) [Jozua 18:24 - Jozua 18:24]
+	{; ; ; }
+Rama (462) [Jozua 18:25 - Jozua 18:25]
+	{; ; ; }
+Masa (463) [Jozua 18:26 - Jozua 18:26]
+	{; ; ; }
+Rekem (464) [Jozua 18:27 - Jozua 18:27]
+	{; ; ; }
+Jirpeë (465) [Jozua 18:27 - Jozua 18:27]
+	{; ; ; }
+Tarala (466) [Jozua 18:27 - Jozua 18:27]
+	{; ; ; }
+Sela (467) [Jozua 18:28 - Jozua 18:28]
+	{; ; ; }
+Elef (468) [Jozua 18:28 - Jozua 18:28]
+	{; ; ; }
+Bala (469) [Jozua 19:3 - Jozua 19:3]
+	{; ; ; }
+Betul (470) [Jozua 19:4 - Jozua 19:4]
+	{; ; ; }
+Bet-HammarKabot (471) [Jozua 19:5 - Jozua 19:5]
+	{; ; ; }
+Chasar-Susa (472) [Jozua 19:5 - Jozua 19:5]
+	{; ; ; }
+Bet-Lebaot (473) [Jozua 19:6 - Jozua 19:6]
+	{; ; ; }
+Saruchen (474) [Jozua 19:6 - Jozua 19:6]
+	{; ; ; }
+Baë (475) [Jozua 19:8 - Jozua 19:8]
+	{; t-Beë; ; }
+Ramat-Negev (476) [Jozua 19:8 - Jozua 19:8]
+	{; ; ; }
+Sarid (477) [Jozua 19:10 - Jozua 19:10]
+	{; ; ; }
+Marala (478) [Jozua 19:11 - Jozua 19:11]
+	{; ; ; }
+Dabbeset (479) [Jozua 19:11 - Jozua 19:11]
+	{; ; ; }
+Kislot-Tabor (480) [Jozua 19:12 - Jozua 19:12]
+	{; ; ; }
+Daberat (481) [Jozua 19:12 - Jozua 19:12]
+	{; ; ; }
+Jafia (482) [Jozua 19:12 - Jozua 19:12]
+	{; ; ; }
+Gat-Hachefer (483) [Jozua 19:13 - Jozua 19:13]
+	{; ; ; }
+Et-Kasin (484) [Jozua 19:13 - Jozua 19:13]
+	{; ; ; }
+Nea (485) [Jozua 19:13 - Jozua 19:13]
+	{; ; ; }
+Channaton (486) [Jozua 19:14 - Jozua 19:14]
+	{; ; ; }
+Jiftach-El (487) [Jozua 19:14 - Jozua 19:14]
+	{; ; ; }
+Kattat (488) [Jozua 19:15 - Jozua 19:15]
+	{; ; ; }
+Nahalal (489) [Jozua 19:15 - Jozua 19:15]
+	{; ; ; }
+Simson (490) [Jozua 19:15 - Jozua 19:15]
+	{; ; ; }
+Jidala (491) [Jozua 19:15 - Jozua 19:15]
+	{; ; ; }
+Bet-Lechem (492) [Jozua 19:15 - Jozua 19:15]
+	{; ; ; }
+Kesullot (493) [Jozua 19:18 - Jozua 19:18]
+	{; ; ; }
+Sunem (494) [Jozua 19:18 - Jozua 19:18]
+	{; ; ; }
+Chafaraë (495) [Jozua 19:19 - Jozua 19:19]
+	{; ; ; }
+Sion (496) [Jozua 19:19 - Jozua 19:19]
+	{; ; ; }
+Anacharat (497) [Jozua 19:19 - Jozua 19:19]
+	{; ; ; }
+Rabbit (498) [Jozua 19:20 - Jozua 19:20]
+	{; ; ; }
+Kisjon (499) [Jozua 19:20 - Jozua 19:20]
+	{; ; ; }
+Ebes (500) [Jozua 19:20 - Jozua 19:20]
+	{; ; ; }
+Remet (501) [Jozua 19:21 - Jozua 19:21]
+	{; ; ; }
+En-Chadda (502) [Jozua 19:21 - Jozua 19:21]
+	{; ; ; }
+Bet-Passes (503) [Jozua 19:21 - Jozua 19:21]
+	{; ; ; }
+Tabor (504) [Jozua 19:22 - Jozua 19:22]
+	{; ; ; }
+Sachasim (505) [Jozua 19:22 - Jozua 19:22]
+	{; ; ; }
+Chelkat (506) [Jozua 19:25 - Jozua 19:25]
+	{; ; ; }
+Chali (507) [Jozua 19:25 - Jozua 19:25]
+	{; ; ; }
+Beten (508) [Jozua 19:25 - Jozua 19:25]
+	{; ; ; }
+Allammelech (509) [Jozua 19:26 - Jozua 19:26]
+	{; ; ; }
+Amad (510) [Jozua 19:26 - Jozua 19:26]
+	{; ; ; }
+Misal (511) [Jozua 19:26 - Jozua 19:26]
+	{; ; ; }
+Libnat (512) [Jozua 19:26 - Jozua 19:26]
+	{; ; ; }
+Bet-Haë (513) [Jozua 19:27 - Jozua 19:27]
+	{; k; ; }
+Neë (514) [Jozua 19:27 - Jozua 19:27]
+	{; ; ; }
+Kabul (515) [Jozua 19:27 - Jozua 19:27]
+	{; ; ; }
+Abdon (516) [Jozua 19:28 - Jozua 19:28]
+	{; ; ; }
+Chammon (517) [Jozua 19:28 - Jozua 19:28]
+	{; ; ; }
+Tyrus (518) [Jozua 19:29 - Jozua 19:29]
+	{; ; ; }
+Chosa (519) [Jozua 19:29 - Jozua 19:29]
+	{; ; ; }
+Machaleb (520) [Jozua 19:29 - Jozua 19:29]
+	{; ; ; }
+Akko (521) [Jozua 19:30 - Jozua 19:30]
+	{; ; ; }
+Chelef (522) [Jozua 19:33 - Jozua 19:33]
+	{; ; ; }
+Saë (523) [Jozua 19:33 - Jozua 19:33]
+	{; nnim; ; }
+Adami-Nekeb (524) [Jozua 19:33 - Jozua 19:33]
+	{; ; ; }
+Lakkum (525) [Jozua 19:33 - Jozua 19:33]
+	{; ; ; }
+Aznot-Tabor (526) [Jozua 19:34 - Jozua 19:34]
+	{; ; ; }
+Chukok (527) [Jozua 19:34 - Jozua 19:34]
+	{; ; ; }
+Jehuda (528) [Jozua 19:34 - Jozua 19:34]
+	{; ; ; }
+Siddim (529) [Jozua 19:35 - Jozua 19:35]
+	{; ; ; }
+Ser (530) [Jozua 19:35 - Jozua 19:35]
+	{; ; ; }
+Chammat (531) [Jozua 19:35 - Jozua 19:35]
+	{; ; ; }
+Rakkat (532) [Jozua 19:35 - Jozua 19:35]
+	{; ; ; }
+Kinneret (533) [Jozua 19:35 - Jozua 19:35]
+	{; ; ; }
+Adama (534) [Jozua 19:36 - Jozua 19:36]
+	{; ; ; }
+En-Chasor (535) [Jozua 19:37 - Jozua 19:37]
+	{; ; ; }
+Jiron (536) [Jozua 19:38 - Jozua 19:38]
+	{; ; ; }
+Migdal-El (537) [Jozua 19:38 - Jozua 19:38]
+	{; ; ; }
+Chorem (538) [Jozua 19:38 - Jozua 19:38]
+	{; ; ; }
+Bet-Anat (539) [Jozua 19:38 - Jozua 19:38]
+	{; ; ; }
+Ir-Semes (540) [Jozua 19:41 - Jozua 19:41]
+	{; ; ; }
+Saë (541) [Jozua 19:42 - Jozua 19:42]
+	{; bbin; ; }
+Jitla (542) [Jozua 19:42 - Jozua 19:42]
+	{; ; ; }
+Elon (543) [Jozua 19:43 - Jozua 19:43]
+	{; ; ; }
+Elteke (544) [Jozua 19:44 - Jozua 19:44]
+	{; ; ; }
+Gibbeton (545) [Jozua 19:44 - Jozua 19:44]
+	{; ; ; }
+Baë (546) [Jozua 19:44 - Jozua 19:44]
+	{; t; ; }
+Jehud (547) [Jozua 19:45 - Jozua 19:45]
+	{; ; ; }
+Bene-Berak (548) [Jozua 19:45 - Jozua 19:45]
+	{; ; ; }
+Gat-Rimmon (549) [Jozua 19:45 - Jozua 19:45]
+	{; ; ; }
+Me-Hajjarkon (550) [Jozua 19:46 - Jozua 19:46]
+	{; ; ; }
+Rakkon (551) [Jozua 19:46 - Jozua 19:46]
+	{; ; ; }
+Jafo (552) [Jozua 19:46 - Jozua 19:46]
+	{; ; ; }
+Lesem (553) [Jozua 19:47 - Jozua 19:47]
+	{; ; ; }
+Timnat-Serach (554) [Jozua 19:50 - Jozua 19:50]
+	{; ; ; }
+Galilea (555) [Jozua 20:7 - Jozua 20:7]
+	{; ; ; }
+Kitjat-Arba (556) [Jozua 21:11 - Jozua 21:11]
+	{; ; ; }
+Anatot (557) [Jozua 21:18 - Jozua 21:18]
+	{; ; ; }
+Almon (558) [Jozua 21:18 - Jozua 21:18]
+	{; ; ; }
+Kibsaë (559) [Jozua 21:22 - Jozua 21:22]
+	{; ; ; }
+Chammot-Dor (560) [Jozua 21:32 - Jozua 21:32]
+	{; ; ; }
+Kartan (561) [Jozua 21:32 - Jozua 21:32]
+	{; ; ; }
+Karta (562) [Jozua 21:34 - Jozua 21:34]
+	{; ; ; }
+Dimna (563) [Jozua 21:35 - Jozua 21:35]
+	{; ; ; }
+Nahalel (564) [Jozua 21:35 - Jozua 21:35]
+	{; ; ; }
+Chesbor (565) [Jozua 21:39 - Jozua 21:39]
+	{; ; ; }
+Gaë (566) [Jozua 24:30 - Jozua 24:30]
+	{; ; ; }
+Bezek (567) [Rechters 1:4 - Rechters 1:4]
+	{; ; ; }
+Palmstad (568) [Rechters 1:16 - Rechters 1:16]
+	{; ; ; }
+Sefat (569) [Rechters 1:17 - Rechters 1:17]
+	{; ; ; }
+Kitron (570) [Rechters 1:30 - Rechters 1:30]
+	{; ; ; }
+Nahalol (571) [Rechters 1:30 - Rechters 1:30]
+	{; ; ; }
+Achlab (572) [Rechters 1:31 - Rechters 1:31]
+	{; ; ; }
+Chelba (573) [Rechters 1:31 - Rechters 1:31]
+	{; ; ; }
+Har-Cheres (574) [Rechters 1:35 - Rechters 1:35]
+	{; ; ; }
+Saë (575) [Rechters 1:35 - Rechters 1:35]
+	{; im; ; }
+Bochim (576) [Rechters 2:1 - Rechters 2:1]
+	{; ; ; }
+Timnet-Cheres (577) [Rechters 2:9 - Rechters 2:9]
+	{; ; ; }
+Libanongebergte (578) [Rechters 3:3 - Rechters 3:3]
+	{; ; ; }
+Baë (579) [Rechters 3:3 - Rechters 3:3]
+	{; Hermon; ; }
+Seë (580) [Rechters 3:26 - Rechters 3:26]
+	{; ; ; }
+Efraë (581) [Rechters 3:27 - Rechters 3:27]
+	{; ; ; }
+Chasoret-Haggojim (582) [Rechters 4:2 - Rechters 4:2]
+	{; ; ; }
+Deborapalm (583) [Rechters 4:5 - Rechters 4:5]
+	{; ; ; }
+Naftali (584) [Rechters 4:6 - Rechters 4:6]
+	{; ; ; }
+Kison (585) [Rechters 4:7 - Rechters 4:7]
+	{; ; ; }
+Saë (586) [Rechters 4:11 - Rechters 4:11]
+	{; nnim; ; }
+Charoset-Haggojim (587) [Rechters 4:13 - Rechters 4:13]
+	{; ; ; }
+Machir (588) [Rechters 5:14 - Rechters 5:14]
+	{; ; ; }
+Zebulon (589) [Rechters 5:14 - Rechters 5:14]
+	{; ; ; }
+Meroz (590) [Rechters 5:23 - Rechters 5:23]
+	{; ; ; }
+Manassa (591) [Rechters 6:35 - Rechters 6:35]
+	{; ; ; }
+Charodbron (592) [Rechters 7:1 - Rechters 7:1]
+	{; ; ; }
+More (593) [Rechters 7:1 - Rechters 7:1]
+	{; ; ; }
+Serera (594) [Rechters 7:22 - Rechters 7:22]
+	{; ; ; }
+Bet-Hassitta (595) [Rechters 7:22 - Rechters 7:22]
+	{; ; ; }
+Abel-Mechola (596) [Rechters 7:22 - Rechters 7:22]
+	{; ; ; }
+Tabbat (597) [Rechters 7:22 - Rechters 7:22]
+	{; ; ; }
+Bet-Bara (598) [Rechters 7:24 - Rechters 7:24]
+	{; ; ; }
+Rots van Oreb (599) [Rechters 7:25 - Rechters 7:25]
+	{; ; ; }
+Perskuip van Zeë (600) [Rechters 7:25 - Rechters 7:25]
+	{; ; ; }
+Penuë (601) [Rechters 8:8 - Rechters 8:8]
+	{; ; ; }
+Karkor (602) [Rechters 8:10 - Rechters 8:10]
+	{; ; ; }
+Nobach (603) [Rechters 8:11 - Rechters 8:11]
+	{; ; ; }
+Cherespas (604) [Rechters 8:13 - Rechters 8:13]
+	{; ; ; }
+Bet-Millo (605) [Rechters 9:6 - Rechters 9:6]
+	{; ; ; }
+Eik van het gedenkteken (606) [Rechters 9:6 - Rechters 9:6]
+	{; ; ; }
+Waarzeggerseik (607) [Rechters 9:37 - Rechters 9:37]
+	{; ; ; }
+Aruma (608) [Rechters 9:41 - Rechters 9:41]
+	{; ; ; }
+Migdal-Sichem (609) [Rechters 9:46 - Rechters 9:46]
+	{; ; ; }
+El-Berit (610) [Rechters 9:46 - Rechters 9:46]
+	{; ; ; }
+Salmon (611) [Rechters 9:48 - Rechters 9:48]
+	{; ; ; }
+Tebes (612) [Rechters 9:50 - Rechters 9:50]
+	{; ; ; }
+Kamon (613) [Rechters 10:5 - Rechters 10:5]
+	{; ; ; }
+Tob (614) [Rechters 11:3 - Rechters 11:3]
+	{; ; ; }
+Ammon (615) [Rechters 11:13 - Rechters 11:13]
+	{; ; ; }
+Minnit (616) [Rechters 11:33 - Rechters 11:33]
+	{; ; ; }
+Abel-Keramin (617) [Rechters 11:33 - Rechters 11:33]
+	{; ; ; }
+Piraton (618) [Rechters 12:13 - Rechters 12:13]
+	{; ; ; }
+Lechi (619) [Rechters 15:9 - Rechters 15:9]
+	{; ; ; }
+Ramat-Lechi (620) [Rechters 15:17 - Rechters 15:17]
+	{; ; ; }
+En-Hakkore (621) [Rechters 15:19 - Rechters 15:19]
+	{; ; ; }
+Sorekdal (622) [Rechters 16:4 - Rechters 16:4]
+	{; ; ; }
+Betlehem (623) [Rechters 17:7 - Rechters 17:7]
+	{; ; ; }
+Laë (624) [Rechters 18:7 - Rechters 18:7]
+	{; ; ; }
+Bet-Rechob (625) [Rechters 18:28 - Rechters 18:28]
+	{; ; ; }
+Baë (626) [Rechters 20:33 - Rechters 20:33]
+	{; Tamar; ; }
+Gidom (627) [Rechters 20:45 - Rechters 20:45]
+	{; ; ; }
+Jabes (628) [Rechters 21:8 - Rechters 21:8]
+	{; ; ; }
+Lebona (629) [Rechters 21:19 - Rechters 21:19]
+	{; ; ; }
+Efrata (630) [Ruth 4:11 - Ruth 4:11]
+	{; ; ; }
+Eben-Haë (631) [1-Samuel 4:1 - 1-Samuel 4:1]
+	{; r; ; }
+Bet-Kar (632) [1-Samuel 7:11 - 1-Samuel 7:11]
+	{; ; ; }
+Salisa (633) [1-Samuel 9:4 - 1-Samuel 9:4]
+	{; ; ; }
+Saë (634) [1-Samuel 9:4 - 1-Samuel 9:4]
+	{; m; ; }
+Selsach (635) [1-Samuel 10:2 - 1-Samuel 10:2]
+	{; ; ; }
+Tabor-eip (636) [1-Samuel 10:3 - 1-Samuel 10:3]
+	{; ; ; }
+Gibea-Elohim (637) [1-Samuel 10:5 - 1-Samuel 10:5]
+	{; ; ; }
+Michmas (638) [1-Samuel 13:2 - 1-Samuel 13:2]
+	{; ; ; }
+Gad (639) [1-Samuel 13:7 - 1-Samuel 13:7]
+	{; ; ; }
+Sual (640) [1-Samuel 13:17 - 1-Samuel 13:17]
+	{; ; ; }
+Hyenavallei (641) [1-Samuel 13:18 - 1-Samuel 13:18]
+	{; ; ; }
+Migron (642) [1-Samuel 14:2 - 1-Samuel 14:2]
+	{; ; ; }
+Boses (643) [1-Samuel 14:5 - 1-Samuel 14:5]
+	{; ; ; }
+Senne (644) [1-Samuel 14:5 - 1-Samuel 14:5]
+	{; ; ; }
+Ajjolon (645) [1-Samuel 5:31 - 1-Samuel 5:31]
+	{; ; ; }
+Soba (646) [1-Samuel 5:47 - 1-Samuel 5:47]
+	{; ; ; }
+Sen (647) [1-Samuel 7:12 - 1-Samuel 7:12]
+	{; ; ; }
+Telaë (648) [1-Samuel 15:4 - 1-Samuel 15:4]
+	{; ; ; }
+Efes-Dammim (649) [1-Samuel 17:1 - 1-Samuel 17:1]
+	{; ; ; }
+Terebintenvallei (650) [1-Samuel 17:2 - 1-Samuel 17:2]
+	{; ; ; }
+Saäraïm (651) [1-Samuel 17:52 - 1-Samuel 17:52]
+	{; ; ; }
+Mechola (652) [1-Samuel 18:19 - 1-Samuel 18:19]
+	{; ; ; }
+Sechu (653) [1-Samuel 19:22 - 1-Samuel 19:22]
+	{; ; ; }
+Haë (654) [1-Samuel 20:19 - 1-Samuel 20:19]
+	{; lrots; ; }
+Nob (655) [1-Samuel 21:2 - 1-Samuel 21:2]
+	{; ; ; }
+Cheretbos (656) [1-Samuel 22:5 - 1-Samuel 22:5]
+	{; ; ; }
+Chachila (657) [1-Samuel 23:19 - 1-Samuel 23:19]
+	{; ; ; }
+Araba (658) [1-Samuel 23:24 - 1-Samuel 23:24]
+	{; ; ; }
+Sela-Hammachlekot (659) [1-Samuel 23:28 - 1-Samuel 23:28]
+	{; kloof v/d scheiding; ; }
+Gallim (660) [1-Samuel 25:44 - 1-Samuel 25:44]
+	{; ; ; }
+Telam (661) [1-Samuel 27:8 - 1-Samuel 27:8]
+	{; ; ; }
+Gilboagebergte (662) [1-Samuel 28:4 - 1-Samuel 28:4]
+	{; ; ; }
+Efek (663) [1-Samuel 29:1 - 1-Samuel 29:1]
+	{; ; ; }
+Besor (664) [1-Samuel 30:9 - 1-Samuel 30:9]
+	{; ; ; }
+Betuë (665) [1-Samuel 30:27 - 1-Samuel 30:27]
+	{; ; ; }
+Ramot-Negev (666) [1-Samuel 30:27 - 1-Samuel 30:27]
+	{; ; ; }
+Sifmot (667) [1-Samuel 30:28 - 1-Samuel 30:28]
+	{; ; ; }
+Rachal (668) [1-Samuel 30:29 - 1-Samuel 30:29]
+	{; ; ; }
+Bor-Asan (669) [1-Samuel 30:30 - 1-Samuel 30:30]
+	{; ; ; }
+Atach (670) [1-Samuel 30:30 - 1-Samuel 30:30]
+	{; ; ; }
+Gilboa (671) [2-Samuel 1:6 - 2-Samuel 1:6]
+	{; ; ; }
+Chelkat-Hassurim (672) [2-Samuel 2:16 - 2-Samuel 2:16]
+	{; Veld v/d scherpe punten; ; }
+Amma (673) [2-Samuel 2:24 - 2-Samuel 2:24]
+	{; ; ; }
+Giach (674) [2-Samuel 2:24 - 2-Samuel 2:24]
+	{; ; ; }
+Bitron (675) [2-Samuel 2:29 - 2-Samuel 2:29]
+	{; ; ; }
+Bachurim (676) [2-Samuel 3:16 - 2-Samuel 3:16]
+	{; ; ; }
+Put van Sira (677) [2-Samuel 3:26 - 2-Samuel 3:26]
+	{; ; ; }
+Gittaë (678) [2-Samuel 4:3 - 2-Samuel 4:3]
+	{; ; ; }
+Millobolwerk (679) [2-Samuel 5:9 - 2-Samuel 5:9]
+	{; ; ; }
+Baë (680) [2-Samuel 5:20 - 2-Samuel 5:20]
+	{; Perasim; ; }
+Baë (681) [2-Samuel 6:2 - 2-Samuel 6:2]
+	{; in Juda; ; }
+Peres-Uzza (682) [2-Samuel 6:8 - 2-Samuel 6:8]
+	{; Kloof van Uzza; ; }
+Betach (683) [2-Samuel 8:8 - 2-Samuel 8:8]
+	{; ; ; }
+Beratoi (684) [2-Samuel 8:8 - 2-Samuel 8:8]
+	{; ; ; }
+Hamat (685) [2-Samuel 8:9 - 2-Samuel 8:9]
+	{; ; ; }
+Zoutvallei (686) [2-Samuel 8:13 - 2-Samuel 8:13]
+	{; ; ; }
+Is-Tob (687) [2-Samuel 10:6 - 2-Samuel 10:6]
+	{; ; ; }
+Chelam (688) [2-Samuel 10:16 - 2-Samuel 10:16]
+	{; ; ; }
+Baë (689) [2-Samuel 13:23 - 2-Samuel 13:23]
+	{; Chasor; ; }
+Tekoa (690) [2-Samuel 14:2 - 2-Samuel 14:2]
+	{; ; ; }
+Bet-Hammerchak (691) [2-Samuel 15:17 - 2-Samuel 15:17]
+	{; ; ; }
+Kidron (692) [2-Samuel 15:23 - 2-Samuel 15:23]
+	{; ; ; }
+Olijfberg (693) [2-Samuel 15:30 - 2-Samuel 15:30]
+	{; ; ; }
+Ajefim (694) [2-Samuel 16:14 - 2-Samuel 16:14]
+	{; ; ; }
+Rogelim (695) [2-Samuel 17:27 - 2-Samuel 17:27]
+	{; ; ; }
+Koningsvallei (696) [2-Samuel 18:18 - 2-Samuel 18:18]
+	{; ; ; }
+Abel-Bet-Maë (697) [2-Samuel 20:14 - 2-Samuel 20:14]
+	{; a; ; }
+Gob (698) [2-Samuel 21:18 - 2-Samuel 21:18]
+	{; ; ; }
+Chusa (699) [2-Samuel 21:18 - 2-Samuel 21:18]
+	{; ; ; }
+Chachmon (700) [2-Samuel 23:8 - 2-Samuel 23:8]
+	{; ; ; }
+Achoach (701) [2-Samuel 23:11 - 2-Samuel 23:11]
+	{; ; ; }
+Harar (702) [2-Samuel 23:11 - 2-Samuel 23:11]
+	{; ; ; }
+Charod (703) [2-Samuel 23:24 - 2-Samuel 23:24]
+	{; ; ; }
+Pelet (704) [2-Samuel 23:26 - 2-Samuel 23:26]
+	{; ; ; }
+Netofa (705) [2-Samuel 23:28 - 2-Samuel 23:28]
+	{; ; ; }
+Barchum (706) [2-Samuel 23:31 - 2-Samuel 23:31]
+	{; ; ; }
+Saë (707) [2-Samuel 23:32 - 2-Samuel 23:32]
+	{; on; ; }
+Gun (708) [2-Samuel 23:32 - 2-Samuel 23:32]
+	{; ; ; }
+Arar (709) [2-Samuel 23:33 - 2-Samuel 23:33]
+	{; ; ; }
+Arba (710) [2-Samuel 23:35 - 2-Samuel 23:35]
+	{; ; ; }
+Jeter (711) [2-Samuel 23:38 - 2-Samuel 23:38]
+	{; ; ; }
+Tachtim-Chodsi (712) [2-Samuel 24:6 - 2-Samuel 24:6]
+	{; ; ; }
+Dan-Jaë (713) [2-Samuel 24:6 - 2-Samuel 24:6]
+	{; ; ; }
+Gichonbron (714) [1-Koningen 1:33 - 1-Koningen 1:33]
+	{; ; ; }
+Makas (715) [1-Koningen 4:9 - 1-Koningen 4:9]
+	{; ; ; }
+Elon-Bet-Chanan (716) [1-Koningen 4:9 - 1-Koningen 4:9]
+	{; ; ; }
+Arubbot (717) [1-Koningen 4:10 - 1-Koningen 4:10]
+	{; ; ; }
+Sacho (718) [1-Koningen 4:10 - 1-Koningen 4:10]
+	{; ; ; }
+Jokmeam (719) [1-Koningen 4:12 - 1-Koningen 4:12]
+	{; ; ; }
+Aser (720) [1-Koningen 4:16 - 1-Koningen 4:16]
+	{; ; ; }
+Alot (721) [1-Koningen 4:16 - 1-Koningen 4:16]
+	{; ; ; }
+Issachar (722) [1-Koningen 4:17 - 1-Koningen 4:17]
+	{; ; ; }
+Benjamin (723) [1-Koningen 4:18 - 1-Koningen 4:18]
+	{; ; ; }
+Tifsach (724) [1-Koningen 5:4 - 1-Koningen 5:4]
+	{; ; ; }
+Gebal (725) [1-Koningen 5:32 - 1-Koningen 5:32]
+	{; ; ; }
+Jordaanvlakte (726) [1-Koningen 7:46 - 1-Koningen 7:46]
+	{; ; ; }
+Eres-Kabul (727) [1-Koningen 9:13 - 1-Koningen 9:13]
+	{; Land van niets; ; }
+Tamar (728) [1-Koningen 9:18 - 1-Koningen 9:18]
+	{; ; ; }
+Ofir (729) [1-Koningen 9:28 - 1-Koningen 9:28]
+	{; ; ; }
+Kewe (730) [1-Koningen 10:20 - 1-Koningen 10:20]
+	{; ; ; }
+Sereda (731) [1-Koningen 11:26 - 1-Koningen 11:26]
+	{; ; ; }
+Ijjon (732) [1-Koningen 15:20 - 1-Koningen 15:20]
+	{; ; ; }
+Samaria (733) [1-Koningen 16:24 - 1-Koningen 16:24]
+	{; ; ; }
+Kerit (734) [1-Koningen 17:3 - 1-Koningen 17:3]
+	{; ; ; }
+Sarefat (735) [1-Koningen 17:9 - 1-Koningen 17:9]
+	{; ; ; }
+Abel-Mechola (736) [1-Koningen 19:16 - 1-Koningen 19:16]
+	{; ; ; }
+Ejon-Geber (737) [1-Koningen 22:49 - 1-Koningen 22:49]
+	{; ; ; }
+Kir-Chareset (738) [2-Koningen 3:25 - 2-Koningen 3:25]
+	{; ; ; }
+Baë (739) [2-Koningen 4:42 - 2-Koningen 4:42]
+	{; Salisa; ; }
+Abana (740) [2-Koningen 5:12 - 2-Koningen 5:12]
+	{; ; ; }
+Parpar (741) [2-Koningen 5:12 - 2-Koningen 5:12]
+	{; ; ; }
+Saë (742) [2-Koningen 8:21 - 2-Koningen 8:21]
+	{; ; ; }
+Bet-Haggan (743) [2-Koningen 9:27 - 2-Koningen 9:27]
+	{; ; ; }
+Pas van Gur (744) [2-Koningen 9:27 - 2-Koningen 9:27]
+	{; ; ; }
+Bet-Eked (745) [2-Koningen 10:12 - 2-Koningen 10:12]
+	{; ; ; }
+Surpoort (746) [2-Koningen 11:6 - 2-Koningen 11:6]
+	{; ; ; }
+Paardenpoort (747) [2-Koningen 11:16 - 2-Koningen 11:16]
+	{; ; ; }
+Gardepoort (748) [2-Koningen 11:19 - 2-Koningen 11:19]
+	{; ; ; }
+Silla (749) [2-Koningen 12:21 - 2-Koningen 12:21]
+	{; ; ; }
+Efraë (750) [2-Koningen 14:13 - 2-Koningen 14:13]
+	{; oort; ; }
+Hoekpoort (751) [2-Koningen 14:13 - 2-Koningen 14:13]
+	{; ; ; }
+Tira (752) [2-Koningen 15:14 - 2-Koningen 15:14]
+	{; ; ; }
+Bovenpoort (753) [2-Koningen 15:35 - 2-Koningen 15:35]
+	{; ; ; }
+Kir (754) [2-Koningen 16:9 - 2-Koningen 16:9]
+	{; ; ; }
+Chalach (755) [2-Koningen 17:6 - 2-Koningen 17:6]
+	{; ; ; }
+Chabor (756) [2-Koningen 17:6 - 2-Koningen 17:6]
+	{; ; ; }
+Gozan (757) [2-Koningen 17:6 - 2-Koningen 17:6]
+	{; ; ; }
+Medië (758) [2-Koningen 17:6 - 2-Koningen 17:6]
+	{; ; ; }
+Kuta (759) [2-Koningen 17:24 - 2-Koningen 17:24]
+	{; ; ; }
+Awwa (760) [2-Koningen 17:24 - 2-Koningen 17:24]
+	{; ; ; }
+Sefarwaë (761) [2-Koningen 17:24 - 2-Koningen 17:24]
+	{; ; ; }
+Arpad (762) [2-Koningen 18:34 - 2-Koningen 18:34]
+	{; ; ; }
+Hena (763) [2-Koningen 18:34 - 2-Koningen 18:34]
+	{; ; ; }
+Iwwa (764) [2-Koningen 18:34 - 2-Koningen 18:34]
+	{; ; ; }
+Resef (765) [2-Koningen 19:12 - 2-Koningen 19:12]
+	{; ; ; }
+Telassar (766) [2-Koningen 19:12 - 2-Koningen 19:12]
+	{; ; ; }
+Ararat (767) [2-Koningen 19:37 - 2-Koningen 19:37]
+	{; ; ; }
+Babylonië (768) [2-Koningen 20:12 - 2-Koningen 20:12]
+	{; ; ; }
+Jotba (769) [2-Koningen 20:19 - 2-Koningen 20:19]
+	{; ; ; }
+Tofet (770) [2-Koningen 23:10 - 2-Koningen 23:10]
+	{; ; ; }
+Berg van het verderf (771) [2-Koningen 23:13 - 2-Koningen 23:13]
+	{; ; ; }
+Ribla (772) [2-Koningen 23:33 - 2-Koningen 23:33]
+	{; ; ; }
+Makreka (773) [1-Kronieken 1:47 - 1-Kronieken 1:47]
+	{; ; ; }
+Paë (774) [1-Kronieken 1:50 - 1-Kronieken 1:50]
+	{; ; ; }
+Dorpen van Jaë (775) [1-Kronieken 2:23 - 1-Kronieken 2:23]
+	{; ; ; }
+Kaleb-Efrata (776) [1-Kronieken 2:24 - 1-Kronieken 2:24]
+	{; ; ; }
+Korach (777) [1-Kronieken 2:43 - 1-Kronieken 2:43]
+	{; ; ; }
+Jorkoam (778) [1-Kronieken 2:44 - 1-Kronieken 2:44]
+	{; ; ; }
+Machbena (779) [1-Kronieken 2:49 - 1-Kronieken 2:49]
+	{; ; ; }
+Bet-Gader (780) [1-Kronieken 2:51 - 1-Kronieken 2:51]
+	{; ; ; }
+Menuchot (781) [1-Kronieken 2:52 - 1-Kronieken 2:52]
+	{; ; ; }
+Haroë (782) [1-Kronieken 2:52 - 1-Kronieken 2:52]
+	{; ; ; }
+Atrot-Bet-Joal (783) [1-Kronieken 2:54 - 1-Kronieken 2:54]
+	{; ; ; }
+Manachat (784) [1-Kronieken 2:54 - 1-Kronieken 2:54]
+	{; ; ; }
+Nachas (785) [1-Kronieken 3:12 - 1-Kronieken 3:12]
+	{; ; ; }
+Gai-Charasim (786) [1-Kronieken 3:14 - 1-Kronieken 3:14]
+	{; ; ; }
+Recha (787) [1-Kronieken 4:12 - 1-Kronieken 4:12]
+	{; ; ; }
+Lecha (788) [1-Kronieken 4:21 - 1-Kronieken 4:21]
+	{; ; ; }
+Bet-Asbea (789) [1-Kronieken 4:21 - 1-Kronieken 4:21]
+	{; ; ; }
+Kozeba (790) [1-Kronieken 4:22 - 1-Kronieken 4:22]
+	{; ; ; }
+Netaë (791) [1-Kronieken 4:23 - 1-Kronieken 4:23]
+	{; ; ; }
+Bilha (792) [1-Kronieken 4:29 - 1-Kronieken 4:29]
+	{; ; ; }
+Tolad (793) [1-Kronieken 4:29 - 1-Kronieken 4:29]
+	{; ; ; }
+Bet-Hammarkabot (794) [1-Kronieken 4:31 - 1-Kronieken 4:31]
+	{; ; ; }
+Chasar-Susim (795) [1-Kronieken 4:31 - 1-Kronieken 4:31]
+	{; ; ; }
+Bet-Biri (796) [1-Kronieken 4:31 - 1-Kronieken 4:31]
+	{; ; ; }
+Tochen (797) [1-Kronieken 4:32 - 1-Kronieken 4:32]
+	{; ; ; }
+Baë (798) [1-Kronieken 4:33 - 1-Kronieken 4:33]
+	{; ; ; }
+Neba (799) [1-Kronieken 5:8 - 1-Kronieken 5:8]
+	{; ; ; }
+Saron (800) [1-Kronieken 5:16 - 1-Kronieken 5:16]
+	{; ; ; }
+Gadi (801) [1-Kronieken 5:18 - 1-Kronieken 5:18]
+	{; ; ; }
+Oost-Manasse (802) [1-Kronieken 5:18 - 1-Kronieken 5:18]
+	{; ; ; }
+Senir (803) [1-Kronieken 5:23 - 1-Kronieken 5:23]
+	{; ; ; }
+Hermonmassief (804) [1-Kronieken 5:23 - 1-Kronieken 5:23]
+	{; ; ; }
+Hara (805) [1-Kronieken 5:26 - 1-Kronieken 5:26]
+	{; ; ; }
+Rivier van Gozan (806) [1-Kronieken 5:26 - 1-Kronieken 5:26]
+	{; ; ; }
+Chilez (807) [1-Kronieken 6:43 - 1-Kronieken 6:43]
+	{; ; ; }
+Alemet (808) [1-Kronieken 6:45 - 1-Kronieken 6:45]
+	{; ; ; }
+Aner (809) [1-Kronieken 6:55 - 1-Kronieken 6:55]
+	{; ; ; }
+Bileam (810) [1-Kronieken 6:55 - 1-Kronieken 6:55]
+	{; ; ; }
+Anem (811) [1-Kronieken 6:58 - 1-Kronieken 6:58]
+	{; ; ; }
+Masal (812) [1-Kronieken 6:59 - 1-Kronieken 6:59]
+	{; ; ; }
+Rimmono (813) [1-Kronieken 6:62 - 1-Kronieken 6:62]
+	{; ; ; }
+Uzzen-Seë (814) [1-Kronieken 7:24 - 1-Kronieken 7:24]
+	{; ; ; }
+Naë (815) [1-Kronieken 7:28 - 1-Kronieken 7:28]
+	{; n; ; }
+Ajja (816) [1-Kronieken 7:28 - 1-Kronieken 7:28]
+	{; ; ; }
+Bir-Zaë (817) [1-Kronieken 7:31 - 1-Kronieken 7:31]
+	{; ; ; }
+Ono (818) [1-Kronieken 8:12 - 1-Kronieken 8:12]
+	{; ; ; }
+Lod (819) [1-Kronieken 8:12 - 1-Kronieken 8:12]
+	{; ; ; }
+Koningspoort (820) [1-Kronieken 9:18 - 1-Kronieken 9:18]
+	{; ; ; }
+Pas-Dammim (821) [1-Kronieken 11:13 - 1-Kronieken 11:13]
+	{; ; ; }
+Haror (822) [1-Kronieken 11:27 - 1-Kronieken 11:27]
+	{; ; ; }
+Pelon (823) [1-Kronieken 11:27 - 1-Kronieken 11:27]
+	{; ; ; }
+Bachurum (824) [1-Kronieken 11:33 - 1-Kronieken 11:33]
+	{; ; ; }
+Gizon (825) [1-Kronieken 11:34 - 1-Kronieken 11:34]
+	{; ; ; }
+Mechera (826) [1-Kronieken 11:36 - 1-Kronieken 11:36]
+	{; ; ; }
+Meten (827) [1-Kronieken 11:43 - 1-Kronieken 11:43]
+	{; ; ; }
+Tis (828) [1-Kronieken 11:45 - 1-Kronieken 11:45]
+	{; ; ; }
+Charuf (829) [1-Kronieken 12:6 - 1-Kronieken 12:6]
+	{; ; ; }
+Tibchat (830) [1-Kronieken 18:8 - 1-Kronieken 18:8]
+	{; ; ; }
+Kun (831) [1-Kronieken 18:8 - 1-Kronieken 18:8]
+	{; ; ; }
+Naharaë (832) [1-Kronieken 19:6 - 1-Kronieken 19:6]
+	{; ; ; }
+Sallechetpoort (833) [1-Kronieken 26:16 - 1-Kronieken 26:16]
+	{; ; ; }
+Trappenstraat (834) [1-Kronieken 26:16 - 1-Kronieken 26:16]
+	{; ; ; }
+Jizrach (835) [1-Kronieken 27:8 - 1-Kronieken 27:8]
+	{; ; ; }
+Meronot (836) [1-Kronieken 27:30 - 1-Kronieken 27:30]
+	{; ; ; }
+Parwaë (837) [2-Kronieken 3:6 - 2-Kronieken 3:6]
+	{; ; ; }
+Seradata (838) [2-Kronieken 4:17 - 2-Kronieken 4:17]
+	{; ; ; }
+Hamat-Soba (839) [2-Kronieken 8:3 - 2-Kronieken 8:3]
+	{; ; ; }
+Tadmor (840) [2-Kronieken 8:4 - 2-Kronieken 8:4]
+	{; ; ; }
+Woud van de Libanon (841) [2-Kronieken 9:16 - 2-Kronieken 9:16]
+	{; ; ; }
+Tarsis (842) [2-Kronieken 9:21 - 2-Kronieken 9:21]
+	{; ; ; }
+Adoraë (843) [2-Kronieken 11:9 - 2-Kronieken 11:9]
+	{; ; ; }
+Jesana (844) [2-Kronieken 13:19 - 2-Kronieken 13:19]
+	{; ; ; }
+Sefata (845) [2-Kronieken 14:9 - 2-Kronieken 14:9]
+	{; ; ; }
+Abel-Maë (846) [2-Kronieken 16:4 - 2-Kronieken 16:4]
+	{; ; ; }
+Chaseson-Tamar (847) [2-Kronieken 20:2 - 2-Kronieken 20:2]
+	{; ; ; }
+Sis (848) [2-Kronieken 20:16 - 2-Kronieken 20:16]
+	{; ; ; }
+Woestijn van Jeruë (849) [2-Kronieken 20:16 - 2-Kronieken 20:16]
+	{; ; ; }
+Emek-Beracha (850) [2-Kronieken 20:26 - 2-Kronieken 20:26]
+	{; ; ; }
+Fundamentenpoort (851) [2-Kronieken 23:5 - 2-Kronieken 23:5]
+	{; ; ; }
+Jabne (852) [2-Kronieken 26:6 - 2-Kronieken 26:6]
+	{; ; ; }
+Gur-Baë (853) [2-Kronieken 26:7 - 2-Kronieken 26:7]
+	{; ; ; }
+Dalpoort (854) [2-Kronieken 26:9 - 2-Kronieken 26:9]
+	{; ; ; }
+De Punt (855) [2-Kronieken 26:9 - 2-Kronieken 26:9]
+	{; ; ; }
+Ofel (856) [2-Kronieken 27:3 - 2-Kronieken 27:3]
+	{; ; ; }
+Gizmo (857) [2-Kronieken 28:18 - 2-Kronieken 28:18]
+	{; ; ; }
+Oostpoort (858) [2-Kronieken 31:14 - 2-Kronieken 31:14]
+	{; ; ; }
+Vispoort (859) [2-Kronieken 33:14 - 2-Kronieken 33:14]
+	{; ; ; }
+Karkemis (860) [2-Kronieken 35:20 - 2-Kronieken 35:20]
+	{; ; ; }
+Perzië (861) [2-Kronieken 36:20 - 2-Kronieken 36:20]
+	{; ; ; }
+Azmawet (862) [Ezra 2:24 - Ezra 2:24]
+	{; ; ; }
+Chadid (863) [Ezra 2:33 - Ezra 2:33]
+	{; ; ; }
+Senaë (864) [Ezra 2:35 - Ezra 2:35]
+	{; ; ; }
+Tel-Melach (865) [Ezra 2:59 - Ezra 2:59]
+	{; ; ; }
+Tel-Charsa (866) [Ezra 2:59 - Ezra 2:59]
+	{; ; ; }
+Kerub (867) [Ezra 2:59 - Ezra 2:59]
+	{; ; ; }
+Addan (868) [Ezra 2:59 - Ezra 2:59]
+	{; ; ; }
+Immer (869) [Ezra 2:59 - Ezra 2:59]
+	{; ; ; }
+Sippar (870) [Ezra 4:9 - Ezra 4:9]
+	{; ; ; }
+Susa (871) [Ezra 4:9 - Ezra 4:9]
+	{; ; ; }
+Trans-Eufraat (872) [Ezra 4:10 - Ezra 4:10]
+	{; ; ; }
+Ekbatana (873) [Ezra 6:2 - Ezra 6:2]
+	{; ; ; }
+Ahawa (874) [Ezra 8:15 - Ezra 8:15]
+	{; ; ; }
+Kasifja (875) [Ezra 8:17 - Ezra 8:17]
+	{; ; ; }
+Machli (876) [Ezra 8:18 - Ezra 8:18]
+	{; ; ; }
+Ahawakanaal (877) [Ezra 8:21 - Ezra 8:21]
+	{; ; ; }
+Burcht van Susa (878) [Nehemia 1:1 - Nehemia 1:1]
+	{; ; ; }
+Drakenbron (879) [Nehemia 2:13 - Nehemia 2:13]
+	{; ; ; }
+Mestpoort (880) [Nehemia 2:13 - Nehemia 2:13]
+	{; ; ; }
+Bronpoort (881) [Nehemia 2:14 - Nehemia 2:14]
+	{; ; ; }
+Koningsvijver (882) [Nehemia 2:14 - Nehemia 2:14]
+	{; ; ; }
+Kidrondal (883) [Nehemia 2:15 - Nehemia 2:15]
+	{; ; ; }
+Schaapspoort (884) [Nehemia 3:1 - Nehemia 3:1]
+	{; ; ; }
+Honderdtoren (885) [Nehemia 3:1 - Nehemia 3:1]
+	{; ; ; }
+Chananeltoren (886) [Nehemia 3:1 - Nehemia 3:1]
+	{; ; ; }
+Oude poort (887) [Nehemia 3:6 - Nehemia 3:6]
+	{; ; ; }
+Brede muur (888) [Nehemia 3:8 - Nehemia 3:8]
+	{; ; ; }
+Bakoventoren (889) [Nehemia 3:11 - Nehemia 3:11]
+	{; ; ; }
+Bet-Hakkerem (890) [Nehemia 3:14 - Nehemia 3:14]
+	{; ; ; }
+Huis van de helden (891) [Nehemia 3:16 - Nehemia 3:16]
+	{; ; ; }
+De Hoek (892) [Nehemia 3:24 - Nehemia 3:24]
+	{; ; ; }
+Waterpoort (893) [Nehemia 3:26 - Nehemia 3:26]
+	{; ; ; }
+Wachtpoort (894) [Nehemia 3:31 - Nehemia 3:31]
+	{; ; ; }
+Kefirim (895) [Nehemia 6:2 - Nehemia 6:2]
+	{; ; ; }
+Onodol (896) [Nehemia 6:2 - Nehemia 6:2]
+	{; ; ; }
+Bet-Azmawet (897) [Nehemia 7:28 - Nehemia 7:28]
+	{; ; ; }
+Jekabseë (898) [Nehemia 11:25 - Nehemia 11:25]
+	{; ; ; }
+Jesua (899) [Nehemia 11:26 - Nehemia 11:26]
+	{; ; ; }
+Mechona (900) [Nehemia 11:28 - Nehemia 11:28]
+	{; ; ; }
+En-Rimmon (901) [Nehemia 11:29 - Nehemia 11:29]
+	{; ; ; }
+Ananja (902) [Nehemia 11:32 - Nehemia 11:32]
+	{; ; ; }
+Neballat (903) [Nehemia 11:34 - Nehemia 11:34]
+	{; ; ; }
+Handwerkersdal (904) [Nehemia 11:35 - Nehemia 11:35]
+	{; ; ; }
+Bet-Haggilgal (905) [Nehemia 12:29 - Nehemia 12:29]
+	{; ; ; }
+Brede Muur (906) [Nehemia 12:38 - Nehemia 12:38]
+	{; ; ; }
+Oude Poort (907) [Nehemia 12:39 - Nehemia 12:39]
+	{; ; ; }
+Gevangenpoort (908) [Nehemia 12:39 - Nehemia 12:39]
+	{; ; ; }
+India (909) [Ester 1:1 - Ester 1:1]
+	{; ; ; }
+Sirjon (910) [Psalmen 29:6 - Psalmen 29:6]
+	{; ; ; }
+Misar (911) [Psalmen 42:7 - Psalmen 42:7]
+	{; ; ; }
+Saba (912) [Psalmen 72:10 - Psalmen 72:10]
+	{; ; ; }
+Filistea (913) [Psalmen 84:8 - Psalmen 84:8]
+	{; ; ; }
+Rahab (914) [Psalmen 87:4 - Psalmen 87:4]
+	{; ; ; }
+Mesech (915) [Psalmen 120:5 - Psalmen 120:5]
+	{; ; ; }
+Kedar (916) [Psalmen 120:5 - Psalmen 120:5]
+	{; ; ; }
+Amana (917) [Hooglied 4:8 - Hooglied 4:8]
+	{; ; ; }
+Sulem (918) [Hooglied 7:1 - Hooglied 7:1]
+	{; ; ; }
+Bat-Rabbim (919) [Hooglied 7:5 - Hooglied 7:5]
+	{; ; ; }
+Baë (920) [Hooglied 8:11 - Hooglied 8:11]
+	{; Hamon; ; }
+Siloach (921) [Jesaja 8:6 - Jesaja 8:6]
+	{; ; ; }
+Kalno (922) [Jesaja 10:9 - Jesaja 10:9]
+	{; ; ; }
+Ajjat (923) [Jesaja 10:28 - Jesaja 10:28]
+	{; ; ; }
+Bat-Gallim (924) [Jesaja 10:30 - Jesaja 10:30]
+	{; ; ; }
+Madmena (925) [Jesaja 10:31 - Jesaja 10:31]
+	{; ; ; }
+Gebim (926) [Jesaja 10:31 - Jesaja 10:31]
+	{; ; ; }
+Patros (927) [Jesaja 11:11 - Jesaja 11:11]
+	{; ; ; }
+Kir-Moab (928) [Jesaja 15:1 - Jesaja 15:1]
+	{; ; ; }
+Diton (929) [Jesaja 15:2 - Jesaja 15:2]
+	{; ; ; }
+Eglat-Selisia (930) [Jesaja 15:5 - Jesaja 15:5]
+	{; ; ; }
+Luchit (931) [Jesaja 15:5 - Jesaja 15:5]
+	{; ; ; }
+Choronaë (932) [Jesaja 15:5 - Jesaja 15:5]
+	{; ; ; }
+Nimrim (933) [Jesaja 15:6 - Jesaja 15:6]
+	{; ; ; }
+Eglaë (934) [Jesaja 15:8 - Jesaja 15:8]
+	{; ; ; }
+Beë (935) [Jesaja 15:8 - Jesaja 15:8]
+	{; Elim; ; }
+Dimon (936) [Jesaja 15:9 - Jesaja 15:9]
+	{; ; ; }
+Kir-Cheres (937) [Jesaja 16:11 - Jesaja 16:11]
+	{; ; ; }
+Memfis (938) [Jesaja 19:13 - Jesaja 19:13]
+	{; ; ; }
+Duma (939) [Jesaja 21:11 - Jesaja 21:11]
+	{; ; ; }
+Tema (940) [Jesaja 21:14 - Jesaja 21:14]
+	{; ; ; }
+Het Dal van het Visioen (941) [Jesaja 22:1 - Jesaja 22:1]
+	{; ; ; }
+Sichor (942) [Jesaja 23:3 - Jesaja 23:3]
+	{; ; ; }
+Arië (943) [Jesaja 29:1 - Jesaja 29:1]
+	{; ; ; }
+Seferwaë (944) [Jesaja 36:19 - Jesaja 36:19]
+	{; ; ; }
+Gozen (945) [Jesaja 37:12 - Jesaja 37:12]
+	{; ; ; }
+Aratot (946) [Jesaja 37:38 - Jesaja 37:38]
+	{; ; ; }
+Bel (947) [Jesaja 46:1 - Jesaja 46:1]
+	{; ; ; }
+Chaldea (948) [Jesaja 47:1 - Jesaja 47:1]
+	{; ; ; }
+Syene (949) [Jesaja 49:12 - Jesaja 49:12]
+	{; ; ; }
+Efa (950) [Jesaja 60:6 - Jesaja 60:6]
+	{; ; ; }
+Nebajot (951) [Jesaja 60:7 - Jesaja 60:7]
+	{; ; ; }
+Pul (952) [Jesaja 66:19 - Jesaja 66:19]
+	{; ; ; }
+Lydië (953) [Jesaja 66:19 - Jesaja 66:19]
+	{; ; ; }
+Tubal (954) [Jesaja 66:19 - Jesaja 66:19]
+	{; ; ; }
+Griekenland (955) [Jesaja 66:19 - Jesaja 66:19]
+	{; ; ; 39.464684258665386,22.373205701600508}
+Kadar (956) [Jeremia 2:10 - Jeremia 2:10]
+	{; ; ; }
+Dafne (957) [Jeremia 2:16 - Jeremia 2:16]
+	{; ; ; }
+Moorddal (958) [Jeremia 7:32 - Jeremia 7:32]
+	{; ; ; }
+Ufaz (959) [Jeremia 10:9 - Jeremia 10:9]
+	{; ; ; }
+Perat (960) [Jeremia 13:4 - Jeremia 13:4]
+	{; ; ; }
+Volkspoort (961) [Jeremia 17:19 - Jeremia 17:19]
+	{; ; ; }
+Schervenpoort (962) [Jeremia 19:3 - Jeremia 19:3]
+	{; ; ; }
+Benjaminpoort (963) [Jeremia 20:2 - Jeremia 20:2]
+	{; ; ; }
+Abarim (964) [Jeremia 22:20 - Jeremia 22:20]
+	{; ; ; }
+Us (965) [Jeremia 25:20 - Jeremia 25:20]
+	{; ; ; }
+Dedan (966) [Jeremia 25:22 - Jeremia 25:22]
+	{; ; ; }
+Buz (967) [Jeremia 25:22 - Jeremia 25:22]
+	{; ; ; }
+Zimri (968) [Jeremia 25:25 - Jeremia 25:25]
+	{; ; ; }
+Sesach (969) [Jeremia 25:26 - Jeremia 25:26]
+	{; ; ; }
+Moreset (970) [Jeremia 26:18 - Jeremia 26:18]
+	{; ; ; }
+Gareb (971) [Jeremia 31:39 - Jeremia 31:39]
+	{; ; ; }
+Goa (972) [Jeremia 31:39 - Jeremia 31:39]
+	{; ; ; }
+Bakkerstraat (973) [Jeremia 37:21 - Jeremia 37:21]
+	{; ; ; }
+Middenpoort (974) [Jeremia 39:3 - Jeremia 39:3]
+	{; ; ; }
+Simmagir (975) [Jeremia 39:3 - Jeremia 39:3]
+	{; ; ; }
+Gerut-Kimham (976) [Jeremia 41:17 - Jeremia 41:17]
+	{; ; ; }
+Boven-Egypte (977) [Jeremia 44:1 - Jeremia 44:1]
+	{; ; ; }
+Thebe (978) [Jeremia 46:25 - Jeremia 46:25]
+	{; ; ; }
+Kirjataë (979) [Jeremia 48:1 - Jeremia 48:1]
+	{; ; ; }
+Misgab (980) [Jeremia 48:1 - Jeremia 48:1]
+	{; ; ; }
+Madmen (981) [Jeremia 48:2 - Jeremia 48:2]
+	{; ; ; }
+Kemos (982) [Jeremia 48:7 - Jeremia 48:7]
+	{; ; ; }
+Bet-Diblataë (983) [Jeremia 48:22 - Jeremia 48:22]
+	{; ; ; }
+Bet-Gamul (984) [Jeremia 48:23 - Jeremia 48:23]
+	{; ; ; }
+Bet-Meon (985) [Jeremia 48:23 - Jeremia 48:23]
+	{; ; ; }
+Keriot (986) [Jeremia 48:24 - Jeremia 48:24]
+	{; ; ; }
+Rabbat-Ammon (987) [Jeremia 49:2 - Jeremia 49:2]
+	{; ; ; }
+Teman (988) [Jeremia 49:20 - Jeremia 49:20]
+	{; ; ; }
+Marduk (989) [Jeremia 50:2 - Jeremia 50:2]
+	{; ; ; }
+Merataë (990) [Jeremia 50:21 - Jeremia 50:21]
+	{; ; ; }
+Pekod (991) [Jeremia 50:21 - Jeremia 50:21]
+	{; ; ; }
+Leb-Kamai (992) [Jeremia 51:1 - Jeremia 51:1]
+	{; ; ; }
+Minni (993) [Jeremia 51:27 - Jeremia 51:27]
+	{; ; ; }
+Askenaz (994) [Jeremia 51:27 - Jeremia 51:27]
+	{; ; ; }
+Kebarkanaal (995) [Ezechiel 1:1 - Ezechiel 1:1]
+	{; ; ; }
+Dibla (996) [Ezechiel 6:14 - Ezechiel 6:14]
+	{; ; ; }
+Soa (997) [Ezechiel 23:23 - Ezechiel 23:23]
+	{; ; ; }
+Koa (998) [Ezechiel 23:23 - Ezechiel 23:23]
+	{; ; ; }
+Alasia (999) [Ezechiel 27:7 - Ezechiel 27:7]
+	{; ; ; }
+Arwad (1000) [Ezechiel 27:8 - Ezechiel 27:8]
+	{; ; ; }
+Libië (1001) [Ezechiel 27:10 - Ezechiel 27:10]
+	{; ; ; }
+Bet-Tagorma (1002) [Ezechiel 27:14 - Ezechiel 27:14]
+	{; ; ; }
+Rhodos (1003) [Ezechiel 27:15 - Ezechiel 27:15]
+	{; ; ; }
+Chelbon (1004) [Ezechiel 27:19 - Ezechiel 27:19]
+	{; ; ; }
+Sachar (1005) [Ezechiel 27:19 - Ezechiel 27:19]
+	{; ; ; }
+Izalla (1006) [Ezechiel 27:19 - Ezechiel 27:19]
+	{; ; ; }
+Kanne (1007) [Ezechiel 27:23 - Ezechiel 27:23]
+	{; ; ; }
+Kilmad (1008) [Ezechiel 27:23 - Ezechiel 27:23]
+	{; ; ; }
+Pelusium (1009) [Ezechiel 30:16 - Ezechiel 30:16]
+	{; ; ; }
+Bubastis (1010) [Ezechiel 30:17 - Ezechiel 30:17]
+	{; ; ; }
+Mesech-Tubal (1011) [Ezechiel 32:2 - Ezechiel 32:2]
+	{; ; ; }
+Gog (1012) [Ezechiel 38:2 - Ezechiel 38:2]
+	{; ; ; }
+Magog (1013) [Ezechiel 38:2 - Ezechiel 38:2]
+	{; ; ; }
+Gomer (1014) [Ezechiel 38:6 - Ezechiel 38:6]
+	{; ; ; }
+Bet-Togarma (1015) [Ezechiel 38:6 - Ezechiel 38:6]
+	{; ; ; }
+En-Eglaë (1016) [Ezechiel 47:10 - Ezechiel 47:10]
+	{; ; ; }
+Chetlon (1017) [Ezechiel 47:15 - Ezechiel 47:15]
+	{; ; ; }
+Berota (1018) [Ezechiel 47:16 - Ezechiel 47:16]
+	{; ; ; }
+Sibraë (1019) [Ezechiel 47:16 - Ezechiel 47:16]
+	{; ; ; }
+Chaser-Hattichon (1020) [Ezechiel 47:16 - Ezechiel 47:16]
+	{; ; ; }
+Hauran (1021) [Ezechiel 47:16 - Ezechiel 47:16]
+	{; ; ; }
+Chasar-Enon (1022) [Ezechiel 47:17 - Ezechiel 47:17]
+	{; ; ; }
+Dura (1023) [Daniel 3:1 - Daniel 3:1]
+	{; ; ; }
+Ulaikanaal (1024) [Daniel 8:2 - Daniel 8:2]
+	{; ; ; }
+Sieraadland (1025) [Daniel 8:9 - Daniel 8:9]
+	{; ; ; }
+Bet-Arbel (1026) [Hosea 10:14 - Hosea 10:14]
+	{; ; ; }
+Vallei van Josafat (1027) [Joel 4:2 - Joel 4:2]
+	{; De Heer oordeelt; ; }
+Bikat-Awen (1028) [Amos 1:5 - Amos 1:5]
+	{; ; ; }
+Bet-Eden (1029) [Amos 1:5 - Amos 1:5]
+	{; ; ; }
+Harmon (1030) [Amos 4:3 - Amos 4:3]
+	{; ; ; }
+Karnaë (1031) [Amos 6:13 - Amos 6:13]
+	{; ; ; }
+Sefarad (1032) [Obadja 1:20 - Obadja 1:20]
+	{; ; ; }
+Bet-le-Afra (1033) [Micha 1:10 - Micha 1:10]
+	{; ; ; }
+Safir (1034) [Micha 1:10 - Micha 1:10]
+	{; ; ; }
+Saë (1035) [Micha 1:11 - Micha 1:11]
+	{; n; ; }
+Bet-Haë (1036) [Micha 1:11 - Micha 1:11]
+	{; l; ; }
+Marot (1037) [Micha 1:12 - Micha 1:12]
+	{; ; ; }
+Moreset-Gat (1038) [Micha 1:14 - Micha 1:14]
+	{; ; ; }
+Meresa (1039) [Micha 1:15 - Micha 1:15]
+	{; ; ; }
+Nimrod (1040) [Micha 5:5 - Micha 5:5]
+	{; ; ; }
+Elkos (1041) [Nahum 1:1 - Nahum 1:1]
+	{; ; ; }
+Vijzelbuurt (1042) [Sefanja 1:11 - Sefanja 1:11]
+	{; ; ; }
+Juda (1043) [Zacharia 1:12 - Zacharia 1:12]
+	{; ; ; }
+Land van het Noorden (1044) [Zacharia 2:10 - Zacharia 2:10]
+	{; ; ; }
+Chadrach (1045) [Zacharia 9:1 - Zacharia 9:1]
+	{; ; ; }
+Vlakte van Megiddo (1046) [Zacharia 12:11 - Zacharia 12:11]
+	{; ; ; }
+Asel (1047) [Zacharia 14:5 - Zacharia 14:5]
+	{; ; ; }
+Suach (1048) [Job 2:11 - Job 2:11]
+	{; ; ; }
+Judea (1049) [Matteus 2:1 - Matteus 2:1]
+	{; ; ; }
+Oosten (1050) [Matteus 2:1 - Matteus 2:1]
+	{; ; ; }
+Nazaret (1051) [Matteus 2:23 - Matteus 2:23]
+	{; ; ; }
+Kafarnaüm (1052) [Matteus 4:13 - Matteus 4:13]
+	{; ; ; }
+Meer van Galilea (1053) [Matteus 4:13 - Matteus 4:13]
+	{; ; ; }
+Syrië (1054) [Matteus 4:24 - Matteus 4:24]
+	{; ; ; }
+Dekapolis (1055) [Matteus 4:25 - Matteus 4:25]
+	{; ; ; }
+Chorazin (1056) [Matteus 11:21 - Matteus 11:21]
+	{; ; ; }
+Betsaë (1057) [Matteus 11:21 - Matteus 11:21]
+	{; ; ; }
+Het Zuiden (1058) [Matteus 12:42 - Matteus 12:42]
+	{; ; ; }
+Gennesaret (1059) [Matteus 14:34 - Matteus 14:34]
+	{; ; ; }
+Caesarea Filippi (1060) [Matteus 16:13 - Matteus 16:13]
+	{; ; ; }
+Betfage (1061) [Matteus 21:1 - Matteus 21:1]
+	{; ; ; }
+Betanië (1062) [Matteus 26:6 - Matteus 26:6]
+	{; ; ; }
+Getsemane (1063) [Matteus 26:36 - Matteus 26:36]
+	{; ; ; }
+Cyrene (1064) [Matteus 27:32 - Matteus 27:32]
+	{; ; ; }
+Golgota (1065) [Matteus 27:33 - Matteus 27:33]
+	{; ; ; }
+Magdala (1066) [Matteus 27:56 - Matteus 27:56]
+	{; ; ; }
+Arimatea (1067) [Matteus 27:57 - Matteus 27:57]
+	{; ; ; }
+Idumea (1068) [Marcus 3:8 - Marcus 3:8]
+	{; ; ; }
+Dalmanuta (1069) [Marcus 8:10 - Marcus 8:10]
+	{; ; ; }
+Trachonitis (1070) [Lucas 3:1 - Lucas 3:1]
+	{; ; ; }
+Abilene (1071) [Lucas 3:1 - Lucas 3:1]
+	{; ; ; }
+Sarepta (1072) [Lucas 4:26 - Lucas 4:26]
+	{; ; ; }
+Naë (1073) [Lucas 7:11 - Lucas 7:11]
+	{; ; ; }
+Schedelplaats (1074) [Lucas 23:33 - Lucas 23:33]
+	{; ; ; }
+Emmaüs (1075) [Lucas 24:13 - Lucas 24:13]
+	{; ; ; }
+Enon (1076) [Johannes 3:2 - Johannes 3:2]
+	{; ; ; }
+Salim (1077) [Johannes 3:23 - Johannes 3:23]
+	{; ; ; }
+Sichar (1078) [Johannes 4:5 - Johannes 4:5]
+	{; ; ; }
+Jakobsbron (1079) [Johannes 4:6 - Johannes 4:6]
+	{; ; ; }
+Betzata (1080) [Johannes 5:2 - Johannes 5:2]
+	{; ; ; }
+Meer van Tiberias (1081) [Johannes 6:1 - Johannes 6:1]
+	{; ; ; }
+Tiberias (1082) [Johannes 6:23 - Johannes 6:23]
+	{; ; ; }
+Badhuis van Siloam (1083) [Johannes 9:7 - Johannes 9:7]
+	{; ; ; }
+Kidronbeek (1084) [Johannes 18:1 - Johannes 18:1]
+	{; ; ; }
+Mozaë (1085) [Johannes 19:13 - Johannes 19:13]
+	{; terras; ; }
+Akeldama (1086) [Handelingen 1:19 - Handelingen 1:19]
+	{; ; ; }
+Mesopotamië (1087) [Handelingen 2:9 - Handelingen 2:9]
+	{; ; ; }
+Kappadocië (1088) [Handelingen 2:9 - Handelingen 2:9]
+	{; ; ; }
+Pontus (1089) [Handelingen 2:9 - Handelingen 2:9]
+	{; ; ; }
+Asia (1090) [Handelingen 2:9 - Handelingen 2:9]
+	{; ; ; }
+Frygië (1091) [Handelingen 2:10 - Handelingen 2:10]
+	{; ; ; }
+Pamfylië (1092) [Handelingen 2:10 - Handelingen 2:10]
+	{; ; ; }
+Arabië (1093) [Handelingen 2:11 - Handelingen 2:11]
+	{; ; ; }
+Schone poort (1094) [Handelingen 3:2 - Handelingen 3:2]
+	{; ; ; }
+Cyprus (1095) [Handelingen 4:36 - Handelingen 4:36]
+	{; ; ; }
+Antiochië (1096) [Handelingen 6:5 - Handelingen 6:5]
+	{; ; ; }
+Alexandrië (1097) [Handelingen 6:9 - Handelingen 6:9]
+	{; ; ; }
+Cilicië (1098) [Handelingen 6:9 - Handelingen 6:9]
+	{; ; ; }
+Ethiopië (1099) [Handelingen 8:27 - Handelingen 8:27]
+	{; ; ; }
+Azotus (1100) [Handelingen 8:40 - Handelingen 8:40]
+	{; ; ; }
+Rechte straat (1101) [Handelingen 9:11 - Handelingen 9:11]
+	{; ; ; }
+Tarsus (1102) [Handelingen 9:11 - Handelingen 9:11]
+	{; ; ; }
+Lydda (1103) [Handelingen 9:32 - Handelingen 9:32]
+	{; ; ; }
+Joppe (1104) [Handelingen 9:36 - Handelingen 9:36]
+	{; ; ; }
+Fenicië (1105) [Handelingen 11:19 - Handelingen 11:19]
+	{; ; ; }
+Caesarea (1106) [Handelingen 12:19 - Handelingen 12:19]
+	{; ; ; }
+Seleucië (1107) [Handelingen 13:4 - Handelingen 13:4]
+	{; ; ; }
+Salamis (1108) [Handelingen 13:5 - Handelingen 13:5]
+	{; ; ; }
+Pafos (1109) [Handelingen 13:6 - Handelingen 13:6]
+	{; ; ; }
+Perge (1110) [Handelingen 13:13 - Handelingen 13:13]
+	{; ; ; }
+Pisidië (1111) [Handelingen 13:14 - Handelingen 13:14]
+	{; ; ; }
+Ikonium (1112) [Handelingen 14:19 - Handelingen 14:19]
+	{; ; ; }
+Derbe (1113) [Handelingen 14:20 - Handelingen 14:20]
+	{; ; ; }
+Lystra (1114) [Handelingen 14:21 - Handelingen 14:21]
+	{; ; ; }
+Attalia (1115) [Handelingen 14:25 - Handelingen 14:25]
+	{; ; ; }
+Galatië (1116) [Handelingen 16:6 - Handelingen 16:6]
+	{; ; ; }
+Mysië (1117) [Handelingen 16:7 - Handelingen 16:7]
+	{; ; ; }
+Bitynië (1118) [Handelingen 16:7 - Handelingen 16:7]
+	{; ; ; }
+Troas (1119) [Handelingen 16:8 - Handelingen 16:8]
+	{; ; ; }
+Macedonië (1120) [Handelingen 16:9 - Handelingen 16:9]
+	{; ; ; }
+Samotrake (1121) [Handelingen 16:11 - Handelingen 16:11]
+	{; ; ; }
+Neapolis (1122) [Handelingen 16:11 - Handelingen 16:11]
+	{; ; ; }
+Filippi (1123) [Handelingen 16:12 - Handelingen 16:12]
+	{; ; ; }
+Tyatira (1124) [Handelingen 16:14 - Handelingen 16:14]
+	{; ; ; }
+Amfipolis (1125) [Handelingen 17:1 - Handelingen 17:1]
+	{; ; ; }
+Apollonia (1126) [Handelingen 17:1 - Handelingen 17:1]
+	{; ; ; }
+Tessalonica (1127) [Handelingen 17:1 - Handelingen 17:1]
+	{; ; ; }
+Berea (1128) [Handelingen 17:10 - Handelingen 17:10]
+	{; ; ; }
+Athene (1129) [Handelingen 17:15 - Handelingen 17:15]
+	{; ; ; }
+Korinte (1130) [Handelingen 18:1 - Handelingen 18:1]
+	{; ; ; }
+Italië (1131) [Handelingen 18:2 - Handelingen 18:2]
+	{; ; ; 43.05723118379051,12.507513445531947}
+Achaje (1132) [Handelingen 18:12 - Handelingen 18:12]
+	{; ; ; }
+Kenchreeë (1133) [Handelingen 18:18 - Handelingen 18:18]
+	{; ; ; }
+Efeze (1134) [Handelingen 18:19 - Handelingen 18:19]
+	{; ; ; }
+Rome (1135) [Handelingen 19:21 - Handelingen 19:21]
+	{; ; ; 41.902782,12.496365}
+Assus (1136) [Handelingen 20:13 - Handelingen 20:13]
+	{; ; ; }
+Mitylene (1137) [Handelingen 20:14 - Handelingen 20:14]
+	{; ; ; }
+Chios (1138) [Handelingen 20:15 - Handelingen 20:15]
+	{; ; ; }
+Samos (1139) [Handelingen 20:15 - Handelingen 20:15]
+	{; ; ; }
+Milete (1140) [Handelingen 20:15 - Handelingen 20:15]
+	{; ; ; }
+Kos (1141) [Handelingen 21:1 - Handelingen 21:1]
+	{; ; ; }
+Patara (1142) [Handelingen 21:1 - Handelingen 21:1]
+	{; ; ; }
+Ptolemaë (1143) [Handelingen 21:7 - Handelingen 21:7]
+	{; ; ; }
+Antipatris (1144) [Handelingen 23:31 - Handelingen 23:31]
+	{; ; ; }
+Adramyttium (1145) [Handelingen 27:2 - Handelingen 27:2]
+	{; ; ; }
+Myra (1146) [Handelingen 27:5 - Handelingen 27:5]
+	{; ; ; }
+Lycië (1147) [Handelingen 27:5 - Handelingen 27:5]
+	{; ; ; }
+Knidus (1148) [Handelingen 27:7 - Handelingen 27:7]
+	{; ; ; }
+Kaap Salmone (1149) [Handelingen 27:7 - Handelingen 27:7]
+	{; ; ; }
+Goede Havens (1150) [Handelingen 27:8 - Handelingen 27:8]
+	{; ; ; }
+Lasea (1151) [Handelingen 27:8 - Handelingen 27:8]
+	{; ; ; }
+Feniks (1152) [Handelingen 27:12 - Handelingen 27:12]
+	{; ; ; }
+Kauda (1153) [Handelingen 27:16 - Handelingen 27:16]
+	{; ; ; }
+Syrta (1154) [Handelingen 27:17 - Handelingen 27:17]
+	{; ; ; }
+Adriatische Zee (1155) [Handelingen 27:27 - Handelingen 27:27]
+	{; ; ; }
+Malta (1156) [Handelingen 28:1 - Handelingen 28:1]
+	{; ; ; }
+Syracuse (1157) [Handelingen 28:12 - Handelingen 28:12]
+	{; ; ; }
+Regium (1158) [Handelingen 28:13 - Handelingen 28:13]
+	{; ; ; }
+Puteoli (1159) [Handelingen 28:13 - Handelingen 28:13]
+	{; ; ; }
+Forum Appiii (1160) [Handelingen 28:15 - Handelingen 28:15]
+	{; ; ; }
+Tres Tabernae (1161) [Handelingen 28:15 - Handelingen 28:15]
+	{; ; ; }
+Hemel (1162) [Romeinen 1:18 - Romeinen 1:18]
+	{; ; ; }
+Illyrië (1163) [Romeinen 15:19 - Romeinen 15:19]
+	{; ; ; }
+Spanje (1164) [Romeinen 15:28 - Romeinen 15:28]
+	{; ; ; }
+Arabia (1165) [Galaten 1:17 - Galaten 1:17]
+	{; ; ; }
+Kolosse (1166) [Kolossenzen 1:2 - Kolossenzen 1:2]
+	{; ; ; }
+Laodicea (1167) [Kolossenzen 2:1 - Kolossenzen 2:1]
+	{; ; ; }
+Hië (1168) [Kolossenzen 4:13 - Kolossenzen 4:13]
+	{; polis; ; }
+Dalmatië (1169) [2-Timoteus 4:10 - 2-Timoteus 4:10]
+	{; ; ; }
+Karpus (1170) [2-Timoteus 4:13 - 2-Timoteus 4:13]
+	{; ; ; }
+Nikopolis (1171) [Titus 3:12 - Titus 3:12]
+	{; ; ; }
+Smyrna (1172) [Openbaring 1:11 - Openbaring 1:11]
+	{; ; ; }
+Pergamum (1173) [Openbaring 1:11 - Openbaring 1:11]
+	{; ; ; }
+Sardes (1174) [Openbaring 1:11 - Openbaring 1:11]
+	{; ; ; }
+Filadelfia (1175) [Openbaring 1:11 - Openbaring 1:11]
+	{; ; ; }
+Harmagedon (1176) [Openbaring 16:16 - Openbaring 16:16]
+	{; ; ; }

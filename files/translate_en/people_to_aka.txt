@@ -1,0 +1,12 @@
+LANG_NAME (P_ID) [P_NAME] -> 
+	[PEOPLE_NAME] (MEANING_NAME)
+	[AKA_NAME] (AKA_MEANING_NAME)
+ (2439) [Xerxes I] -> 
+	[] ()
+	[Ahasveros] ()
+ (3126) [Ester] -> 
+	[] ()
+	[Hadassa] ()
+Jesus (3339) [Jezus] -> 
+	[Immanuel] (God with us)
+	[Immanuël] (God met ons)

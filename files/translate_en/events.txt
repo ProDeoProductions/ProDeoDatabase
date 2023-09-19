@@ -1,0 +1,9 @@
+NAME (E_ID) [E_NAME]
+	{DESCR; LENGTH; DATE}
+	{E_DESCR; E_LENGTH; E_DATE}
+Creation of heaven and earth (1) [De Schepping van hemel en aarde]
+	{Creation story; In theory a week. The question is when God created time, what God saw as a day at that time (for Him 1 day is a 1000 years and a 1000 years 1 day) and if it really matters how long it really took Him; Beginning of time}
+	{Het scheppingsverhaal; Theoretisch een week. De vraag is wanneer God de tijd geschapen heeft, wat God op dat moment als een dag zag (Voor Hem is 1 dag 1000 jaar en 1000 jaar 1 dag) en of het eigenlijk veel uit maakt hoe lang Hij er daadwerkelijk over deed; Het begin der tijden}
+ (2) [Test]
+	{; ; }
+	{; ; }

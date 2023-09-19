@@ -1,0 +1,3 @@
+[NAME] (LOCATION_ID) -> [LOCATION_NAME] (MEANING_NAME)
+[Hemel] (1) -> [1] ()
+[Hemel] (1) -> [Hemel] ()

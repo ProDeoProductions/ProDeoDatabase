@@ -1,0 +1,9 @@
+LANG_NAME (L_ID) [L_NAME] -> 
+	[LOCATION_NAME] (MEANING_NAME)
+	[AKA_NAME] (AKA_MEANING_NAME)
+Heaven (1) [Hemel] -> 
+	[] ()
+	[1] ()
+Heaven (1) [Hemel] -> 
+	[] ()
+	[Hemel] ()
