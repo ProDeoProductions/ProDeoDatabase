@@ -1,5 +1,6 @@
 
 import mysql.connector
+from mysql.connector import errorcode
 
 from src.database.database_insert import DatabaseInsert
 from src.database.database_empty import DatabaseEmpty
@@ -31,13 +32,48 @@ class Database(DatabaseInsert, DatabaseEmpty, DatabaseGet, DatabaseCopy, Databas
         self.override_ids = False
         self.item_base = item_base
         return
+        
+    def connect_database(self):
+        # Connect to the database
+        try:
+            conn = self.conn.connect(host="localhost",
+                                     user="root",
+                                     passwd="12345",
+                                     db="bible")
+        except self.conn.Error as err:
+            if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+                # Couldn't log in..
+                print("Incorrect password or username")
+            elif err.errno == errorcode.ER_BAD_DB_ERROR:
+                # This database doesn't exist yet, initialize it for use
+                conn = self.conn.connect(host="localhost",
+                                         user="root",
+                                         passwd="12345")
+                self.init_database(conn)
+            else:
+                print(err)
+                
+        return conn
+        
+    def init_database(self, conn):
+        cursor = conn.cursor()
+        
+        # We have a backup in the SQL folder
+        file = open("files/sql/bible.sql")
+        #file = open("database.py")
+        sql = file.read()
+        
+        for result in cursor.execute(sql, multi=True):
+            print("Numbers of Row affected bt tatement '{}': {}".format(result.statement, result.rowcount))
+        
+        # Close the cursor again
+        cursor.close()
+        
+        return
 
     def execute_get(self, sql):
         # Connect to the database
-        conn = self.conn.connect(host="localhost",
-                                 user="root",
-                                 passwd="12345",
-                                 db="bible")
+        conn = self.connect_database()
 
         # Execute the query
         cursor = conn.cursor()
@@ -51,10 +87,7 @@ class Database(DatabaseInsert, DatabaseEmpty, DatabaseGet, DatabaseCopy, Databas
 
     def execute_set(self, sql):
         # Connect to the database
-        conn = self.conn.connect(host="localhost",
-                                 user="root",
-                                 passwd="12345",
-                                 db="bible")
+        conn = self.connect_database()
 
         # Execute the query
         cursor = conn.cursor()
