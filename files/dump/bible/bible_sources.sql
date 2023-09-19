@@ -1,0 +1,54 @@
+CREATE DATABASE  IF NOT EXISTS `bible` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `bible`;
+-- MySQL dump 10.13  Distrib 8.0.28, for Win64 (x86_64)
+--
+-- Host: localhost    Database: bible
+-- ------------------------------------------------------
+-- Server version	8.0.28
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `sources`
+--
+
+DROP TABLE IF EXISTS `sources`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `sources` (
+  `id` int NOT NULL,
+  `source` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='All the sources used for information. This includes mainly websites, but also videos, audio files, books and other sources of information.';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `sources`
+--
+
+LOCK TABLES `sources` WRITE;
+/*!40000 ALTER TABLE `sources` DISABLE KEYS */;
+INSERT INTO `sources` VALUES (0,'https://npokennis.nl/longread/7669/hoe-is-het-heelal-ontstaan'),(1,'https://web.archive.org/web/20201215152148/http://www.natuurinformatie.nl/nnm.dossiers/natuurdatabase.nl/i002641.html'),(2,'https://nl.wikipedia.org/wiki/Geschiedenis_van_de_Aarde'),(3,'https://web.archive.org/web/20210717082126/https://www.dekennisvannu.nl/site/artikel/Waar-het-water-vandaan-komt/6624'),(4,'https://web.archive.org/web/20221006094124/http://www.fuzzyfun.nl/experiment-genesis-wat-wordt-in-bedoeld-met-water-boven-het-gewelf/'),(5,'https://www.nemokennislink.nl/kernwoorden/oersoep/'),(6,'https://nl.wikipedia.org/wiki/Tehom'),(7,'https://nl.wikipedia.org/wiki/Nebukadnezar_II'),(8,'https://nl.wikipedia.org/wiki/Darius_de_Medi%C3%ABr'),(9,'https://nl.wikipedia.org/wiki/Evangelie_volgens_Matte%C3%BCs');
+/*!40000 ALTER TABLE `sources` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-07-21 15:57:57

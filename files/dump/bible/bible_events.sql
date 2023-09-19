@@ -1,0 +1,63 @@
+CREATE DATABASE  IF NOT EXISTS `bible` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `bible`;
+-- MySQL dump 10.13  Distrib 8.0.28, for Win64 (x86_64)
+--
+-- Host: localhost    Database: bible
+-- ------------------------------------------------------
+-- Server version	8.0.28
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `events`
+--
+
+DROP TABLE IF EXISTS `events`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `events` (
+  `order_id` int NOT NULL COMMENT 'The order we want the events to be viewed in. This is used in the textfiles for the DatabaseHelper and on the website',
+  `id` int NOT NULL,
+  `name` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `descr` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci,
+  `length` text COLLATE utf8mb4_general_ci,
+  `date` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci COMMENT 'Doesn''t have to be an exact date, can also be a reference to another major event.',
+  `book_start_id` int DEFAULT NULL COMMENT 'Bible book of the first appearance',
+  `book_start_chap` int DEFAULT NULL COMMENT 'Bible chapter of the first appearance',
+  `book_start_vers` int DEFAULT NULL COMMENT 'Bible vers of the first appearance',
+  `book_end_id` int DEFAULT NULL COMMENT 'Bible book of the last appearance',
+  `book_end_chap` int DEFAULT NULL COMMENT 'Bible chapter of the last appearance',
+  `book_end_vers` int DEFAULT NULL COMMENT 'Bible vers of the last appearance',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Events are parts of the timeline, like chapters in a book. They give a summary of stories that are described in the bible. Those events are described in detail using activities and can be viewed as a timeline on its own.';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `events`
+--
+
+LOCK TABLES `events` WRITE;
+/*!40000 ALTER TABLE `events` DISABLE KEYS */;
+INSERT INTO `events` VALUES (1,1,'De Schepping van hemel en aarde','Het scheppingsverhaal','Theoretisch een week. De vraag is wanneer God de tijd geschapen heeft, wat God op dat moment als een dag zag (Voor Hem is 1 dag 1000 jaar en 1000 jaar 1 dag) en of het eigenlijk veel uit maakt hoe lang Hij er daadwerkelijk over deed','Het begin der tijden',1,1,1,1,2,25),(2,2,'Test','','','',2,2,2,2,2,3);
+/*!40000 ALTER TABLE `events` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-07-21 15:58:00
