@@ -41,7 +41,7 @@ class Sources (ItemBase):
                                                "ORDER BY s.id ASC SEPARATOR ', ') AS source_id_group"},
                 "joins": ["LEFT JOIN notes n ON n.id = x2y.note_id",
                           "LEFT JOIN sources s on s.id = x2y.source_id"],
-                "groups": {"source_id": "n.id"},
+                "groups": {"source_id": "note_id"},
                 "template": "{%NOTE_CAPPED%} ({%NOTE_ID%})\n\t"
                             "{{%SOURCE_ID_GROUP%}}\n"
             },
