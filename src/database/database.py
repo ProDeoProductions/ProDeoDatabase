@@ -34,6 +34,8 @@ class Database(DatabaseInsert, DatabaseEmpty, DatabaseGet, DatabaseCopy, Databas
         return
         
     def connect_database(self):
+        conn = None
+
         # Connect to the database
         try:
             conn = self.conn.connect(host="localhost",
@@ -45,30 +47,31 @@ class Database(DatabaseInsert, DatabaseEmpty, DatabaseGet, DatabaseCopy, Databas
                 # Couldn't log in..
                 print("Incorrect password or username")
             elif err.errno == errorcode.ER_BAD_DB_ERROR:
-                # This database doesn't exist yet, initialize it for use
-                conn = self.conn.connect(host="localhost",
-                                         user="root",
-                                         passwd="12345")
-                self.init_database(conn)
+                conn = self.init_database()
             else:
                 print(err)
                 
         return conn
         
-    def init_database(self, conn):
+    def init_database(self):
+        # This database doesn't exist yet, initialize it for use
+        conn = self.conn.connect(host="localhost",
+                                 user="root",
+                                 passwd="12345")
         cursor = conn.cursor()
         
         # We have a backup in the SQL folder
         file = open("files/sql/bible.sql")
         sql = file.read()
+        print("Initializing database")
         
         for result in cursor.execute(sql, multi=True):
-            print("Numbers of Row affected bt tatement '{}': {}".format(result.statement, result.rowcount))
+            print("Numbers of Row affected by statement '{}': {}".format(result.statement, result.rowcount))
         
         # Close the cursor again
         cursor.close()
         
-        return
+        return conn
 
     def execute_get(self, sql):
         # Connect to the database
