@@ -380,8 +380,6 @@ class ItemBase:
             x_to_y.sql_join = link_details["joins"]
         if "groups" in link_details:
             x_to_y.sql_group = link_details["groups"]
-            for group in x_to_y.sql_group.keys():
-                x_to_y.columns.remove(group)
         if "renames" in link_details:
             # The renames consist out of
             # - keys (used to read/write properties)

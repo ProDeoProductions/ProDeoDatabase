@@ -158,11 +158,20 @@ class Database(DatabaseInsert, DatabaseEmpty, DatabaseGet, DatabaseCopy, Databas
         columns = self.item_base.columns
         extra_columns = self.item_base.extra_columns
         sql_columns = self.item_base.sql_columns
+        sql_group = self.item_base.sql_group
+        
+        # Remove columns that are grouped
+        for group in sql_group.keys() if sql_group else []:
+            columns.remove(group)
 
         # Return the columns as a string
         columns = ", ".join(columns + extra_columns)
 
         if sql_columns is not None:
+            # Remove columns that are grouped
+            for group in sql_group.keys() if sql_group else []:
+                sql_columns.remove(group)
+            
             # When there are columns with "AS" to give a different name
             columns = ", ".join(sql_columns)
 
