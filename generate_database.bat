@@ -1,4 +1,4 @@
 @echo off
-python generate_database.py
+python main.py
 REM pause
 pause
