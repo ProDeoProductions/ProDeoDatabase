@@ -6,3 +6,5 @@ src/settings.py
 src/__pycache__/
 src/database/__pycache__/
 src/objects/__pycache__/
+files/sql/backup.sql
+/main.py
