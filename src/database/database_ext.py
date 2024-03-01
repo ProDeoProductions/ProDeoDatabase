@@ -1,7 +1,7 @@
 
 import src.settings
 import mysql.connector
-import os
+import os, shutil
 from mysql.connector import errorcode
 
 
@@ -38,6 +38,13 @@ class DatabaseExt:
         if (self.dba_host == "" or self.dba_username == "" or
                 self.dba_password == "" or self.dba_database == ""):
             print("You do not have the required information to access the live external database")
+            return
+
+        # We also need to have mysqldump in the PATH
+        if shutil.which("mysqldump") is None:
+            print("Executable mysqldump is not found!\n"
+                  "Please add mysqldump location in PATH in order to update the external database\n"
+                  "This is needed to create a backup in case of error")
             return
 
         conn = self.connect_ext()
