@@ -1,7 +1,7 @@
 
 import src.settings
 import mysql.connector
-import os, shutil
+import subprocess
 from mysql.connector import errorcode
 
 
@@ -14,6 +14,7 @@ class DatabaseExt:
         self.dba_username = ""
         self.dba_password = ""
         self.dba_database = ""
+        self.dba_dump = ""
 
         # Local database
         self.db_username = src.settings.db_username
@@ -27,6 +28,8 @@ class DatabaseExt:
             self.dba_password = src.settings.dba_password
         if hasattr(src.settings, "dba_database"):
             self.dba_database = src.settings.dba_database
+        if hasattr(src.settings, "dba_dump"):
+            self.dba_dump = src.settings.dba_dump
 
         return
 
@@ -36,15 +39,9 @@ class DatabaseExt:
     def update_ext(self):
         # We need to be sure we have all the login settings
         if (self.dba_host == "" or self.dba_username == "" or
-                self.dba_password == "" or self.dba_database == ""):
+                self.dba_password == "" or self.dba_database == "" or
+                self.dba_dump == ""):
             print("You do not have the required information to access the live external database")
-            return
-
-        # We also need to have mysqldump in the PATH
-        if shutil.which("mysqldump") is None:
-            print("Executable mysqldump is not found!\n"
-                  "Please add mysqldump location in PATH in order to update the external database\n"
-                  "This is needed to create a backup in case of error")
             return
 
         conn = self.connect_ext()
@@ -100,14 +97,14 @@ class DatabaseExt:
 
     def backup_local(self):
         print("Exporting local database in files/sql/bible.sql")
-        os.system('mysqldump --host=localhost --port=3306 --default-character-set=utf8 '
-                  '--user=%s -p%s --protocol=tcp --skip-triggers "bible" > files/sql/backup.sql' %
-                  (self.db_username, self.db_password))
+        subprocess.check_output(f'"{self.dba_dump}" --host=localhost --port=3306 --default-character-set=utf8 '
+                                f'--user={self.db_username} -p{self.db_password} --protocol=tcp --skip-triggers "bible" '
+                                '> files/sql/backup.sql', shell=True).decode("utf-8")
         print("Export finished\n")
 
     def backup_ext(self):
         print("Generating backup in files/sql/backup.sql")
-        os.system('mysqldump --host=%s --port=3306 --default-character-set=utf8 '
-                  '--user=%s -p%s --protocol=tcp --skip-triggers "%s" > files/sql/backup.sql' %
-                  (self.dba_host, self.dba_username, self.dba_password, self.dba_database))
+        subprocess.check_output(f'"{self.dba_dump}" --host={self.dba_host} --port=3306 --default-character-set=utf8 '
+                                f'--user={self.dba_username} -p{self.dba_password} --protocol=tcp --skip-triggers '
+                                f'"{self.dba_database}" > files/sql/backup.sql', shell=True).decode("utf-8")
         print("Backup created\n")
