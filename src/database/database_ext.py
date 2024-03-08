@@ -96,14 +96,14 @@ class DatabaseExt:
         return conn
 
     def backup_local(self):
-        print("Exporting local database in files/sql/bible.sql")
+        print("Generating backup for local database in files/sql/bible.sql")
         subprocess.check_output(f'"{self.dba_dump}" --host=localhost --port=3306 --default-character-set=utf8 '
                                 f'--user={self.db_username} -p{self.db_password} --protocol=tcp --skip-triggers "bible" '
-                                '> files/sql/backup.sql', shell=True).decode("utf-8")
-        print("Export finished\n")
+                                '> files/sql/bible.sql', shell=True).decode("utf-8")
+        print("Backup created\n")
 
     def backup_ext(self):
-        print("Generating backup in files/sql/backup.sql")
+        print("Generating backup for external database in files/sql/backup.sql")
         subprocess.check_output(f'"{self.dba_dump}" --host={self.dba_host} --port=3306 --default-character-set=utf8 '
                                 f'--user={self.dba_username} -p{self.dba_password} --protocol=tcp --skip-triggers '
                                 f'"{self.dba_database}" > files/sql/backup.sql', shell=True).decode("utf-8")
