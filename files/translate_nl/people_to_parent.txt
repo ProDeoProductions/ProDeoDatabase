@@ -19,7 +19,7 @@
 [Lamech] (12) -> [Tubal-Kaïn] (17)
 [Silla] (14) -> [Tubal-Kaïn] (17)
 [Lamech] (12) -> [Naäma] (18)
-[Jabal] (15) -> [Naäma] (18)
+[Silla] (14) -> [Naäma] (18)
 [Adam] (2) -> [Set] (19)
 [Eva] (3) -> [Set] (19)
 [Set] (19) -> [Enos] (20)
