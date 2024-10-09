@@ -1,2 +1,0 @@
-[PEOPLE_NAME] (PEOPLE_ID) -> [LOCATION_NAME (LOCATION_ID)] (TYPE)
-[God] (1) -> [Hemel (1)] (type.living)

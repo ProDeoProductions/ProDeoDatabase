@@ -1,6 +1,0 @@
-NAME (ID) [BOOK_START_ID BOOK_START_CHAP:BOOK_START_VERS - BOOK_END_ID BOOK_END_CHAP:BOOK_END_VERS]
-	{DESCR; LENGTH; DATE}
-De Schepping van hemel en aarde (1) [Genesis 1:1 - Genesis 2:25]
-	{Het scheppingsverhaal; Theoretisch een week. De vraag is wanneer God de tijd geschapen heeft, wat God op dat moment als een dag zag (Voor Hem is 1 dag 1000 jaar en 1000 jaar 1 dag) en of het eigenlijk veel uit maakt hoe lang Hij er daadwerkelijk over deed; Het begin der tijden}
-Test (2) [Exodus 2:2 - Exodus 2:3]
-	{; ; }

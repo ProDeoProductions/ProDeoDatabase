@@ -1,4 +1,0 @@
-[NAME] (PEOPLE_ID) -> [PEOPLE_NAME] (MEANING_NAME)
-[Xerxes I] (2439) -> [Ahasveros] ()
-[Ester] (3126) -> [Hadassa] ()
-[Jezus] (3339) -> [Immanuël] (God met ons)
