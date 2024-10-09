@@ -62,6 +62,7 @@ class Database(DatabaseInsert, DatabaseEmpty, DatabaseGet, DatabaseCopy, Databas
         cursor = conn.cursor()
         
         # We have a backup in the SQL folder
+        # TODO: This backup doesn't have any create commands..
         file = open("files/sql/bible.sql")
         sql = file.read()
         print("Initializing database")

@@ -100,6 +100,14 @@ class DatabaseExt:
         subprocess.check_output(f'"{self.dba_dump}" --host=localhost --port=3306 --default-character-set=utf8 '
                                 f'--user={self.db_username} -p{self.db_password} --protocol=tcp --skip-triggers "bible" '
                                 '> files/sql/bible.sql', shell=True).decode("utf-8")
+
+        # TODO: Add the following lines to this document:
+        """
+CREATE DATABASE  IF NOT EXISTS `bible` 
+/*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */ 
+/*!80016 DEFAULT ENCRYPTION='N' */;
+USE `bible`;"""
+
         print("Backup created\n")
 
     def backup_ext(self):
@@ -107,4 +115,12 @@ class DatabaseExt:
         subprocess.check_output(f'"{self.dba_dump}" --host={self.dba_host} --port=3306 --default-character-set=utf8 '
                                 f'--user={self.dba_username} -p{self.dba_password} --protocol=tcp --skip-triggers '
                                 f'"{self.dba_database}" > files/sql/backup.sql', shell=True).decode("utf-8")
+
+        # TODO: Add the following lines to this document:
+        """
+CREATE DATABASE  IF NOT EXISTS `bible` 
+/*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */ 
+/*!80016 DEFAULT ENCRYPTION='N' */;
+USE `bible`;"""
+
         print("Backup created\n")
